@@ -1,0 +1,11 @@
+FinBERT/data/
+FinBERT/distilbert-german-finance-mlm/
+
+FinBERT/export_aic/
+FinBERT/regression_finance_finetune_english_bert_distil/
+FinBERT/regression_finance_finetune_gbert_distil/
+FinBERT/regression_gbert/
+FinBERT/regression_gbert_distil/
+
+torch-env/
+venv/
