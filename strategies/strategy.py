@@ -14,7 +14,7 @@ class Strategy(ABC):
     tradelog = None | TradeLog
 
     @staticmethod
-    def __init_s3(): 
+    def __get_s3_client(): 
         client = boto3.client("s3")
         return client 
 
@@ -23,7 +23,7 @@ class Strategy(ABC):
     @classmethod
     def get_tradelog(cls)-> None: 
         """retrieve the json tradelog; stores a dictionary"""
-        client = Strategy.__init_s3()
+        client = Strategy.__get_s3_client()
         bucket = "portfolio-management-developer"
         prefix = "strategy_tradelogs/"
         objects = client.list_objects_v2(Bucket=bucket, Prefix=prefix)
@@ -38,10 +38,27 @@ class Strategy(ABC):
 
 
     @classmethod
-    def update_tradelog(cls): 
+    def upload_tradelog(cls)-> None: 
         """after performing trades, update the json tradelog"""
+        client = Strategy.__get_s3_client()
+        bucket = "portfolio-management-developer"
+        prefix = "strategy_tradelogs/"
+        
+        response = client.put_object(
+            Bucket=bucket,
+            Key=f"{prefix}/{cls.filename}",
+            Body=json.dumps(cls.tradelog.model_dump_json(), ensure_ascii=False).encode("utf-8"),
+            ContentType="application/json",
+        )
 
-        return 
+        if response['ResponseMetadata']['HTTPStatusCode'] == 200:
+            return 
+        else:
+            print('upload failed')
+            return 
+            
+
+
 
 
     @classmethod
