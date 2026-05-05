@@ -1,9 +1,9 @@
 
 import torch
 import torch.nn as nn
-from data_loader import DataFinbert
+from ML.Models.FinBERT.data_loader import DataFinbert
 from torch.utils.data import DataLoader
-from config import load_env, get_float, get_int, get_str
+from ML.Models.FinBERT.config import load_env, get_float, get_int, get_str
 import pandas as pd
 
 load_env()

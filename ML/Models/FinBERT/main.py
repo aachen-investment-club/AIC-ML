@@ -3,10 +3,10 @@ import torch.nn as nn
 from transformers import AutoModel , AutoTokenizer
 import pandas as pd
 from torch.utils.data import DataLoader, Dataset
-from data_loader import DataFinbert, convert_labels
-from model import  RegressionGFinBERT, load_trained_model, DistilRegressionGFinBERT, GermanRegressionFinBERTDistil, EnglishRegressionFinBERTDistil
-from train_test import train, test, train_cross_validation, grid_search_cross_validation, predict, train_knowledge_distillation
-from config import load_env, get_float, get_int, get_str
+from ML.Models.FinBERT.data_loader import DataFinbert, convert_labels
+from ML.Models.FinBERT.model import  RegressionGFinBERT, load_trained_model, DistilRegressionGFinBERT, GermanRegressionFinBERTDistil, EnglishRegressionFinBERTDistil
+from ML.Models.FinBERT.train_test import train, test, train_cross_validation, grid_search_cross_validation, predict, train_knowledge_distillation
+from ML.Models.FinBERT.config import load_env, get_float, get_int, get_str
 from datasets import load_dataset
 from huggingface_hub import hf_hub_download
 import zipfile, os
