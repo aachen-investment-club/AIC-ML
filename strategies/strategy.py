@@ -11,7 +11,7 @@ class Strategy(ABC):
 
     strategy_name = "" 
     strategy_file_name = strategy_name + ".json"
-    tradelog = None | TradeLog
+    tradelog = None | TradeLog #: stores the current tradelog. 
 
     @staticmethod
     def __get_s3_client(): 
@@ -58,7 +58,16 @@ class Strategy(ABC):
             return 
             
 
+    @classmethod
+    @abstractmethod
+    def trade(cls): 
+        """
 
+        - when called, this should fetch the data, extract features and perform trades
+        - new trades should added to the tradelog 
+        
+        """
+        pass
 
 
     @classmethod
@@ -77,23 +86,18 @@ class Strategy(ABC):
     @classmethod
     @abstractmethod
     def train(cls): 
-        """train the model. this method is supposed to be implemented for production training; not development"""
+        """
+        
+        train the model. this method is supposed to be implemented for production training; not development
+
+        get the data, extract features, train the model 
+        
+        
+        """
         pass
 
 
-    @classmethod
-    @abstractmethod
-    def train_production(cls): 
-        """train the model. this method is supposed to be implemented for production training; not development"""
-        pass
 
-
-
-    @classmethod
-    @abstractmethod
-    def trade(cls): 
-        """given some features, perform the trades"""
-        pass
 
 
 
