@@ -10,6 +10,13 @@ Create a virtual environment
 python -m venv venv
 ```
 
+Install dependencies: 
+```sh
+pip install -r requirements.txt
+```
+
+
+
 ## Setup (portfolio management subrepo)
 
 After cloning the repo, clone our `portfolio-management` in the root dir of this repo. (Ignore the setup describedin the subrepo).
