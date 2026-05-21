@@ -7,6 +7,9 @@ ML/Models/FinBERT/regression_finance_finetune_gbert_distil/
 ML/Models/FinBERT/regression_gbert/
 ML/Models/FinBERT/regression_gbert_distil/
 
+
+portfolio-management/ 
+
 torch-env/
 venv/
 portfolio-management/
