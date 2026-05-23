@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 import boto3
 import json
-
+from typing import List
 from strategies.interfaces import TradeLog
 
 
@@ -12,6 +12,7 @@ class Strategy(ABC):
     strategy_name = "" 
     strategy_file_name = strategy_name + ".json"
     tradelog = None | TradeLog #: stores the current tradelog. 
+    explanation = List[str] | str
 
     @staticmethod
     def __get_s3_client(): 
