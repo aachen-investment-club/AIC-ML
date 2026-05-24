@@ -12,7 +12,8 @@ class Strategy(ABC):
     strategy_name = "" 
     strategy_file_name = strategy_name + ".json"
     tradelog = None | TradeLog #: stores the current tradelog. 
-    explanation = List[str] | str
+
+    explanation = "some random forests strategy" 
 
     @staticmethod
     def __get_s3_client(): 
@@ -80,7 +81,7 @@ class Strategy(ABC):
     @classmethod
     @abstractmethod
     def extract_features(cls):
-        """implement feature extraction for the model"""
+        """implement feature extraction for the model; should be used for inference (=trading) and training"""
         pass
 
 

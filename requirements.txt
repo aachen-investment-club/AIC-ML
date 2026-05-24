@@ -1,2 +1,9 @@
 boto3
 pydantic
+torch
+yfinance
+pandas
+numpy
+matplotlib
+scikit-learn
+tensorflow

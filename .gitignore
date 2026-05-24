@@ -1,17 +1,20 @@
-ML/Models/FinBERT/data/
-ML/Models/FinBERT/distilbert-german-finance-mlm/
+prototypes/Models/FinBERT/data/
+prototypes/Models/FinBERT/distilbert-german-finance-mlm/
 
-ML/Models/FinBERT/export_aic/
-ML/Models/FinBERT/regression_finance_finetune_english_bert_distil/
-ML/Models/FinBERT/regression_finance_finetune_gbert_distil/
-ML/Models/FinBERT/regression_gbert/
-ML/Models/FinBERT/regression_gbert_distil/
+prototypes/Models/FinBERT/export_aic/
+prototypes/Models/FinBERT/regression_finance_finetune_english_bert_distil/
+prototypes/Models/FinBERT/regression_finance_finetune_gbert_distil/
+prototypes/Models/FinBERT/regression_gbert/
+prototypes/Models/FinBERT/regression_gbert_distil/
 
+**/__pycache__/
+__pycache__/
 
 portfolio-management/ 
 
 torch-env/
 venv/
+portfolio-management/
 
 env/
 .env
