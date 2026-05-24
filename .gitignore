@@ -7,6 +7,8 @@ prototypes/Models/FinBERT/regression_finance_finetune_gbert_distil/
 prototypes/Models/FinBERT/regression_gbert/
 prototypes/Models/FinBERT/regression_gbert_distil/
 
+**/__pycache__/
+__pycache__/
 
 portfolio-management/ 
 
