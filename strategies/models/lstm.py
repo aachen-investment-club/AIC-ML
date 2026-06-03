@@ -143,7 +143,7 @@ class LSTMStrategy(Strategy):
         }
         )
         cls.df.dropna(inplace = True)
-        cls.df.sort_index(inplace = True, ascending = False)
+        #cls.df.sort_index(inplace = True)
         cls.df["SMA_Signal"] = np.where(cls.df["SMA_20"] > cls.df["SMA_50"], 1, -1)
 
         
