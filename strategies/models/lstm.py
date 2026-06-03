@@ -155,24 +155,24 @@ class LSTMStrategy(Strategy):
         """implement feature extraction for the model; should be used for inference (=trading) and training"""
         cls.scaler = MinMaxScaler(feature_range = (0,1))
 
-        scaled_data = cls.scaler.fit_transform(cls.df)
+        scaled_data = cls.scaler.fit_transform(cls.df[cls.feature_cols])
 
 
         cls.target_scaler = MinMaxScaler(feature_range=(0, 1))
-        cls.starget_scaled = cls.target_scaler.fit_transform(cls.df[[cls.target_col]])
+        cls.target_scaled = cls.target_scaler.fit_transform(cls.df[[cls.target_col]])
 
 
 
         X, y = [], []
 
         for i in range(cls.sequence_length, len(scaled_data)):
-            X.append(scaled_data[i-cls.sequence_length:i, 0])
-            y.append(scaled_data[i, 0])
+            X.append(scaled_data[i-cls.sequence_length:i, :])
+            y.append(cls.target_scaled[i, 0])
 
         X = np.array(X)
         y = np.array(y)
 
-        X = np.reshape(X, (X.shape[0], X.shape[1], 1))
+        #X = np.reshape(X, (X.shape[0], X.shape[1], 1))
 
         cls.train_size = int(len(X)*0.8)
 
