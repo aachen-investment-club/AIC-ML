@@ -1,0 +1,20 @@
+{
+    "version":1,
+    "transactions":
+    [
+        {
+        "type":"PURCHASE", "SALE",
+        "account":"USD",
+        "portfolio":"AIC to the Moon",
+        "date":"2010-01-11",
+        "time":"00:00",
+        "currency":"USD",
+        "shares":150.0,
+        "security":{
+            "name":"Nvidia Corporation",
+            "ticker":"NVDA",
+            "currency":"USD"
+            }
+        },
+    ]
+}

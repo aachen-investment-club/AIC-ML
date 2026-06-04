@@ -1,0 +1,7 @@
+input: {
+    "ticker", "date", "open", "high", "close", "low", "volume"
+}
+
+output: {
+    "ticker", "date", "signal" (-1, 0, 1) 
+}
