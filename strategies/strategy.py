@@ -16,7 +16,7 @@ class Strategy(ABC):
 
     strategy_name = "" 
     strategy_file_name = strategy_name + ".json"
-    tradelog = None | TradeLog #: stores the current tradelog. 
+    tradelog : Optional[None | TradeLog] #: stores the current tradelog. 
     s3_bucket_name = "portfolio-management-developer" # Refactored hardcode
 
     explanation = "" 
@@ -36,13 +36,14 @@ class Strategy(ABC):
         client = Strategy.__get_s3_client()
         bucket = "portfolio-management-developer"
         prefix = "strategy_tradelogs/"
-        objects = client.list_objects_v2(Bucket=bucket, Prefix=prefix)
+        #objects = client.list_objects_v2(Bucket=bucket, Prefix=prefix)
 
         response = client.get_object(
             Bucket=bucket,
-            Key=cls.strategy_file_name
+            Key=prefix+cls.strategy_file_name
         )
         text = response["Body"].read().decode("utf-8")
+        print(text)
         cls.tradelog = TradeLog.model_validate_json(text)
 
 
@@ -52,12 +53,14 @@ class Strategy(ABC):
         """after performing trades, update the json tradelog"""
         client = Strategy.__get_s3_client()
         bucket = "portfolio-management-developer"
-        prefix = "strategy_tradelogs/"
+        prefix = "strategy_tradelogs"
         
+        print(cls.tradelog)
+        tradelog_json = cls.tradelog.model_dump_json()
         response = client.put_object(
             Bucket=bucket,
             Key=f"{prefix}/{cls.strategy_file_name}",
-            Body=json.dumps(cls.tradelog.model_dump_json(), ensure_ascii=False).encode("utf-8"),
+            Body=tradelog_json.encode("utf-8"),
             ContentType="application/json",
         )
 

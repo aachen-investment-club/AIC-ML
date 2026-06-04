@@ -32,7 +32,7 @@ from strategies.models.lstm import LSTMStrategy
 
 
 if __name__ == "__main__": 
-
+    '''
     LSTMStrategy.get_training_data()
 
     LSTMStrategy.extract_features()
@@ -40,11 +40,12 @@ if __name__ == "__main__":
     LSTMStrategy.train()
 
     LSTMStrategy.test()
-
-
+    '''
 
     LSTMStrategy.load_model()
 
+    print("fetching log")
+    LSTMStrategy.get_tradelog()
     today = datetime.now()
     
     for i in range(8, -1, -1):
@@ -66,3 +67,7 @@ if __name__ == "__main__":
                 
         except Exception as e:
              print(f"[{sim_date.strftime('%Y-%m-%d')}] Failed to generate signal: {e}")
+
+    
+    print(LSTMStrategy.tradelog)
+    LSTMStrategy.upload_tradelog()
