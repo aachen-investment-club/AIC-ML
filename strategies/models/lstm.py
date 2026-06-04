@@ -50,7 +50,7 @@ class LSTMStrategy(Strategy):
 
 
     @classmethod
-    def trade(cls, model_version:str = None): 
+    def _execute_trade(cls, model_version:str = None): 
         """
         - when called, this should fetch the data, extract features and perform trades
         - new trades should added to the tradelog 
@@ -59,7 +59,6 @@ class LSTMStrategy(Strategy):
 
         # align predictions with the original df index
 
-        cls.load_model(version_folder = model_version)
 
         predictions = cls.model.predict(cls.X_test)
 
@@ -121,7 +120,7 @@ class LSTMStrategy(Strategy):
             "max_drawdown": float(max_drawdown)
         }
 
-        cls.save_results(test_metrics, "test_results.json", version_folder=model_version)
+        return test_metrics
 
 
     @classmethod
@@ -217,7 +216,7 @@ class LSTMStrategy(Strategy):
 
 
     @classmethod
-    def train(cls): 
+    def _execute_train(cls): 
         """
         
         train the model. this method is supposed to be implemented for production training; not development
@@ -225,6 +224,9 @@ class LSTMStrategy(Strategy):
         get the data, extract features, train the model 
         
         """
+
+
+
         cls.initialize_architecture()
         history = cls.model.fit(
             cls.X_train,
@@ -234,9 +236,8 @@ class LSTMStrategy(Strategy):
             validation_data=(cls.X_test, cls.y_test),
             verbose=1
         )
+        return history.history
 
-        cls.save_model()
-        cls.save_results(history.history, "train_results.json")
 
 
 

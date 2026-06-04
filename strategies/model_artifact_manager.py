@@ -1,7 +1,7 @@
 import os
 import json
 from typing import Optional, Tuple
-from util import get_hash_folder_name 
+from .util import get_hash_folder_name 
 
 class ModelArtifactManager:
     def __init__(self, strategy_name: str, model_extension: str):
