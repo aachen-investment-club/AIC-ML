@@ -7,12 +7,12 @@ from portfolio.models.metrics import Metrics
 from portfolio.models.market import Market
 
 
-
+import os
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error
-from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from datetime import date
 
@@ -32,7 +32,25 @@ class LSTMStrategy(Strategy):
 
 
     @classmethod
-    def trade(cls): 
+    def get_model_extension(cls) -> str:
+        return ".keras"
+
+    @classmethod
+    def _save_model_to_disk(cls, path: str):
+        cls.model.save(path)
+
+    @classmethod
+    def _load_model_from_disk(cls, path: str):
+        cls.model = load_model(path)
+
+
+
+
+
+
+
+    @classmethod
+    def trade(cls, model_version:str = None): 
         """
         - when called, this should fetch the data, extract features and perform trades
         - new trades should added to the tradelog 
@@ -40,6 +58,8 @@ class LSTMStrategy(Strategy):
         # Apply simple SMA crossover idea, can be improvised later
 
         # align predictions with the original df index
+
+        cls.load_model(version_folder = model_version)
 
         predictions = cls.model.predict(cls.X_test)
 
@@ -93,6 +113,15 @@ class LSTMStrategy(Strategy):
         print(f"Market   Total Return : {total_return_market:.2%}")
         print(f"Sharpe Ratio          : {sharpe:.4f}")
         print(f"Max Drawdown          : {max_drawdown:.2%}")
+
+        test_metrics = {
+            "total_return_strategy": float(total_return_strategy),
+            "total_return_market": float(total_return_market),
+            "sharpe_ratio": float(sharpe),
+            "max_drawdown": float(max_drawdown)
+        }
+
+        cls.save_results(test_metrics, "test_results.json", version_folder=model_version)
 
 
     @classmethod
@@ -205,6 +234,10 @@ class LSTMStrategy(Strategy):
             validation_data=(cls.X_test, cls.y_test),
             verbose=1
         )
+
+        cls.save_model()
+        cls.save_results(history.history, "train_results.json")
+
 
 
 

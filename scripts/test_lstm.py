@@ -33,15 +33,11 @@ from strategies.models.lstm import LSTMStrategy
 if __name__ == "__main__": 
 
     LSTMStrategy.get_training_data()
-    #print(LSTMStrategy.df.tail())
+
     print(LSTMStrategy.df.shape)
 
     LSTMStrategy.extract_features()
 
-    #print(LSTMStrategy.X_train)
-    #print(LSTMStrategy.X_test)
-    #print(LSTMStrategy.y_train)
-    #print(LSTMStrategy.y_test)
 
     LSTMStrategy.train()
 
