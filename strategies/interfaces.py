@@ -17,9 +17,9 @@ class Currency(Enum):
 
 
 class Security(BaseModel): 
-    name = str
-    ticker = str
-    currency  = Currency
+    name : str
+    ticker : str
+    currency  : Currency
 
 class Transaction(BaseModel): 
     type: TransactionType
