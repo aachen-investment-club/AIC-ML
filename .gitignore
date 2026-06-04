@@ -16,7 +16,8 @@ portfolio_management/
 torch-env/
 venv/
 portfolio-management/
-
+portfolio-management/
+training_outputs/
 env/
 .env
 
