@@ -139,14 +139,14 @@ class Strategy(ABC):
 
 
     @classmethod
-    def trade(cls, model_version: Optional[str] = None) -> None: 
-        """Template method: Handles model loading and artifact saving automatically."""
+    def test(cls, model_version: Optional[str] = None) -> None: 
+        """Template method: tests the trained strategy"""
         # 1. Setup: Load the requested model
         cls.load_model(version_folder=model_version)
         
         # 2. Execute Testing/Trading logic (implemented by child class)
         print(f"[{cls.strategy_name}] Starting trading/testing execution...")
-        test_results = cls._execute_trade()
+        test_results = cls._execute_test()
         
         # 3. Teardown: Save test metrics automatically
         if test_results is not None:
@@ -159,6 +159,32 @@ class Strategy(ABC):
         pass
 
 
+    @classmethod
+    def trade(cls, *args, model_version: Optional[str] = None, **kwargs) -> any: 
+        """
+        Template method: Loads the trained model and executes a live trade.
+        """
+        cls.load_model(version_folder=model_version)
+        
+        print(f"[{cls.strategy_name}] Model loaded. Executing live trade...")
+        trade_result = cls._execute_trade(*args, **kwargs)
+        
+            
+        return trade_result
+
+
+
+    @classmethod
+    @abstractmethod
+    def get_data_for_trade(cls, current_data): 
+        """Get data for executing trades"""
+        pass 
+
+    @classmethod
+    @abstractmethod
+    def extract_features_for_trade(cls, current_data): 
+        """Extract features for trading"""
+        pass 
 
     @classmethod
     @abstractmethod
@@ -177,12 +203,17 @@ class Strategy(ABC):
 
     @classmethod
     @abstractmethod
-    def _execute_trade(cls) -> dict:
+    def _execute_test(cls) -> dict:
         """Implement ML testing/trading logic. Must return a dictionary of metrics to save."""
         pass
 
 
 
+    @classmethod
+    @abstractmethod
+    def _execute_trade(cls, *args, **kwargs):
+        """Implement live trading logic. Executed after the model is automatically loaded."""
+        pass
 
 
 

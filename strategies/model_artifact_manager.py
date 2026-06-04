@@ -4,6 +4,14 @@ from typing import Optional, Tuple
 from .util import get_hash_folder_name 
 
 class ModelArtifactManager:
+    """
+    this class is in charge of file management. 
+
+    we create a folder for each strategy, and this folder contains 
+    each version of the training strategy (using the date and a hash as naming conventions). 
+
+    we also store the training results. 
+    """
     def __init__(self, strategy_name: str, model_extension: str):
         self.strategy_name = strategy_name
         self.model_extension = model_extension
@@ -67,3 +75,9 @@ class ModelArtifactManager:
             with open(path, "w") as f:
                 json.dump(results_dict, f, indent=4)
             print(f"[{self.strategy_name}] Saved {filename} to: {path}")
+
+
+
+
+
+

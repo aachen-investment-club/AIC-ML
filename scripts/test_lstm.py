@@ -5,6 +5,8 @@ python scripts/test_lstm.py
 
 """
 import sys
+from datetime import datetime, timedelta
+
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
@@ -13,7 +15,6 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if base_dir not in sys.path:
     sys.path.append(base_dir)
 
-# 3. Add the nested portfolio_management folder to the path (so 'portfolio' imports work)
 portfolio_repo_path = os.path.join(base_dir, "portfolio_management")
 if portfolio_repo_path not in sys.path:
     sys.path.append(portfolio_repo_path)
@@ -34,12 +35,34 @@ if __name__ == "__main__":
 
     LSTMStrategy.get_training_data()
 
-    print(LSTMStrategy.df.shape)
-
     LSTMStrategy.extract_features()
-
 
     LSTMStrategy.train()
 
-    LSTMStrategy.trade()
+    LSTMStrategy.test()
 
+
+
+    LSTMStrategy.load_model()
+
+    today = datetime.now()
+    
+    for i in range(8, -1, -1):
+        sim_date = today - timedelta(days=i)
+        
+        if sim_date.weekday() >= 5:
+            print(f"[{sim_date.strftime('%Y-%m-%d')}] Weekend - Market Closed.")
+            continue
+
+        try:
+            signal = LSTMStrategy.trade(ticker="AAPL", target_date=sim_date)
+            
+            action = "LONG (1)" if signal == 1 else "FLAT (0)"
+            
+            if i == 0:
+                print(f"[TODAY - {sim_date.strftime('%Y-%m-%d')}] Live Signal for AAPL: {action}")
+            else:
+                print(f"[{sim_date.strftime('%Y-%m-%d')}] Simulated Signal for AAPL: {action}")
+                
+        except Exception as e:
+             print(f"[{sim_date.strftime('%Y-%m-%d')}] Failed to generate signal: {e}")
