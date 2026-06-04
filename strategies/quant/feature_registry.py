@@ -6,7 +6,7 @@ import numpy as np
 class FeatureRegistry:
 
     @staticmethod
-    def compute_rsi(df: pd.DataFrame, params: dict) -> pd.DataFrame:
+    def compute_rsi(df: pd.DataFrame, params: dict) -> pd.Series:
         """
         Calculates a zero-centered, normalized Relative Strength Index (RSI).
 
@@ -23,32 +23,42 @@ class FeatureRegistry:
 
         Returns
         -------
-        pd.DataFrame
-            A single-column DataFrame sharing the input index.
-            Column:
-                - 'rsi_normalized' (float64): RSI values shifted to oscillate 
-                  between -50.0 (oversold boundary) and +50.0 (overbought boundary).
+        pd.Series
+            A series containing the feature data.
+            RSI values shifted to oscillate between -50.0 (oversold boundary) and +50.0 (overbought boundary).
         """
-        out = pd.DataFrame(index=df.index)
-        out['rsi_normalized'] = ta.rsi(df['close'], length=params['rsi_length']) - 50
-        return out
+        rsi_array = ta.rsi(df['close'], length=params['rsi_length']) - 50
+        rsi_series = pd.Series(rsi_array, index=df.index)
+        return rsi_series
     
 
     @staticmethod
-    def compute_ma_spread(df: pd.DataFrame, params: dict):
+    def compute_ma_spread(df: pd.DataFrame, params: dict) -> pd.Series:
         pass
     
 
     @staticmethod
-    def compute_log_returns(df: pd.DataFrame, params: dict):
+    def compute_log_returns(df: pd.DataFrame, params: dict) -> pd.Series:
         pass
 
 
     @staticmethod
-    def compute_zscore_distance_rolling_mean(df: pd.DataFrame, params: dict):
+    def compute_zscore_distance_rolling_mean(df: pd.DataFrame, params: dict) -> pd.Series:
         pass
 
 
     @staticmethod
-    def compute_rolling_volatility(df: pd.DataFrame, params: dict):
+    def compute_rolling_volatility(df: pd.DataFrame, params: dict) -> pd.Series:
         pass
+
+
+FEATURE_MAP = {
+    "RSI": {
+        "func": FeatureRegistry.compute_rsi,
+        "required_parameters": ["rsi_length"]
+    },
+    "MA_SPREAD": {
+        "func": FeatureRegistry.compute_ma_spread,
+        "required_parameters": ["ma_fast", "ma_slow"]
+    }
+}

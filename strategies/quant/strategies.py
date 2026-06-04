@@ -28,7 +28,7 @@ def trend_following_alpha(feature_matrix: pd.DataFrame) -> pd.Series:
             - Close to  0.0: Moving Averages tangled / Sideways trendless noise.
             - Close to -1.0: Strong downward structural momentum.
     """
-    spread = feature_matrix['ma_spread']
+    spread = feature_matrix['MA_SPREAD']
     alpha = spread * 10.0
     return alpha.clip(-1.0, 1.0)
 
@@ -40,10 +40,10 @@ def rsi_mean_reversion_alpha(feature_matrix: pd.DataFrame) -> pd.Series:
 STRATEGY_MAP = {
     "MEAN_REVERSION": {
         "alpha_func": rsi_mean_reversion_alpha,
-        "required_features": [FeatureRegistry.compute_rsi]
+        "required_features": ["RSI"]
     },
     "TREND_FOLLOWING": {
         "alpha_func": trend_following_alpha,
-        "required_features": [FeatureRegistry.compute_ma_spread]
+        "required_features": ["MA_SPREAD"]
     }
 }
