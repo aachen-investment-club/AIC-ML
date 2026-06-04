@@ -24,7 +24,7 @@ class Security(BaseModel):
 class Transaction(BaseModel): 
     type: TransactionType
     account: Currency
-    portfolio: str
+    portfolio: Optional[str] = None
     date: str 
     currency: Currency
     shares: float
@@ -34,8 +34,8 @@ class Transaction(BaseModel):
 
 class TradeLog(BaseModel): 
     transactions: List
-    version: str
-    name: str
+    version: str | int
+    name: Optional[str]  = None
 
     
     def append_trade(

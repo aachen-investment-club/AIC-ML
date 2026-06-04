@@ -1,4 +1,5 @@
 from ..strategy import Strategy
+from ..interfaces import Security, Currency, TransactionType
 
 
 
@@ -21,8 +22,7 @@ from datetime import date
 
 class LSTMStrategy(Strategy): 
 
-
-    strategy_name = "LSTM_strategy" 
+    strategy_name = "LSTM" 
     strategy_file_name = strategy_name + ".json"
     explanation = "some LSTM strategy" 
     sequence_length = 60
@@ -112,11 +112,13 @@ class LSTMStrategy(Strategy):
 
 
     @classmethod
-    def trade(cls, ticker: str = 'AAPL', target_date=None) -> int:
+    def _execute_trade(cls, ticker: str = 'AAPL', target_date=None) -> int:
         """
         End-to-end execution of a single trade decision using the live LSTM model.
         Returns 1 for Long, 0 for Flat.
         """
+
+
         trade_df = cls.get_data_for_trade(ticker, target_date=target_date)
         
         X_input = cls.extract_features_for_trade(trade_df)
@@ -125,11 +127,37 @@ class LSTMStrategy(Strategy):
         predicted_close = cls.target_scaler.inverse_transform(scaled_prediction)[0][0]
         
         current_close = trade_df["Close"].iloc[-1]
+        print(target_date)
         
         if predicted_close > current_close:
+            cls.tradelog.append_trade(
+                type = TransactionType.BUY, 
+                currency = Currency.USD, 
+                date = str(target_date), 
+                shares =1.0, 
+                security = Security(
+                    name = "Apple Inc.", 
+                    ticker= "AAPL",
+                    currency = Currency.USD
+                )
+            )
+
             return 1  # Long (buy)
         else:
+            cls.tradelog.append_trade(
+                type = TransactionType.SELL,
+                currency=   Currency.USD, 
+                date = str(target_date), 
+                shares =1.0, 
+                security =Security(
+                    name = "Apple Inc.", 
+                    ticker= "AAPL",
+                    currency = Currency.USD
+                )
+            )
             return 0  # Flat (ie sell/ do nothing)
+        
+
 
 
 
