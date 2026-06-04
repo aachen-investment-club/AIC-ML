@@ -11,11 +11,13 @@ prototypes/Models/FinBERT/regression_gbert_distil/
 __pycache__/
 
 portfolio-management/ 
+portfolio_management/ 
 
 torch-env/
 venv/
 portfolio-management/
-
+portfolio-management/
+training_outputs/
 env/
 .env
 
