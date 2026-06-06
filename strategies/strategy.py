@@ -6,7 +6,7 @@ import shutil
 from typing import List
 from strategies.interfaces import TradeLog
 from .util import get_hash_folder_name 
-from typing import List, Optional
+from typing import List, Optional, Dict
 from .model_artifact_manager import ModelArtifactManager
 
 
@@ -18,6 +18,7 @@ class Strategy(ABC):
     strategy_file_name = strategy_name + ".json"
     tradelog : Optional[None | TradeLog] #: stores the current tradelog. 
     s3_bucket_name = "portfolio-management-developer" # Refactored hardcode
+    hyperparams : Optional[Dict| None]
 
     explanation = "" 
 
@@ -84,7 +85,6 @@ class Strategy(ABC):
     def extract_features(cls):
         """implement feature extraction for the model; should be used for inference (=trading) and training"""
         pass
-
 
     @classmethod
     def get_manager(cls) -> ModelArtifactManager:

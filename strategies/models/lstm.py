@@ -12,6 +12,7 @@ import os
 import numpy as np
 import pandas as pd
 import joblib
+import json
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from tensorflow.keras.models import Sequential, load_model
@@ -43,13 +44,20 @@ class LSTMStrategy(Strategy):
         joblib.dump(cls.scaler, os.path.join(dir_path, "feature_scaler.pkl"))
         joblib.dump(cls.target_scaler, os.path.join(dir_path, "target_scaler.pkl"))
 
+
+        hyperparams_path = os.path.join(dir_path, "hyperparams.json")
+        with open(hyperparams_path, "w") as f:
+            json.dump(cls.hyperparams, f, indent=4)
+
     @classmethod
     def _load_model_from_disk(cls, path: str):
         cls.model = load_model(path)
         dir_path = os.path.dirname(path)
         cls.scaler = joblib.load(os.path.join(dir_path, "feature_scaler.pkl"))
         cls.target_scaler = joblib.load(os.path.join(dir_path, "target_scaler.pkl"))
-
+        hyperparams_path = os.path.join(dir_path, "hyperparams.json")
+        with open(hyperparams_path, "r") as f:
+                cls.hyperparams = json.load(f)
 
     @classmethod
     def get_data_for_trade(cls, ticker: str = 'AAPL', target_date=None) -> pd.DataFrame:
@@ -359,17 +367,28 @@ class LSTMStrategy(Strategy):
     @classmethod 
     def initialize_architecture(cls): 
 
+        
+
         cls.model = Sequential()
 
         
-        cls.model.add(LSTM(units=64, return_sequences=True, input_shape=(cls.X_train.shape[1], cls.X_train.shape[2])))
+        cls.model.add(
+            LSTM(
+                units=cls.hyperparams["lstm_units"], 
+                return_sequences=True, 
+                input_shape=(cls.X_train.shape[1], cls.X_train.shape[2])
+                )
+        )
 
 
-        cls.model.add(Dropout(0.2))
+        cls.model.add(
+            Dropout(cls.hyperparams["dropout"])
+        )
 
-        cls.model.add(LSTM(units=64))
-        cls.model.add(Dropout(0.2))
+        cls.model.add(LSTM(units=cls.hyperparams["lstm_units"]))
 
-        cls.model.add(Dense(1))
+        cls.model.add(Dropout(cls.hyperparams["dropout"]))
+
+        cls.model.add(Dense(cls.hyperparams["dense_output_layers"]))
 
         cls.model.compile(optimizer="adam", loss="mean_squared_error")

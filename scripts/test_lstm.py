@@ -28,11 +28,17 @@ from portfolio.utils.aws_config import engine
 from strategies.models.lstm import LSTMStrategy
 
 
+params = {
+    "lstm_units": 64, 
+    "dropout": 0.2, 
+    "dense_output_layers": 1
+}
 
 
 
-if __name__ == "__main__": 
-    '''
+def train():
+
+    LSTMStrategy.hyperparams = params
     LSTMStrategy.get_training_data()
 
     LSTMStrategy.extract_features()
@@ -40,13 +46,13 @@ if __name__ == "__main__":
     LSTMStrategy.train()
 
     LSTMStrategy.test()
-    '''
 
+
+def execute(): 
     LSTMStrategy.load_model()
-
     print("fetching log")
     LSTMStrategy.get_tradelog()
-    today = datetime.now()
+    today = datetime.now()- timedelta(days = 1)
     
     for i in range(8, -1, -1):
         sim_date = today - timedelta(days=i)
@@ -71,3 +77,12 @@ if __name__ == "__main__":
     
     print(LSTMStrategy.tradelog)
     LSTMStrategy.upload_tradelog()
+
+if __name__ == "__main__": 
+
+    train()
+
+
+    execute()
+
+
