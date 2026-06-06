@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
 from config import ACTIVE_CONFIG, PORTFOLIO_NAME, SHARES_TO_TRADE
-from strategies import STRATEGY_MAP
-from feature_registry import FeatureRegistry, FEATURE_MAP
-from signal_generator import generate_signals, CONTEXT_FEATURE_MAP
-from interface import input_adapter, output_adapter
+from strategies.quant.signal_pipeline.alpha_generator import STRATEGY_MAP
+from strategies.quant.signal_pipeline.feature_registry import FEATURE_MAP
+from strategies.quant.signal_pipeline.signal_generator import generate_signals, CONTEXT_FEATURE_MAP
+from strategies.quant.utils.interface import input_adapter, output_adapter
 
 
 def main(data_df: pd.DataFrame, meta_df: pd.DataFrame) -> dict:
@@ -33,10 +33,10 @@ def main(data_df: pd.DataFrame, meta_df: pd.DataFrame) -> dict:
 
     # Context Feature assembly
     for context_feature_key in CONTEXT_FEATURE_MAP:
-        func = FEATURE_MAP[context_feature_key]["func"]
+        func = CONTEXT_FEATURE_MAP[context_feature_key]["func"]
         extracted_params = {
             param_name: ACTIVE_CONFIG["context_parameters"][param_name]
-                for param_name in FEATURE_MAP[feature_key]["required_parameters"]
+                for param_name in CONTEXT_FEATURE_MAP[context_feature_key]["required_parameters"]
         }
 
         context_feature_series = func(matrix, extracted_params)
@@ -44,7 +44,7 @@ def main(data_df: pd.DataFrame, meta_df: pd.DataFrame) -> dict:
         matrix[context_feature_key] = context_feature_series
 
     # Signal generation
-    signal_df = generate_signals(matrix)
+    signal_df = generate_signals(matrix, ACTIVE_CONFIG["context_parameters"])
 
     # Adapt output signals
     return output_adapter(signal_df, meta_df, PORTFOLIO_NAME, SHARES_TO_TRADE)

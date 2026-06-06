@@ -28,9 +28,32 @@ def generate_signals(matrix: pd.DataFrame, params: dict) -> pd.DataFrame:
             - 'signal' (int64): Clean shifted vector [-1, 0, 1] 
               fully protected against look-ahead bias.
     """
-    pass
+    buy_threshold = params["entry_barrier"]
+    sell_threshold = params["exit_barrier"]
+
+    out = pd.DataFrame()
+    out["alpha_score"] = matrix["alpha_score"]
+    
+    # Vectorized signal generation to avoid look-ahead bias
+    signals = []
+    for _, row in matrix.iterrows():
+        alpha = row["alpha_score"]
+        if alpha >= buy_threshold:
+            signal = 1
+        elif alpha <= sell_threshold:
+            signal = -1
+        else:
+            signal = 0
+        signals.append(signal)
+    
+    out["signal"] = signals
+    return out
+    
 
 
 CONTEXT_FEATURE_MAP = {
-    "", ""
+    "CONTEXT_FEATURE": {
+        "func": "callable type",
+        "required_parameters": ["param1", "param2"],
+    }
 }

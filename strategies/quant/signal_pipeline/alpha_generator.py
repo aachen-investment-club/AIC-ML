@@ -1,5 +1,5 @@
 import pandas as pd
-from feature_registry import FeatureRegistry
+from strategies.quant.signal_pipeline.feature_registry import FeatureRegistry
 
 
 def trend_following_alpha(feature_matrix: pd.DataFrame) -> pd.Series:
@@ -34,7 +34,7 @@ def trend_following_alpha(feature_matrix: pd.DataFrame) -> pd.Series:
 
 
 def rsi_mean_reversion_alpha(feature_matrix: pd.DataFrame) -> pd.Series:
-    pass
+    return pd.Series()
 
 
 STRATEGY_MAP = {
