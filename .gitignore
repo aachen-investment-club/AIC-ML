@@ -9,6 +9,7 @@ ML/Models/FinBERT/regression_gbert_distil/
 
 torch-env/
 venv/
+.venv/
 
 env/
 .env
