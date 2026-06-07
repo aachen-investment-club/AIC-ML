@@ -16,7 +16,7 @@ import pandas as pd
 import joblib
 import json
 from typing import Optional
-from datetime import date
+from datetime import date, timedelta
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_checker import check_env
 
@@ -24,12 +24,13 @@ from stable_baselines3.common.env_checker import check_env
 
 class RLStrategy(Strategy): 
 
-    strategy_name = "RL_strategy_1" 
+    strategy_name = "RL_PPO_strategy" 
     strategy_file_name = strategy_name + ".json"
     explanation = "first RL strategy" 
-    tickers = ["AAPL", "MSFT", "NVDA"]
+    tickers = ["INTC", "MSFT", "NVDA"]
     train_start = "2015-01-01" #: trained on bullish market. 
     train_end   = "2022-01-01"
+    window = 10
 
     eval_start = "2022-01-01" 
     eval_end = "2023-01-01"
@@ -52,28 +53,83 @@ class RLStrategy(Strategy):
 
     @classmethod
     def get_data_for_trade(cls, ticker: str = 'AAPL', target_date=None) -> pd.DataFrame:
-        pass
+        from datetime import datetime
 
+        today = datetime.now()- timedelta(days = 1)
 
+        query_result = Market.get_historical_data(
+                cls.tickers, 
+                start = today-timedelta(days = cls.window+100),   #: TODO this is a heristic for weekends!
+                end =today
+            )
+        query_result= query_result[['ticker', 'date', 'price_close']]
+        query_result.rename(columns ={"ticker":"Ticker", "date": "Date"}, inplace = True)
+        query_result= query_result.set_index("Date")
+        cls.trade_data  = {
+            ticker: query_result[query_result["Ticker"]==ticker]["price_close"] for ticker in cls.tickers
+        }
 
     
     @classmethod
     def extract_features_for_trade(cls, trade_df: pd.DataFrame) -> np.ndarray:
         pass
 
-
-
     @classmethod
-    def _execute_trade(cls, ticker: str = 'AAPL', target_date=None) -> int:
-        pass
+    def _execute_trade(cls,  target_date=None) -> int:
+        from datetime import datetime
+        cls.get_data_for_trade()
+        cls.env = TradingEnv(cls.trade_data, randomize_start=False, window = cls.window)
+        obs, _ = cls.env.reset()
+        done = False
+        final_action = None
+        today = datetime.today()
+        while not done:
+            action, _ = cls.model.predict(obs, deterministic=True)
+            obs, _, done, _, info = cls.env.step(action)
+            if done: 
+                print(action)
+                final_action = action
 
+        if final_action is not None: 
+            for ticker_index, action in enumerate(final_action): 
+                if action == TradingEnv.BUY: 
+                    cls.tradelog.append_trade(
+                        type = TransactionType.BUY, 
+                        currency = Currency.USD, 
+                        date = str(today), 
+                        shares =1.0, 
+                        security = Security(
+                            name = cls.tickers[ticker_index], 
+                            ticker= cls.tickers[ticker_index],
+                            currency = Currency.USD
+                        )
+                    )
+                    print(f"BUY: {cls.tickers[ticker_index]}")
+
+
+                elif action == TradingEnv.SELL: 
+                    cls.tradelog.append_trade(
+                        type = TransactionType.SELL, 
+                        currency = Currency.USD, 
+                        date = str(today), 
+                        shares =1.0, 
+                        security = Security(
+                            name = cls.tickers[ticker_index], 
+                            ticker= cls.tickers[ticker_index],
+                            currency = Currency.USD
+                        )
+                    )
+                    print(f"SELL: {cls.tickers[ticker_index]}")
+
+        print(cls.tradelog)
+        return 1 #: this is just a junk return value, no meaning. 
 
 
 
     @classmethod
     def _execute_test(cls, model_version: Optional[str] = None) -> dict: 
 
-        cls.env = TradingEnv(cls.test_data, randomize_start=False)
+        cls.env = TradingEnv(cls.test_data, randomize_start=False, window = cls.window)
         obs, _ = cls.env.reset()
         done = False
         lines = []
@@ -146,7 +202,7 @@ class RLStrategy(Strategy):
     @classmethod
     def _execute_train(cls): 
 
-        cls.env = TradingEnv(cls.train_data)
+        cls.env = TradingEnv(cls.train_data, window = cls.window)
         check_env(cls.env, warn=True)
 
         cls.model = PPO("MlpPolicy", cls.env,
