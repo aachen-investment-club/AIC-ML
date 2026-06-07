@@ -149,7 +149,7 @@ class Strategy(ABC):
         
         # 2. Execute Testing/Trading logic (implemented by child class)
         print(f"[{cls.strategy_name}] Starting trading/testing execution...")
-        test_results = cls._execute_test()
+        test_results = cls._execute_test(model_version=model_version)
         
         # 3. Teardown: Save test metrics automatically
         if test_results is not None:
@@ -199,14 +199,14 @@ class Strategy(ABC):
 
     @classmethod
     @abstractmethod
-    def _execute_train(cls) -> dict:
+    def _execute_train(cls, model_version: Optional[str] = None ) -> dict:
         """Implement ML training logic. Must return a dictionary of metrics to save."""
         pass
 
 
     @classmethod
     @abstractmethod
-    def _execute_test(cls) -> dict:
+    def _execute_test(cls, model_version: Optional[str] = None) -> dict:
         """Implement ML testing/trading logic. Must return a dictionary of metrics to save."""
         pass
 
@@ -214,7 +214,7 @@ class Strategy(ABC):
 
     @classmethod
     @abstractmethod
-    def _execute_trade(cls, *args, **kwargs):
+    def _execute_trade(cls, model_version: Optional[str] = None, *args, **kwargs):
         """Implement live trading logic. Executed after the model is automatically loaded."""
         pass
 

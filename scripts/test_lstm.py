@@ -36,7 +36,7 @@ params = {
 
 
 
-def train():
+def train_test():
 
     LSTMStrategy.hyperparams = params
     LSTMStrategy.get_training_data()
@@ -80,7 +80,7 @@ def execute():
 
 if __name__ == "__main__": 
 
-    train()
+    train_test()
 
 
     execute()
