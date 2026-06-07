@@ -18,6 +18,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from datetime import date
+from typing import Optional
 
 
 
@@ -120,7 +121,7 @@ class LSTMStrategy(Strategy):
 
 
     @classmethod
-    def _execute_trade(cls, ticker: str = 'AAPL', target_date=None) -> int:
+    def _execute_trade(cls,  ticker: str = 'AAPL', target_date=None, model_version: Optional[str] = None,) -> int:
         """
         End-to-end execution of a single trade decision using the live LSTM model.
         Returns 1 for Long, 0 for Flat.
@@ -170,7 +171,7 @@ class LSTMStrategy(Strategy):
 
 
     @classmethod
-    def _execute_test(cls) -> dict: 
+    def _execute_test(cls,  model_version: Optional[str] = None ) -> dict: 
         """
         Trades are strictly based on the LSTM's predicted close vs the previous day's actual clos. 
         """
@@ -337,7 +338,7 @@ class LSTMStrategy(Strategy):
 
 
     @classmethod
-    def _execute_train(cls): 
+    def _execute_train(cls, model_version: Optional[str] = None): 
         """
         
         train the model. this method is supposed to be implemented for production training; not development

@@ -147,4 +147,7 @@ class TradingEnv(gym.Env):
             f"ρ({self.tickers[i]},{self.tickers[j]})={corr[k]:.2f}"
             for k, (i, j) in enumerate(pairs)
         )
-        print(f"t={self.t:4d} | value={value:10.2f} | {positions} | {corr_str}")
+        report = f"t={self.t:4d} | value={value:10.2f} | {positions} | {corr_str}"
+        print(report)
+        return  report
+        

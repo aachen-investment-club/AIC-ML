@@ -15,6 +15,7 @@ import numpy as np
 import pandas as pd
 import joblib
 import json
+from typing import Optional
 from datetime import date
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_checker import check_env
@@ -70,24 +71,33 @@ class RLStrategy(Strategy):
 
 
     @classmethod
-    def _execute_test(cls) -> dict: 
+    def _execute_test(cls, model_version: Optional[str] = None) -> dict: 
 
         cls.env = TradingEnv(cls.test_data, randomize_start=False)
         obs, _ = cls.env.reset()
         done = False
+        lines = []
         while not done:
             action, _ = cls.model.predict(obs, deterministic=True)
             obs, _, done, _, info = cls.env.step(action)
-            cls.env.render()
+            report = cls.env.render()
+            lines.append(report)
 
         final = info["portfolio_value"]
+
         baseline = sum(
             cls.test_data[t].iloc[-1] / cls.test_data[t].iloc[0] * (10_000 / len(cls.tickers))
             for t in cls.tickers 
         )
 
+        cls.get_manager().save_lines(lines, "render_results.txt", version_folder = model_version)
+
         print(f"\nFinal portfolio : ${final:,.2f}")
         print(f"Equal-weight buy-and-hold : ${baseline:,.2f}")
+        return {
+            "final_portfolio": final, 
+            "buy-and-hold_benchmark": baseline
+        }
 
 
 
