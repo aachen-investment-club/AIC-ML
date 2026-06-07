@@ -92,12 +92,19 @@ class RLStrategy(Strategy):
 
         if final_action is not None: 
             for ticker_index, action in enumerate(final_action): 
-                if action == TradingEnv.BUY: 
+                """
+                OBSERVATION: the current implmeentation is 
+                not considering trade history 
+                """
+
+                actual = float(cls.env.shares[ticker_index])
+
+                if action == TradingEnv.BUY and actual > 0 : 
                     cls.tradelog.append_trade(
                         type = TransactionType.BUY, 
                         currency = Currency.USD, 
                         date = str(today), 
-                        shares =1.0, 
+                        shares =actual, 
                         security = Security(
                             name = cls.tickers[ticker_index], 
                             ticker= cls.tickers[ticker_index],
@@ -107,12 +114,12 @@ class RLStrategy(Strategy):
                     print(f"BUY: {cls.tickers[ticker_index]}")
 
 
-                elif action == TradingEnv.SELL: 
+                elif action == TradingEnv.SELL and actual> 0 : 
                     cls.tradelog.append_trade(
                         type = TransactionType.SELL, 
                         currency = Currency.USD, 
                         date = str(today), 
-                        shares =1.0, 
+                        shares =actual, 
                         security = Security(
                             name = cls.tickers[ticker_index], 
                             ticker= cls.tickers[ticker_index],
