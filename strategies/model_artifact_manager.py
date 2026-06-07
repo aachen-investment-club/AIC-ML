@@ -76,7 +76,26 @@ class ModelArtifactManager:
                 json.dump(results_dict, f, indent=4)
             print(f"[{self.strategy_name}] Saved {filename} to: {path}")
 
-
+    def save_lines(self, lines: list, filename: str, version_folder: Optional[str] = None) -> None:
+        """Saves a list of strings as individual lines in a text file."""
+        dirs_to_save = []
+        
+        if version_folder:
+            dirs_to_save.append(os.path.join(self.base_dir, version_folder))
+        else:
+            version_dir, latest_dir = self.get_save_dirs()
+            dirs_to_save.extend([version_dir, latest_dir])
+            
+        for d in dirs_to_save:
+            os.makedirs(d, exist_ok=True)
+            path = os.path.join(d, filename)
+            
+            with open(path, "w", encoding="utf-8") as f:
+                # Strip existing newlines to prevent double-spacing, then add a newline to each
+                for line in lines:
+                    f.write(f"{str(line).rstrip()}\n")
+                    
+            print(f"[{self.strategy_name}] Saved {filename} to: {path}")
 
 
 
