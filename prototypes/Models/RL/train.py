@@ -9,10 +9,12 @@ from stable_baselines3.common.env_checker import check_env
 from env import TradingEnv
 
 
+
 TICKERS     = ["AAPL", "MSFT", "GLD"]
-TRAIN_START = "2015-01-01"
+TRAIN_START = "2015-01-01" #: trained on bullish market. 
 TRAIN_END   = "2022-01-01"
-EVAL_START  = "2022-01-01"
+
+EVAL_START  = "2022-01-01" 
 EVAL_END    = "2023-01-01"
 
 
@@ -23,7 +25,11 @@ def load(tickers, start, end):
     else:
         close = df[["Close"]]
     close = close.dropna()
+    #: only use close data
+    print(close.columns)
+    print(close.index)
     return {ticker: close[ticker] for ticker in tickers}
+
 
 
 def train():
@@ -31,7 +37,10 @@ def train():
     env = TradingEnv(price_data)
     check_env(env, warn=True)
 
-    model = PPO("MlpPolicy", env, verbose=1, device="cpu", ent_coef=0.01, n_steps=4096, batch_size=256)
+    model = PPO("MlpPolicy", env,
+                 verbose=1,
+                   device="cuda",
+                     ent_coef=0.01, n_steps=4096, batch_size=256)
     model.learn(total_timesteps=1_000_000)
     model.save("ppo_trading")
     print("Model saved to ppo_trading.zip")
@@ -59,5 +68,6 @@ def evaluate(model):
 
 
 if __name__ == "__main__":
-    model = train()
-    evaluate(model)
+    load(TICKERS, TRAIN_START, TRAIN_END)
+    #model = train()
+    #evaluate(model)
