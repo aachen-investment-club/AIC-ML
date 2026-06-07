@@ -33,9 +33,14 @@ def train_test():
     RLStrategy.train()
     RLStrategy.test()
 
+def trade(): 
 
+    RLStrategy.get_tradelog()
+    RLStrategy.trade()
 
 
 if __name__=="__main__": 
-    train_test()
+    #train_test()
+
+    trade()
 
