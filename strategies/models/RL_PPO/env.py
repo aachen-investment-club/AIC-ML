@@ -5,6 +5,7 @@ import pandas as pd
 import gymnasium as gym
 from gymnasium import spaces
 
+from portfolio.models.features import Features
 
 class TradingEnv(gym.Env):
     metadata = {"render_modes": ["human"]}
@@ -53,14 +54,27 @@ class TradingEnv(gym.Env):
             feat["return"] = ret
             feat["sma_ratio"] = (close.rolling(5).mean() / close).fillna(1)
 
+            """
             delta = close.diff()
             gain = delta.clip(lower=0).ewm(com=13, adjust=False).mean()
             loss = (-delta.clip(upper=0)).ewm(com=13, adjust=False).mean()
             feat["rsi"] = (100 - 100 / (1 + gain / loss)).fillna(50) / 100
+            """
 
-            ema12 = close.ewm(span=12, adjust=False).mean()
-            ema26 = close.ewm(span=26, adjust=False).mean()
-            feat["macd"] = ((ema12 - ema26) / close).fillna(0)
+
+            feat["rsi"] = Features.get_relative_strength_index(
+                close, window = 14 
+            ).fillna(50)/100
+
+
+
+            #ema12 = close.ewm(span=12, adjust=False).mean()
+            #ema26 = close.ewm(span=26, adjust=False).mean()
+
+
+
+            #feat["macd"] = ((ema12 - ema26) / close).fillna(0)
+            feat["macd"] = Features.get_ma_convergence_divergence(close, 12, 26)["MACD"].fillna(0)
 
             all_features.append(feat.values.astype(np.float32))
             all_prices.append(close.values.astype(np.float32))
