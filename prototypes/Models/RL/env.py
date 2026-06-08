@@ -1,3 +1,4 @@
+from collections import deque
 from itertools import combinations
 
 import numpy as np
@@ -15,11 +16,22 @@ class TradingEnv(gym.Env):
     SELL = 2
 
     def __init__(self, price_data: dict, initial_cash: float = 10_000.0, window: int = 10,
-                 corr_window: int = 20, min_episode_len: int = 252, randomize_start: bool = True):
+                 corr_window: int = 20, min_episode_len: int = 252, randomize_start: bool = True,
+                 portfolio_state: dict | None = None, sharpe_window: int = 20):
         super().__init__()
         self.tickers = list(price_data.keys())
         self.n = len(self.tickers)
         self.initial_cash = initial_cash
+
+        #: reward is a rolling Sharpe ratio of per-step portfolio returns,
+        #: computed over the last `sharpe_window` steps.
+        self.sharpe_window = sharpe_window
+        self.returns_history = deque(maxlen=sharpe_window)
+
+        #: lets the env be (re)started from an existing portfolio (e.g. live
+        #: holdings) instead of always rebuilding it via simulated trades.
+        #: expected shape: {"cash": float, "shares": {ticker: float, ...}}
+        self.initial_portfolio_state = portfolio_state
 
         #: we assume that if we invest all our endowment, we have an equal distribution.
         self.slot_budget = initial_cash / self.n
@@ -87,14 +99,25 @@ class TradingEnv(gym.Env):
         T = len(self.prices)
         if self.randomize_start:
 
-            #: episode can start anywhere, as long as at least a single episode replayable. 
+            #: episode can start anywhere, as long as at least a single episode replayable.
             max_start = T - self.min_episode_len
             self.t = self.np_random.integers(self.window, max(self.window + 1, max_start))
         else:
             self.t = self.window
-        self.cash = float(self.initial_cash)
-        self.shares = np.zeros(self.n, dtype=np.float64)
-        self.prev_value = self.initial_cash
+
+        #: an explicit `options["portfolio_state"]` overrides the one passed to
+        #: __init__, which in turn overrides the default fresh-cash start.
+        portfolio_state = (options or {}).get("portfolio_state", self.initial_portfolio_state)
+        if portfolio_state is not None:
+            self.cash = float(portfolio_state.get("cash", self.initial_cash))
+            shares = portfolio_state.get("shares", {})
+            self.shares = np.array([float(shares.get(t, 0.0)) for t in self.tickers], dtype=np.float64)
+        else:
+            self.cash = float(self.initial_cash)
+            self.shares = np.zeros(self.n, dtype=np.float64)
+
+        self.prev_value = self.cash + float(np.sum(self.shares * self.prices[self.t]))
+        self.returns_history.clear()
         return self._obs(), {}
 
     def step(self, action):
@@ -113,9 +136,18 @@ class TradingEnv(gym.Env):
 
         portfolio_value = self.cash + float(np.sum(self.shares * prices))
 
-        #: reward defined as overall returns
-        reward = float((portfolio_value - self.prev_value) / self.initial_cash)
+        #: reward defined as a rolling Sharpe ratio of step returns, rather than
+        #: raw returns, so the agent is pushed towards consistent risk-adjusted gains.
+        step_return = (portfolio_value - self.prev_value) / self.prev_value if self.prev_value > 0 else 0.0
+        self.returns_history.append(step_return)
         self.prev_value = portfolio_value
+
+        returns_arr = np.array(self.returns_history, dtype=np.float64)
+        std = returns_arr.std()
+        if len(returns_arr) >= 2 and std > 0:
+            reward = float(returns_arr.mean() / std)
+        else:
+            reward = 0.0
 
         #: t is the upperbound of the time window.
         self.t += 1

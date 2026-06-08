@@ -39,7 +39,7 @@ def train():
 
     model = PPO("MlpPolicy", env,
                  verbose=1,
-                   device="cuda",
+                   device="cpu",
                      ent_coef=0.01, n_steps=4096, batch_size=256)
     model.learn(total_timesteps=1_000_000)
     model.save("ppo_trading")
@@ -69,5 +69,5 @@ def evaluate(model):
 
 if __name__ == "__main__":
     load(TICKERS, TRAIN_START, TRAIN_END)
-    #model = train()
-    #evaluate(model)
+    model = train()
+    evaluate(model)
