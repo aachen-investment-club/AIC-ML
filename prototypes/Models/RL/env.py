@@ -10,11 +10,6 @@ from gymnasium import spaces
 class TradingEnv(gym.Env):
     metadata = {"render_modes": ["human"]}
 
-    # actions
-    HOLD = 0
-    BUY = 1
-    SELL = 2
-
     def __init__(self, price_data: dict, initial_cash: float = 10_000.0, window: int = 10,
                  corr_window: int = 20, min_episode_len: int = 252, randomize_start: bool = True,
                  portfolio_state: dict | None = None, sharpe_window: int = 20):
@@ -33,8 +28,6 @@ class TradingEnv(gym.Env):
         #: expected shape: {"cash": float, "shares": {ticker: float, ...}}
         self.initial_portfolio_state = portfolio_state
 
-        #: we assume that if we invest all our endowment, we have an equal distribution.
-        self.slot_budget = initial_cash / self.n
         self.window = window
         self.corr_window = corr_window
         self.min_episode_len = min_episode_len
@@ -43,16 +36,24 @@ class TradingEnv(gym.Env):
 
         self._build_features(price_data)
 
-        # n*window*4 (per-stock features) + n_pairs (pairwise correlations) + n (position flags) + 1 (cash ratio)
+        # n*window*4 (per-stock features) + n_pairs (pairwise correlations) + n (position ratios) + 1 (cash ratio)
         obs_size = self.n * window * 4 + self.n_pairs + self.n + 1
-        # considered features: RSI, returns, sma ratio, macd. 
+        # considered features: RSI, returns, sma ratio, macd.
 
 
 
         self.observation_space = spaces.Box(
             low=-np.inf, high=np.inf, shape=(obs_size,), dtype=np.float32
         )
-        self.action_space = spaces.MultiDiscrete([3] * self.n)
+
+        #: action[i] is a raw allocation score for ticker i (SB3's recommended
+        #: symmetric/normalized [-1, 1] range). Together with an implicit fixed
+        #: score of 0 for cash, these are softmaxed into portfolio weights that
+        #: sum to 1 across all n tickers *and* cash — i.e. the agent freely
+        #: redistributes the entire portfolio value (not fixed per-ticker
+        #: budgets) every step, and only the (possibly fractional) difference
+        #: between the current and target position is traded.
+        self.action_space = spaces.Box(low=-1.0, high=1.0, shape=(self.n,), dtype=np.float32)
 
     def _build_features(self, price_data: dict):
         all_features, all_prices, all_returns = [], [], []
@@ -121,18 +122,31 @@ class TradingEnv(gym.Env):
         return self._obs(), {}
 
     def step(self, action):
-        # action is always a n_ticker - dim vector with elements in 0,1,2
         prices = self.prices[self.t]
+        portfolio_value = self.cash + float(np.sum(self.shares * prices))
 
-        for i, act in enumerate(action):
-            if act == self.BUY and self.cash >= prices[i] and self.shares[i] == 0: 
-                #: here buy <=> max out budget for the asset. 
-                spend = min(self.cash, self.slot_budget)
-                self.shares[i] = spend / prices[i]
-                self.cash -= spend
-            elif act == self.SELL and self.shares[i] > 0:
-                self.cash += self.shares[i] * prices[i]
-                self.shares[i] = 0.0
+        #: turn the n raw scores plus an implicit 0-score for cash into
+        #: portfolio weights (summing to 1 across tickers + cash) via softmax,
+        #: then translate each ticker's weight into a target position. The
+        #: whole portfolio is redistributed every step — no fixed per-ticker
+        #: budgets — and only the (possibly fractional) difference between the
+        #: current and target position is traded.
+        scores = np.append(np.clip(np.asarray(action, dtype=np.float64), -1.0, 1.0), 0.0)
+        weights = np.exp(scores - scores.max())
+        weights /= weights.sum()
+        target_values = weights[:self.n] * portfolio_value
+        target_shares = np.divide(target_values, prices, out=np.zeros(self.n), where=prices > 0)
+        diff_shares = target_shares - self.shares
+
+        #: sell first to free up cash, then spend it on buys (capped by what's available)
+        for i in np.where(diff_shares < 0)[0]:
+            sell_shares = min(-diff_shares[i], self.shares[i])
+            self.cash += sell_shares * prices[i]
+            self.shares[i] -= sell_shares
+        for i in np.where(diff_shares > 0)[0]:
+            cost = min(diff_shares[i] * prices[i], self.cash)
+            self.shares[i] += cost / prices[i]
+            self.cash -= cost
 
         portfolio_value = self.cash + float(np.sum(self.shares * prices))
 
@@ -160,19 +174,23 @@ class TradingEnv(gym.Env):
         window_features = self.feature_data[self.t - self.window : self.t]
         flat_features = window_features.transpose(1, 0, 2).flatten()  # (n * window * 4,)
 
-        corr = self.corr_data[self.t]                          # (n_pairs,)
-        position_flags = (self.shares > 0).astype(np.float32)  # (n,)
-        cash_ratio = np.float32(self.cash / self.initial_cash)
+        corr = self.corr_data[self.t]  # (n_pairs,)
+        prices = self.prices[self.t]
+        portfolio_value = self.cash + float(np.sum(self.shares * prices))
+        #: each ticker's share of total portfolio value (can be partial)
+        position_ratios = (self.shares * prices / portfolio_value).astype(np.float32)
+        cash_ratio = np.float32(self.cash / portfolio_value)
 
-        return np.concatenate([flat_features, corr, position_flags, [cash_ratio]]).astype(np.float32)
+        return np.concatenate([flat_features, corr, position_ratios, [cash_ratio]]).astype(np.float32)
 
     def render(self):
         prices = self.prices[self.t - 1]
         value = self.cash + float(np.sum(self.shares * prices))
         positions = " | ".join(
-            f"{self.tickers[i]}={'LONG' if self.shares[i] > 0 else 'CASH'}"
+            f"{self.tickers[i]}={self.shares[i] * prices[i] / value:.0%}"
             for i in range(self.n)
         )
+        positions += f" | CASH={self.cash / value:.0%}"
         corr = self.corr_data[self.t - 1]
         pairs = list(combinations(range(self.n), 2))
         corr_str = " | ".join(
