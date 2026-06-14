@@ -1,25 +1,29 @@
 import pandas as pd
 import numpy as np
-from config import ACTIVE_CONFIG, PORTFOLIO_NAME, SHARES_TO_TRADE
+
+from strategies.quant.configs.config import PORTFOLIO_NAME, SHARES_TO_TRADE
 from strategies.quant.signal_pipeline.alpha_generator import STRATEGY_MAP
 from strategies.quant.signal_pipeline.feature_registry import FEATURE_MAP
 from strategies.quant.signal_pipeline.signal_generator import generate_signals, CONTEXT_FEATURE_MAP
 from strategies.quant.utils.interface import input_adapter, output_adapter
 
 
-def main(data_df: pd.DataFrame, meta_df: pd.DataFrame) -> dict:
+def execute(data_df: pd.DataFrame, meta_df: pd.DataFrame, configs: dict) -> dict:
+    """
+        Execute the trading strategy and returns a trade log
+    """
     # Adapt input data
     matrix = input_adapter(data_df)
 
     # Alpha Feature assembly
-    strategy = ACTIVE_CONFIG["active_strategy"]
+    strategy = configs["active_strategy"]
     alpha_func = STRATEGY_MAP[strategy]["alpha_func"]
     
     required_features = STRATEGY_MAP[strategy]["required_features"]
     for feature_key in required_features:
         func = FEATURE_MAP[feature_key]["func"]
         extracted_params = {
-            param_name: ACTIVE_CONFIG["alpha_parameters"][param_name]
+            param_name: configs["alpha_parameters"][param_name]
                 for param_name in FEATURE_MAP[feature_key]["required_parameters"]
         }
 
@@ -35,7 +39,7 @@ def main(data_df: pd.DataFrame, meta_df: pd.DataFrame) -> dict:
     for context_feature_key in CONTEXT_FEATURE_MAP:
         func = CONTEXT_FEATURE_MAP[context_feature_key]["func"]
         extracted_params = {
-            param_name: ACTIVE_CONFIG["context_parameters"][param_name]
+            param_name: configs["context_parameters"][param_name]
                 for param_name in CONTEXT_FEATURE_MAP[context_feature_key]["required_parameters"]
         }
 
@@ -44,7 +48,7 @@ def main(data_df: pd.DataFrame, meta_df: pd.DataFrame) -> dict:
         matrix[context_feature_key] = context_feature_series
 
     # Signal generation
-    signal_df = generate_signals(matrix, ACTIVE_CONFIG["context_parameters"])
+    signal_df = generate_signals(matrix, configs["context_parameters"])
 
     # Adapt output signals
     return output_adapter(signal_df, meta_df, PORTFOLIO_NAME, SHARES_TO_TRADE)
