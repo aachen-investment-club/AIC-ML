@@ -4,11 +4,14 @@ SHARES_TO_TRADE = 150.0
 
 ACTIVE_CONFIG = {
     # Strategy choice
-    "active_strategy": "",
+    "active_strategy": "TREND_FOLLOWING",
 
     # Alpha feature parameters
     "alpha_parameters": {
-        "": 0.0,
+        "rsi_length": 14,
+
+        "ma_fast": 20,
+        "ma_slow": 50
     },
 
     # Context feature parameters 
