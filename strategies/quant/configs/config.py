@@ -1,0 +1,2 @@
+PORTFOLIO_NAME = "AIC to the moon"
+SHARES_TO_TRADE = 150.0
