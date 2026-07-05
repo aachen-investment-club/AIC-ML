@@ -38,8 +38,6 @@ class TestSignalGenerator:
         assert hasattr(signal_generator, 'CONTEXT_FEATURE_MAP')
         assert isinstance(CONTEXT_FEATURE_MAP, dict)
     
-    #TODO Create a map test for each context feature
-    # The features used in this test are for example only and are not correct
     def test_context_feature_map_correctness(self):
         """
         Test 3: Verify CONTEXT_FEATURE_MAP has correct structure.
@@ -52,11 +50,12 @@ class TestSignalGenerator:
         
         # Check function reference
         assert callable(entry["func"])
-        assert entry["func"] == FeatureRegistry.compute_rsi
+        assert entry["func"] == signal_generator.compute_hurst_exponent
         
         # Check required parameters
         assert isinstance(entry["required_parameters"], list)
-        assert "rsi_length" in entry["required_parameters"]
+        assert "hurst_window" in entry["required_parameters"]
+        assert "max_lag" in entry["required_parameters"]
     
     def test_generate_signals_output_correctness(self, sample_alpha_matrix, signal_generation_params):
         """
@@ -131,7 +130,11 @@ class TestSignalGenerator:
         """
         Test generate_signals fails when entry_barrier parameter is missing.
         """
-        params = {'exit_barrier': -0.1}  # Missing entry_barrier
+        params = {
+            'exit_barrier': -0.1, 
+            'alpha_smooth_span': 10, 
+            'regime_sensitivity': 1.0
+        }  # Missing entry_barrier
         
         with pytest.raises(KeyError):
             generate_signals(sample_alpha_matrix, params)
@@ -140,8 +143,39 @@ class TestSignalGenerator:
         """
         Test generate_signals fails when exit_barrier parameter is missing.
         """
-        params = {'entry_barrier': 0.8}  # Missing exit_barrier
+        params = {
+            'entry_barrier': 0.5, 
+            'alpha_smooth_span': 10, 
+            'regime_sensitivity': 1.0
+        }  # Missing exit_barrier
         
+        with pytest.raises(KeyError):
+            generate_signals(sample_alpha_matrix, params)
+
+    def test_generate_signals_missing_alpha_smooth_span(self, sample_alpha_matrix):
+        """
+        Test generate_signals fails when alpha_smooth_span parameter is missing.
+        """
+        params = {
+            'entry_barrier': 0.5, 
+            'exit_barrier': -0.1,
+            'regime_sensitivity': 1.0
+        }  # Missing alpha_smooth_span
+
+        with pytest.raises(KeyError):
+            generate_signals(sample_alpha_matrix, params)
+
+    def test_generate_signals_missing_regime_sensitivity(self, sample_alpha_matrix):
+        """
+        Test generate_signals fails when regime_sensitivity parameter is missing.
+        """
+        params = {
+            'entry_barrier': 0.5, 
+            'exit_barrier': -0.1,
+            'alpha_smooth_span': 10,
+            'regime_sensitivity': 1.0
+        }  # Missing alpha_smooth_span
+
         with pytest.raises(KeyError):
             generate_signals(sample_alpha_matrix, params)
     

@@ -25,9 +25,6 @@ def generate_signals(matrix: pd.DataFrame, params: dict) -> pd.DataFrame:
     pd.DataFrame
         Columns: ['alpha_score', 'smoothed_alpha', 'hurst_exponent', 'signal']
     """
-    buy_threshold = params["entry_barrier"]
-    sell_threshold = params["exit_barrier"]
-
     out = pd.DataFrame()
     out["alpha_score"] = matrix["alpha_score"]
     out["hurst_exponent"] = matrix["hurst_exponent"]
