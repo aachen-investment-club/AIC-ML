@@ -57,8 +57,9 @@ FEATURE_MAP = {
         "func": FeatureRegistry.compute_rsi,
         "required_parameters": ["rsi_length"]
     },
+
     "MA_SPREAD": {
         "func": FeatureRegistry.compute_ma_spread,
         "required_parameters": ["ma_fast", "ma_slow"]
-    }
+    },
 }

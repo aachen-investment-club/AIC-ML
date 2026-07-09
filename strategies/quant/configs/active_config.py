@@ -14,6 +14,13 @@ ACTIVE_CONFIG = {
     "context_parameters": {
         # Thresholds (between -1.0 and 1.0)
         "entry_barrier": 0.8,
-        "exit_barrier": -0.1
+        "exit_barrier": -0.1,
+
+        "alpha_smooth_span": 50,
+
+        "regime_sensitivity": 0.5,
+
+        "hurst_window": 100,
+        "max_lag": 20
     }
 }
