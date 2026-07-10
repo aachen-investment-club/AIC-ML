@@ -1,0 +1,1157 @@
+exchange,shortname,symbol,longname,sector,industry,origin,type,currency
+NYQ,SAP  SE,SAP,SAP SE,Technology,Software—Application,yfinance,stock,USD
+GER,SIEMENS AG                    N,SIE.DE,Siemens Aktiengesellschaft,Industrials,Specialty Industrial Machinery,yfinance,stock,EUR
+NYQ,"Autoliv, Inc.",ALV,"Autoliv, Inc.",Consumer Cyclical,Auto Parts,yfinance,stock,USD
+NYQ,DTE Energy Company,DTE,DTE Energy Company,Utilities,Utilities—Regulated Electric,yfinance,stock,USD
+NYQ,"Energizer Holdings, Inc.",ENR,"Energizer Holdings, Inc.",Industrials,Electrical Equipment & Parts,yfinance,stock,USD
+GER,RHEINMETALL AG                I,RHM.DE,Rheinmetall AG,Industrials,Aerospace & Defense,yfinance,stock,EUR
+GER,MUENCHENER RUECKVERS.-GES. AG N,MUV2.DE,Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München,Financial Services,Insurance—Reinsurance,yfinance,stock,EUR
+GER,DEUTSCHE BANK AG              N,DBK.DE,Deutsche Bank Aktiengesellschaft,Financial Services,Banks—Regional,yfinance,stock,EUR
+GER,INFINEON TECHNOLOGIES AG      N,IFX.DE,Infineon Technologies AG,Technology,Semiconductors,yfinance,stock,EUR
+GER,DEUTSCHE POST AG              N,DHL.DE,Deutsche Post AG,Industrials,Integrated Freight & Logistics,yfinance,stock,EUR
+GER,Mercedes-Benz Group AG        N,MBG.DE,Mercedes-Benz Group AG,Consumer Cyclical,Auto Manufacturers,yfinance,stock,EUR
+GER,Bayer AG                      N,BAYN.DE,Bayer Aktiengesellschaft,Healthcare,Drug Manufacturers—General,yfinance,stock,EUR
+NYM,CBL Nature-Based Global Emissio,NGO=F,,,,yfinance,stock,USD
+GER,DEUTSCHE BOERSE AG            N,DB1.DE,Deutsche Börse AG,Financial Services,Financial Data & Stock Exchanges,yfinance,stock,EUR
+GER,E.ON SE                       N,EOAN.DE,E.ON SE,Utilities,Utilities—Diversified,yfinance,stock,EUR
+GER,RWE AG                        I,RWE.DE,RWE Aktiengesellschaft,Utilities,Utilities—Diversified,yfinance,stock,EUR
+NYQ,Heico Corporation,HEI,HEICO Corporation,Industrials,Aerospace & Defense,yfinance,stock,USD
+NMS,"Autodesk, Inc.",ADSK,"Autodesk, Inc.",Technology,Software—Application,yfinance,stock,USD
+NCM,"Commercial Bancgroup, Inc.",CBK,"Commercial Bancgroup, Inc.",Financial Services,Banks—Regional,yfinance,stock,USD
+GER,BAYERISCHE MOTOREN WERKE AG   S,BMW.DE,Bayerische Motoren Werke Aktiengesellschaft,Consumer Cyclical,Auto Manufacturers,yfinance,stock,EUR
+GER,VOLKSWAGEN AG                 V,VOW3.DE,Volkswagen AG,Consumer Cyclical,Auto Manufacturers,yfinance,stock,EUR
+NYQ,"Freeport-McMoRan, Inc.",FCX,Freeport-McMoRan Inc.,Basic Materials,Copper,yfinance,stock,USD
+NYQ,Minerals Technologies Inc.,MTX,Minerals Technologies Inc.,Basic Materials,Specialty Chemicals,yfinance,stock,USD
+NYQ,DTE Energy Company 2021 Series ,DTG,,,,yfinance,stock,USD
+GER,Vonovia SE                    N,VNA.DE,Vonovia SE,Real Estate,Real Estate Services,yfinance,stock,EUR
+NYQ,"Merck & Company, Inc.",MRK,"Merck & Co., Inc.",Healthcare,Drug Manufacturers—General,yfinance,stock,USD
+GER,Siemens Healthineers AG       N,SHL.DE,Siemens Healthineers AG,Healthcare,Medical Devices,yfinance,stock,EUR
+GER,HANNOVER RUECK SE NA O.N.,HNR1.DE,Hannover Rück SE,Financial Services,Insurance—Reinsurance,yfinance,stock,EUR
+GER,Henkel AG & Co. KGaA          I,HEN3.DE,Henkel AG & Co. KGaA,Consumer Defensive,Household & Personal Products,yfinance,stock,EUR
+GER,Symrise AG                    I,SY1.DE,Symrise AG,Basic Materials,Specialty Chemicals,yfinance,stock,EUR
+SHZ,BEIJ. HUAL. DEP.,000882.SZ,"Beijing Hualian Department Store Co., Ltd",Consumer Cyclical,Department Stores,yfinance,stock,CNY
+FRA,GEA Group AG                  I,G1A.F,GEA Group Aktiengesellschaft,Industrials,Specialty Industrial Machinery,yfinance,stock,EUR
+GER,Qiagen N.V.                   A,QIA.DE,Qiagen N.V.,Healthcare,Diagnostics & Research,yfinance,stock,EUR
+BSE,F MEC INTERNATIONAL FINANCIAL,FMEC.BO,F Mec International Financial Services Limited,Financial Services,Credit Services,yfinance,stock,INR
+NYQ,Concentra Group Holdings Parent,CON,"Concentra Group Holdings Parent, Inc.",Healthcare,Medical Care Facilities,yfinance,stock,USD
+FRA,Knorr-Bremse AG               N,KBXA.F,Knorr-Bremse AG,Consumer Cyclical,Auto Parts,yfinance,stock,EUR
+NMS,Telix Pharmaceuticals Limited,TLX,Telix Pharmaceuticals Limited,Healthcare,Biotechnology,yfinance,stock,USD
+NYM,Henry Hub Natural Gas Look-Alik,HP=F,,,,yfinance,stock,USD
+GER,SARTORIUS AG                  V,SRT3.DE,Sartorius Aktiengesellschaft,Healthcare,Medical Instruments & Supplies,yfinance,stock,EUR
+VIE,SCOUT24 SE,G24.VI,Scout24 SE,Communication Services,Internet Content & Information,yfinance,stock,EUR
+NGM,Burning Rock Biotech Limited,BNR,Burning Rock Biotech Limited,Healthcare,Diagnostics & Research,yfinance,stock,USD
+GER,Porsche Automobil Holding SE  I,PAH3.DE,Porsche Automobil Holding SE,Consumer Cyclical,Auto Manufacturers,yfinance,stock,EUR
+CMX,U.S. Midwest Domestic Hot-Rolle,HRC=F,,,,yfinance,stock,USD
+NYQ,"Hagerty, Inc.",HGTY,"Hagerty, Inc.",Financial Services,Insurance—Property & Casualty,yfinance,stock,USD
+OSL,ZALARIS,ZAL.OL,Zalaris ASA,Industrials,Staffing & Employment Services,yfinance,stock,NOK
+FRA,DEUTSCHE LUFTHANSA AG         V,LHA.F,Deutsche Lufthansa AG,Industrials,Airlines,yfinance,stock,EUR
+GER,Delivery Hero SE              N,DHER.DE,Delivery Hero SE,Consumer Cyclical,Internet Retail,yfinance,stock,EUR
+NYQ,"Leggett & Platt, Incorporated",LEG,"Leggett & Platt, Incorporated",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,USD
+MUN,BAYERISCHE MOTOREN WERKE AG   V,BMW3.MU,Bayerische Motoren Werke AG,Consumer Cyclical,Auto Manufacturers,yfinance,stock,EUR
+GER,Dr. Ing. h.c. F. Porsche AG   I,P911.DE,Dr. Ing. h.c. F. Porsche AG,Consumer Cyclical,Auto Manufacturers,yfinance,stock,EUR
+NYQ,Newmont Corporation,NEM,Newmont Corporation,Basic Materials,Gold,yfinance,stock,USD
+GER,CTS Eventim AG & Co. KGaA     I,EVD.DE,CTS Eventim AG & Co. KGaA,Communication Services,Entertainment,yfinance,stock,EUR
+GER,Evonik Industries AG          N,EVK.DE,Evonik Industries AG,Basic Materials,Specialty Chemicals,yfinance,stock,EUR
+NGM,SMI 3Fourteen REAL Asset Alloca,RAA,SMI 3Fourteen REAL Asset Allocation ETF,,,yfinance,stock,USD
+JPX,TOYOTA MOTOR CORP,7203.T,Toyota Motor Corporation,Consumer Cyclical,Auto Manufacturers,yfinance,stock,JPY
+JPX,MITSUBISHI UFJ FINANCIAL GROUP ,8306.T,"Mitsubishi UFJ Financial Group, Inc.",Financial Services,Banks—Diversified,yfinance,stock,JPY
+JPX,HITACHI,6501.T,"Hitachi, Ltd.",Industrials,Conglomerates,yfinance,stock,JPY
+JPX,SONY GROUP CORPORATION,6758.T,Sony Group Corporation,Technology,Consumer Electronics,yfinance,stock,JPY
+JPX,SUMITOMO MITSUI FINANCIAL GROUP,8316.T,"Sumitomo Mitsui Financial Group, Inc.",Financial Services,Banks—Diversified,yfinance,stock,JPY
+JPX,TOKYO ELECTRON,8035.T,Tokyo Electron Limited,Technology,Semiconductor Equipment & Materials,yfinance,stock,JPY
+JPX,ADVANTEST CORP,6857.T,Advantest Corporation,Technology,Semiconductor Equipment & Materials,yfinance,stock,JPY
+JPX,MIZUHO FINANCIAL GROUP,8411.T,"Mizuho Financial Group, Inc.",Financial Services,Banks—Regional,yfinance,stock,JPY
+JPX,SOFTBANK GROUP CORP,9984.T,SoftBank Group Corp.,Communication Services,Telecom Services,yfinance,stock,JPY
+JPX,MITSUBISHI HEAVY INDUSTRIES,7011.T,"Mitsubishi Heavy Industries, Ltd.",Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,MITSUBISHI CORP,8058.T,Mitsubishi Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,RECRUIT HOLDINGS CO LTD,6098.T,"Recruit Holdings Co., Ltd.",Communication Services,Internet Content & Information,yfinance,stock,JPY
+JPX,MITSUI & CO,8031.T,"Mitsui & Co., Ltd.",Industrials,Conglomerates,yfinance,stock,JPY
+JPX,ITOCHU CORP,8001.T,ITOCHU Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,FAST RETAILING CO LTD,9983.T,"Fast Retailing Co., Ltd.",Consumer Cyclical,Apparel Retail,yfinance,stock,JPY
+JPX,KEYENCE CORP,6861.T,Keyence Corporation,Technology,Scientific & Technical Instruments,yfinance,stock,JPY
+JPX,NINTENDO CO LTD,7974.T,"Nintendo Co., Ltd.",Communication Services,Electronic Gaming & Multimedia,yfinance,stock,JPY
+JPX,TOKIO MARINE HOLDINGS INC,8766.T,"Tokio Marine Holdings, Inc.",Financial Services,Insurance—Property & Casualty,yfinance,stock,JPY
+JPX,MITSUBISHI ELECTRIC CORP,6503.T,Mitsubishi Electric Corporation,Industrials,Electrical Equipment & Parts,yfinance,stock,JPY
+JPX,SHIN-ETSU CHEMICAL CO,4063.T,"Shin-Etsu Chemical Co., Ltd.",Basic Materials,Chemicals,yfinance,stock,JPY
+JPX,HOYA CORP,7741.T,HOYA Corporation,Healthcare,Medical Instruments & Supplies,yfinance,stock,JPY
+JPX,TAKEDA PHARMACEUTICAL CO LTD,4502.T,Takeda Pharmaceutical Company Limited,Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,JPY
+JPX,FUJITSU,6702.T,Fujitsu Limited,Technology,Information Technology Services,yfinance,stock,JPY
+JPX,KDDI CORPORATION,9433.T,KDDI Corporation,Communication Services,Telecom Services,yfinance,stock,JPY
+JPX,NEC CORP,6701.T,NEC Corporation,Technology,Information Technology Services,yfinance,stock,JPY
+JPX,MARUBENI CORP,8002.T,Marubeni Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,JAPAN TOBACCO INC,2914.T,Japan Tobacco Inc.,Consumer Defensive,Tobacco,yfinance,stock,JPY
+JPX,SUMITOMO CORP,8053.T,Sumitomo Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,FANUC CORPORATION,6954.T,Fanuc Corporation,Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,SOFTBANK CORP.,9434.T,SoftBank Corp.,Communication Services,Telecom Services,yfinance,stock,JPY
+JPX,DAIICHI SANKYO COMPANY LIMITED,4568.T,"Daiichi Sankyo Company, Limited",Healthcare,Drug Manufacturers—General,yfinance,stock,JPY
+JPX,HONDA MOTOR CO,7267.T,"Honda Motor Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,JPY
+JPX,CHUGAI PHARMACEUTICAL CO,4519.T,"Chugai Pharmaceutical Co., Ltd.",Healthcare,Drug Manufacturers—General,yfinance,stock,JPY
+JPX,MURATA MANUFACTURING CO,6981.T,"Murata Manufacturing Co., Ltd.",Technology,Electronic Components,yfinance,stock,JPY
+JPX,ORIX CORPORATION,8591.T,ORIX Corporation,Financial Services,Financial Conglomerates,yfinance,stock,JPY
+JPX,DISCO CORPORATION,6146.T,Disco Corporation,Technology,Semiconductor Equipment & Materials,yfinance,stock,JPY
+JPX,DAIKIN INDUSTRIES,6367.T,"Daikin Industries,Ltd.",Industrials,Building Products & Equipment,yfinance,stock,JPY
+JPX,KOMATSU,6301.T,Komatsu Ltd.,Industrials,Farm & Heavy Construction Machinery,yfinance,stock,JPY
+JPX,MS&AD INS GP HLDGS,8725.T,"MS&AD Insurance Group Holdings, Inc.",Financial Services,Insurance—Property & Casualty,yfinance,stock,JPY
+JPX,PANASONIC HOLDINGS CORP,6752.T,Panasonic Holdings Corporation,Technology,Consumer Electronics,yfinance,stock,JPY
+JPX,SOMPO HOLDINGS INC,8630.T,"Sompo Holdings, Inc.",Financial Services,Insurance—Property & Casualty,yfinance,stock,JPY
+JPX,MITSUI FUDOSAN,8801.T,"Mitsui Fudosan Co., Ltd.",Real Estate,Real Estate—Diversified,yfinance,stock,JPY
+JPX,AEON CO LTD,8267.T,"Aeon Co., Ltd.",Consumer Cyclical,Department Stores,yfinance,stock,JPY
+JPX,DAI-ICHI LIFE HOLDINGS INC,8750.T,"Dai-ichi Life Holdings, Inc.",Financial Services,Insurance—Life,yfinance,stock,JPY
+JPX,SUMITOMO ELECTRIC INDUSTRIES,5802.T,"Sumitomo Electric Industries, Ltd.",Consumer Cyclical,Auto Parts,yfinance,stock,JPY
+JPX,NTT INC,9432.T,"NTT, Inc.",Communication Services,Telecom Services,yfinance,stock,JPY
+JPX,SEVEN & I HOLDINGS CO LTD,3382.T,"Seven & i Holdings Co., Ltd.",Consumer Defensive,Grocery Stores,yfinance,stock,JPY
+JPX,JAPAN POST BANK CO LTD,7182.T,"JAPAN POST BANK Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,JPY
+JPX,NOMURA HOLDINGS INC.,8604.T,"Nomura Holdings, Inc.",Financial Services,Capital Markets,yfinance,stock,JPY
+JPX,FUJIKURA,5803.T,Fujikura Ltd.,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,MITSUBISHI ESTATE CO,8802.T,"Mitsubishi Estate Co., Ltd.",Real Estate,Real Estate—Diversified,yfinance,stock,JPY
+JPX,TOYOTA TSUSHO CORP,8015.T,Toyota Tsusho Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,RENESAS ELECTRONICS CORP,6723.T,Renesas Electronics Corporation,Technology,Semiconductors,yfinance,stock,JPY
+JPX,ASTELLAS PHARMA,4503.T,Astellas Pharma Inc.,Healthcare,Drug Manufacturers—General,yfinance,stock,JPY
+JPX,CANON INC,7751.T,Canon Inc.,Technology,Computer Hardware,yfinance,stock,JPY
+JPX,OTSUKA HLDGS CO LTD,4578.T,"Otsuka Holdings Co., Ltd.",Healthcare,Drug Manufacturers—General,yfinance,stock,JPY
+JPX,BRIDGESTONE CORP,5108.T,Bridgestone Corporation,Consumer Cyclical,Auto Parts,yfinance,stock,JPY
+JPX,DENSO CORP,6902.T,DENSO Corporation,Consumer Cyclical,Auto Parts,yfinance,stock,JPY
+JPX,TDK CORP,6762.T,TDK Corporation,Technology,Electronic Components,yfinance,stock,JPY
+JPX,EAST JAPAN RAILWAY CO,9020.T,East Japan Railway Company,Industrials,Railroads,yfinance,stock,JPY
+JPX,FUJIFILM HOLDINGS CORPORATION,4901.T,FUJIFILM Holdings Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,SMC CORP,6273.T,SMC Corporation,Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,SUZUKI MOTOR CORP,7269.T,Suzuki Motor Corporation,Consumer Cyclical,Auto Manufacturers,yfinance,stock,JPY
+JPX,RESONA HOLDINGS,8308.T,"Resona Holdings, Inc.",Financial Services,Banks—Regional,yfinance,stock,JPY
+JPX,IHI CORPORATION,7013.T,IHI Corporation,Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,JAPAN POST HLDGS CO LTD,6178.T,"Japan Post Holdings Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,JPY
+JPX,ENEOS HOLDINGS INC,5020.T,"ENEOS Holdings, Inc.",Energy,Oil & Gas Refining & Marketing,yfinance,stock,JPY
+JPX,CENTRAL JAPAN RAILWAY CO,9022.T,Central Japan Railway Company,Industrials,Railroads,yfinance,stock,JPY
+JPX,SUMITOMO MITSUI TRUST GP INC,8309.T,"Sumitomo Mitsui Trust Group, Inc.",Financial Services,Banks—Regional,yfinance,stock,JPY
+JPX,NIPPON STEEL CORPORATION,5401.T,Nippon Steel Corporation,Basic Materials,Steel,yfinance,stock,JPY
+JPX,AJINOMOTO CO INC,2802.T,"Ajinomoto Co., Inc.",Consumer Defensive,Packaged Foods,yfinance,stock,JPY
+JPX,TOYOTA INDUSTRIES CORP,6201.T,Toyota Industries Corporation,Industrials,Farm & Heavy Construction Machinery,yfinance,stock,JPY
+JPX,ORIENTAL LAND CO,4661.T,"Oriental Land Co., Ltd.",Consumer Cyclical,Leisure,yfinance,stock,JPY
+JPX,DAIWA HOUSE INDUSTRY CO,1925.T,"Daiwa House Industry Co., Ltd.",Real Estate,Real Estate—Development,yfinance,stock,JPY
+JPX,TERUMO CORP,4543.T,Terumo Corporation,Healthcare,Medical Instruments & Supplies,yfinance,stock,JPY
+JPX,KYOCERA CORP,6971.T,Kyocera Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,KAO CORP,4452.T,Kao Corporation,Consumer Defensive,Household & Personal Products,yfinance,stock,JPY
+JPX,INPEX CORPORATION,1605.T,Inpex Corporation,Energy,Oil & Gas E&P,yfinance,stock,JPY
+JPX,ASICS CORP,7936.T,ASICS Corporation,Consumer Cyclical,Footwear & Accessories,yfinance,stock,JPY
+JPX,LASERTEC CORP,6920.T,Lasertec Corporation,Technology,Semiconductor Equipment & Materials,yfinance,stock,JPY
+JPX,KAJIMA CORP,1812.T,Kajima Corporation,Industrials,Engineering & Construction,yfinance,stock,JPY
+JPX,SUMITOMO REALTY & DEVELOPMENT C,8830.T,"Sumitomo Realty & Development Co., Ltd.",Real Estate,Real Estate Services,yfinance,stock,JPY
+JPX,NITTO DENKO CORP,6988.T,Nitto Denko Corporation,Basic Materials,Specialty Chemicals,yfinance,stock,JPY
+JPX,KIOXIA HOLDINGS CORPORATION,285A.T,,Technology,Semiconductors,yfinance,stock,JPY
+JPX,ASAHI GROUP HLDGS,2502.T,"Asahi Group Holdings, Ltd.",Consumer Defensive,Beverages—Brewers,yfinance,stock,JPY
+JPX,BANDAI NAMCO HOLDINGS INC,7832.T,BANDAI NAMCO Holdings Inc.,Consumer Cyclical,Leisure,yfinance,stock,JPY
+JPX,TAISEI CORP,1801.T,Taisei Corporation,Industrials,Engineering & Construction,yfinance,stock,JPY
+JPX,KANSAI ELECTRIC POWER CO INC,9503.T,"The Kansai Electric Power Company, Incorporated",Utilities,Utilities—Renewable,yfinance,stock,JPY
+JPX,KUBOTA CORP,6326.T,Kubota Corporation,Industrials,Farm & Heavy Construction Machinery,yfinance,stock,JPY
+JPX,OLYMPUS CORPORATION,7733.T,Olympus Corporation,Healthcare,Medical Devices,yfinance,stock,JPY
+JPX,NOMURA RESEARCH INSTITUTE,4307.T,"Nomura Research Institute, Ltd.",Technology,Information Technology Services,yfinance,stock,JPY
+JPX,SECOM CO,9735.T,"SECOM CO., LTD.",Industrials,Security & Protection Services,yfinance,stock,JPY
+JPX,OBAYASHI CORP,1802.T,Obayashi Corporation,Industrials,Engineering & Construction,yfinance,stock,JPY
+JPX,SHIONOGI & CO,4507.T,"Shionogi & Co., Ltd.",Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,JPY
+JPX,NIPPON YUSEN KABUSHIKI KAISHA,9101.T,Nippon Yusen Kabushiki Kaisha,Industrials,Marine Shipping,yfinance,stock,JPY
+JPX,EBARA CORP,6361.T,Ebara Corporation,Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,KONAMI GROUP CORPORATION,9766.T,Konami Group Corporation,Communication Services,Electronic Gaming & Multimedia,yfinance,stock,JPY
+JPX,SEKISUI HOUSE,1928.T,"Sekisui House, Ltd.",Consumer Cyclical,Residential Construction,yfinance,stock,JPY
+JPX,SBI HOLDINGS INC,8473.T,"SBI Holdings, Inc.",Financial Services,Financial Conglomerates,yfinance,stock,JPY
+JPX,KAWASAKI HEAVY INDUSTRIES,7012.T,"Kawasaki Heavy Industries, Ltd.",Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,SUBARU CORPORATION,7270.T,Subaru Corporation,Consumer Cyclical,Auto Manufacturers,yfinance,stock,JPY
+JPX,DAIWA SECURITIES GROUP,8601.T,Daiwa Securities Group Inc.,Financial Services,Capital Markets,yfinance,stock,JPY
+JPX,TOKYO GAS CO,9531.T,"Tokyo Gas Co.,Ltd.",Utilities,Utilities—Regulated Gas,yfinance,stock,JPY
+JPX,OSAKA GAS CO,9532.T,"Osaka Gas Co., Ltd.",Utilities,Utilities—Regulated Gas,yfinance,stock,JPY
+JPX,SUMITOMO METAL MINING CO,5713.T,"Sumitomo Metal Mining Co., Ltd.",Basic Materials,Other Industrial Metals & Mining,yfinance,stock,JPY
+JPX,ASAHI KASEI CORP,3407.T,Asahi Kasei Corporation,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,KIRIN HOLDINGS COMPANY LIMITED,2503.T,"Kirin Holdings Company, Limited",Consumer Defensive,Beverages—Brewers,yfinance,stock,JPY
+JPX,T&D HOLDINGS INC,8795.T,"T&D Holdings, Inc.",Financial Services,Insurance—Life,yfinance,stock,JPY
+JPX,JAPAN EXCHANGE GROUP,8697.T,"Japan Exchange Group, Inc.",Financial Services,Financial Data & Stock Exchanges,yfinance,stock,JPY
+JPX,NIDEC CORPORATION,6594.T,Nidec Corporation,Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,DAIFUKU CO LTD,6383.T,"Daifuku Co., Ltd.",Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,FUJI ELECTRIC CO. LTD.,6504.T,"Fuji Electric Co., Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,JPY
+JPX,PAN PACIFIC INTL HLDGS CORP,7532.T,Pan Pacific International Holdings Corporation,Consumer Defensive,Discount Stores,yfinance,stock,JPY
+JPX,MITSUI O.S.K. LINES LTD,9104.T,"Mitsui O.S.K. Lines, Ltd.",Industrials,Marine Shipping,yfinance,stock,JPY
+JPX,RYOHIN KEIKAKU CO,7453.T,"Ryohin Keikaku Co., Ltd.",Consumer Cyclical,Department Stores,yfinance,stock,JPY
+JPX,TORAY INDUSTRIES INC,3402.T,"Toray Industries, Inc.",Consumer Cyclical,Textile Manufacturing,yfinance,stock,JPY
+JPX,OBIC CO LTD,4684.T,"OBIC Co.,Ltd.",Technology,Software—Application,yfinance,stock,JPY
+JPX,NEXON CO LTD,3659.T,"NEXON Co., Ltd.",Communication Services,Electronic Gaming & Multimedia,yfinance,stock,JPY
+JPX,RAKUTEN GROUP INC,4755.T,"Rakuten Group, Inc.",Consumer Cyclical,Internet Retail,yfinance,stock,JPY
+JPX,AISIN CORPORATION,7259.T,Aisin Corporation,Consumer Cyclical,Auto Parts,yfinance,stock,JPY
+JPX,CHUBU ELECTRIC POWER CO INC,9502.T,"Chubu Electric Power Company, Incorporated",Utilities,Utilities—Diversified,yfinance,stock,JPY
+JPX,YOKOHAMA FINANCIAL GROUP INC,7186.T,"Yokohama Financial Group, Inc.",Financial Services,Banks—Regional,yfinance,stock,JPY
+JPX,JX ADVANCED METALS CORPORATION,5016.T,,Technology,Semiconductor Equipment & Materials,yfinance,stock,JPY
+JPX,ISUZU MOTORS,7202.T,Isuzu Motors Limited,Consumer Cyclical,Auto Manufacturers,yfinance,stock,JPY
+JPX,SCREEN HOLDINGS CO LTD,7735.T,"SCREEN Holdings Co., Ltd.",Technology,Semiconductor Equipment & Materials,yfinance,stock,JPY
+JPX,CAPCOM CO LTD,9697.T,"Capcom Co., Ltd.",Communication Services,Electronic Gaming & Multimedia,yfinance,stock,JPY
+JPX,WEST JAPAN RAILWAY CO,9021.T,West Japan Railway Company,Industrials,Railroads,yfinance,stock,JPY
+JPX,MITSUBISHI CHEMICAL GROUP CORP,4188.T,Mitsubishi Chemical Group Corporation,Basic Materials,Specialty Chemicals,yfinance,stock,JPY
+JPX,SHIMANO INC,7309.T,Shimano Inc.,Consumer Cyclical,Leisure,yfinance,stock,JPY
+JPX,JFE HOLDINGS INC,5411.T,"JFE Holdings, Inc.",Basic Materials,Steel,yfinance,stock,JPY
+JPX,MITSUBISHI HC CAPITAL INC,8593.T,Mitsubishi HC Capital Inc.,Financial Services,Credit Services,yfinance,stock,JPY
+JPX,YOKOGAWA ELECTRIC CORP,6841.T,Yokogawa Electric Corporation,Industrials,Specialty Industrial Machinery,yfinance,stock,JPY
+JPX,EISAI CO LTD,4523.T,"Eisai Co., Ltd.",Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,JPY
+JPX,YAMAHA MOTOR CO,7272.T,"Yamaha Motor Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,JPY
+JPX,MINEBEA MITSUMI INC,6479.T,MINEBEA MITSUMI Inc.,Technology,Electronic Components,yfinance,stock,JPY
+JPX,CHIBA BANK,8331.T,"The Chiba Bank, Ltd.",Financial Services,Banks—Regional,yfinance,stock,JPY
+JPX,NIPPON BUILDING FUND INC,8951.T,Nippon Building Fund Inc.,Real Estate,REIT—Office,yfinance,stock,JPY
+JPX,LY CORPORATION,4689.T,LY Corporation,Consumer Cyclical,Internet Retail,yfinance,stock,JPY
+JPX,MAKITA CORP,6586.T,Makita Corporation,Industrials,Tools & Accessories,yfinance,stock,JPY
+JPX,DAI NIPPON PRINTING CO,7912.T,"Dai Nippon Printing Co., Ltd.",Industrials,Conglomerates,yfinance,stock,JPY
+JPX,SHISEIDO COMPANY LIMITED,4911.T,"Shiseido Company, Limited",Consumer Defensive,Household & Personal Products,yfinance,stock,JPY
+JPX,TOPPAN HOLDINGS INC,7911.T,TOPPAN Holdings Inc.,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,SEKISUI CHEMICAL CO,4204.T,"Sekisui Chemical Co., Ltd.",Industrials,Conglomerates,yfinance,stock,JPY
+JPX,TIS INC.,3626.T,TIS Inc.,Technology,Information Technology Services,yfinance,stock,JPY
+JPX,AGC INC,5201.T,AGC Inc.,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,SONY FINANCIAL GROUP INC,8729.T,Sony Financial Group Inc.,Financial Services,Insurance—Life,yfinance,stock,JPY
+JPX,NITORI HOLDINGS CO LTD,9843.T,"Nitori Holdings Co., Ltd.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,JPY
+JPX,SHIMADZU CORP,7701.T,Shimadzu Corporation,Technology,Scientific & Technical Instruments,yfinance,stock,JPY
+JPX,UNICHARM CORP,8113.T,Unicharm Corporation,Consumer Defensive,Household & Personal Products,yfinance,stock,JPY
+JPX,NIPPON PAINT HOLDINGS CO LTD,4612.T,"Nippon Paint Holdings Co., Ltd.",Basic Materials,Specialty Chemicals,yfinance,stock,JPY
+JPX,HANKYU HANSHIN HOLDINGS INC,9042.T,"Hankyu Hanshin Holdings, Inc.",Industrials,Conglomerates,yfinance,stock,JPY
+JPX,IDEMITSU KOSAN CO.LTD,5019.T,"Idemitsu Kosan Co.,Ltd.",Energy,Oil & Gas Refining & Marketing,yfinance,stock,JPY
+JPX,JAPAN POST INSURANCE CO LTD,7181.T,"Japan Post Insurance Co., Ltd.",Financial Services,Insurance—Life,yfinance,stock,JPY
+JPX,KIKKOMAN CORP,2801.T,Kikkoman Corporation,Consumer Defensive,Packaged Foods,yfinance,stock,JPY
+JPX,M3 INC,2413.T,"M3, Inc.",Healthcare,Health Information Services,yfinance,stock,JPY
+JPX,NISSAN MOTOR CO,7201.T,"Nissan Motor Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,JPY
+JPX,SANRIO CO LTD,8136.T,"Sanrio Company, Ltd.",Consumer Cyclical,Specialty Retail,yfinance,stock,JPY
+JPX,TOKYU CORP,9005.T,Tokyu Corporation,Consumer Cyclical,Department Stores,yfinance,stock,JPY
+JPX,DAITO TRUST CONSTRUCTION CO,1878.T,"Daito Trust Construction Co.,Ltd.",Real Estate,Real Estate—Diversified,yfinance,stock,JPY
+JPX,SEIBU HOLDINGS INC,9024.T,Seibu Holdings Inc.,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,MATSUKIYOCOCOKARA & CO,3088.T,MatsukiyoCocokara & Co.,Healthcare,Pharmaceutical Retailers,yfinance,stock,JPY
+JPX,NIPPON SANSO HOLDINGS CORPORATI,4091.T,Nippon Sanso Holdings Corporation,Basic Materials,Chemicals,yfinance,stock,JPY
+JPX,TOHO CO LTD,9602.T,"Toho Co., Ltd.",Communication Services,Entertainment,yfinance,stock,JPY
+JPX,HULIC CO LTD,3003.T,"Hulic Co., Ltd.",Real Estate,Real Estate Services,yfinance,stock,JPY
+JPX,ZENSHO HOLDINGS CO LTD,7550.T,"Zensho Holdings Co., Ltd.",Consumer Cyclical,Restaurants,yfinance,stock,JPY
+JPX,TREND MICRO INC,4704.T,Trend Micro Incorporated,Technology,Software—Infrastructure,yfinance,stock,JPY
+JPX,KAWASAKI KISEN KAISHA,9107.T,"Kawasaki Kisen Kaisha, Ltd.",Industrials,Marine Shipping,yfinance,stock,JPY
+JPX,SYSMEX CORP,6869.T,Sysmex Corporation,Healthcare,Medical Devices,yfinance,stock,JPY
+JPX,HIKARI TSUSHIN INC,9435.T,"Hikari Tsushin, Inc.",Industrials,Conglomerates,yfinance,stock,JPY
+JPX,OTSUKA CORPORATION,4768.T,Otsuka Corporation,Technology,Information Technology Services,yfinance,stock,JPY
+JPX,TSURUHA HOLDINGS INC,3391.T,Tsuruha Holdings Inc.,Healthcare,Pharmaceutical Retailers,yfinance,stock,JPY
+JPX,SUNTORY BEVERAGE & FOOD LIMITED,2587.T,Suntory Beverage & Food Limited,Consumer Defensive,Beverages—Non-Alcoholic,yfinance,stock,JPY
+JPX,KYOWA KIRIN CO LTD,4151.T,"Kyowa Kirin Co., Ltd.",Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,JPY
+JPX,ZOZO INC,3092.T,"ZOZO, Inc.",Consumer Cyclical,Internet Retail,yfinance,stock,JPY
+JPX,MONOTARO CO.LTD,3064.T,"MonotaRO Co., Ltd.",Consumer Cyclical,Internet Retail,yfinance,stock,JPY
+JPX,KOBE BUSSAN CO LTD,3038.T,"Kobe Bussan Co., Ltd.",Consumer Defensive,Grocery Stores,yfinance,stock,JPY
+JPX,ANA HOLDINGS INC,9202.T,ANA Holdings Inc.,Industrials,Airlines,yfinance,stock,JPY
+JPX,TOKYO METRO CO LTD,9023.T,,Industrials,Conglomerates,yfinance,stock,JPY
+JPX,ORACLE CORP JAPAN,4716.T,Oracle Corporation Japan,Technology,Software—Infrastructure,yfinance,stock,JPY
+JPX,SG HOLDINGS CO LTD,9143.T,"SG Holdings Co.,Ltd.",Industrials,Integrated Freight & Logistics,yfinance,stock,JPY
+JPX,JAPAN AIRLINES CO LTD,9201.T,"Japan Airlines Co., Ltd.",Industrials,Airlines,yfinance,stock,JPY
+HKG,TENCENT,0700.HK,Tencent Holdings Limited,Communication Services,Internet Content & Information,yfinance,stock,HKD
+HKG,BABA-W,9988.HK,Alibaba Group Holding Limited,Consumer Cyclical,Internet Retail,yfinance,stock,HKD
+HKG,CCB,0939.HK,China Construction Bank Corporation,Financial Services,Banks—Diversified,yfinance,stock,HKD
+HKG,XIAOMI-W,1810.HK,Xiaomi Corporation,Technology,Consumer Electronics,yfinance,stock,HKD
+NMS,PDD Holdings Inc.,PDD,PDD Holdings Inc.,Consumer Cyclical,Internet Retail,yfinance,stock,USD
+HKG,MEITUAN-W,3690.HK,Meituan,Consumer Cyclical,Internet Retail,yfinance,stock,HKD
+HKG,PING AN,2318.HK,"Ping An Insurance (Group) Company of China, Ltd.",Financial Services,Insurance—Life,yfinance,stock,HKD
+HKG,ICBC,1398.HK,Industrial and Commercial Bank of China Limited,Financial Services,Banks—Diversified,yfinance,stock,HKD
+HKG,NTES-S,9999.HK,"NetEase, Inc.",Communication Services,Electronic Gaming & Multimedia,yfinance,stock,HKD
+HKG,BYD COMPANY,1211.HK,BYD Company Limited,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,BIDU-SW,9888.HK,"Baidu, Inc.",Communication Services,Internet Content & Information,yfinance,stock,HKD
+HKG,BANK OF CHINA,3988.HK,Bank of China Limited,Financial Services,Banks—Diversified,yfinance,stock,HKD
+HKG,TRIP.COM-S,9961.HK,Trip.com Group Limited,Consumer Cyclical,Travel Services,yfinance,stock,HKD
+HKG,JD-SW,9618.HK,"JD.com, Inc.",Consumer Cyclical,Internet Retail,yfinance,stock,HKD
+HKG,ZIJIN MINING,2899.HK,Zijin Mining Group Company Limited,Basic Materials,Gold,yfinance,stock,HKD
+HKG,CHINA LIFE,2628.HK,China Life Insurance Company Limited,Financial Services,Insurance—Life,yfinance,stock,HKD
+HKG,KUAISHOU-W,1024.HK,Kuaishou Technology,Communication Services,Internet Content & Information,yfinance,stock,HKD
+HKG,CM BANK,3968.HK,"China Merchants Bank Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,HKD
+HKG,BEONE MEDICINES,6160.HK,BeOne Medicines AG,Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,PETROCHINA,0857.HK,PetroChina Company Limited,Energy,Oil & Gas Integrated,yfinance,stock,HKD
+HKG,ABC,1288.HK,ABC,Financial Services,Banks—Diversified,yfinance,stock,HKD
+HKG,CHINA SHENHUA,1088.HK,China Shenhua Energy Company Limited,Energy,Thermal Coal,yfinance,stock,HKD
+HKG,WUXI BIO,2269.HK,WuXi Biologics (Cayman) Inc.,Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,YUM CHINA,9987.HK,"Yum China Holdings, Inc.",Consumer Cyclical,Restaurants,yfinance,stock,HKD
+HKG,INNOVENT BIO,1801.HK,"Innovent Biologics, Inc.",Healthcare,Biotechnology,yfinance,stock,HKD
+SHH,KWEICHOW MOUTAI,600519.SS,"Kweichow Moutai Co., Ltd.",Consumer Defensive,Beverages—Wineries & Distilleries,yfinance,stock,CNY
+HKG,PICC P&C,2328.HK,PICC Property and Casualty Company Limited,Financial Services,Insurance—Property & Casualty,yfinance,stock,HKD
+HKG,SINOPEC CORP,0386.HK,China Petroleum & Chemical Corporation,Energy,Oil & Gas Integrated,yfinance,stock,HKD
+HKG,GEELY AUTO,0175.HK,Geely Automobile Holdings Limited,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,ANTA SPORTS,2020.HK,ANTA Sports Products Limited,Consumer Cyclical,Leisure,yfinance,stock,HKD
+HKG,NONGFU SPRING,9633.HK,"Nongfu Spring Co., Ltd.",Consumer Defensive,Beverages—Non-Alcoholic,yfinance,stock,HKD
+HKG,CHINAHONGQIAO,1378.HK,China Hongqiao Group Limited,Basic Materials,Aluminum,yfinance,stock,HKD
+HKG,POP MART,9992.HK,Pop Mart International Group Limited,Consumer Cyclical,Leisure,yfinance,stock,HKD
+HKG,XPENG-W,9868.HK,XPeng Inc.,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,CPIC,2601.HK,"China Pacific Insurance (Group) Co., Ltd.",Financial Services,Insurance—Life,yfinance,stock,HKD
+HKG,CHINA RES LAND,1109.HK,China Resources Land Limited,Real Estate,Real Estate—Development,yfinance,stock,HKD
+HKG,BEKE-W,2423.HK,KE Holdings Inc.,Real Estate,Real Estate Services,yfinance,stock,HKD
+HKG,CMOC,3993.HK,CMOC Group Limited,Basic Materials,Other Industrial Metals & Mining,yfinance,stock,HKD
+HKG,LI AUTO-W,2015.HK,Li Auto Inc.,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,CSPC PHARMA,1093.HK,CSPC Pharmaceutical Group Limited,Healthcare,Drug Manufacturers—General,yfinance,stock,HKD
+HKG,AKESO,9926.HK,"Akeso, Inc.",Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,JD HEALTH,6618.HK,JD Health International Inc.,Healthcare,Pharmaceutical Retailers,yfinance,stock,HKD
+NMS,H World Group Limited,HTHT,H World Group Limited,Consumer Cyclical,Lodging,yfinance,stock,USD
+NYQ,Tencent Music Entertainment Gro,TME,Tencent Music Entertainment Group,Communication Services,Internet Content & Information,yfinance,stock,USD
+HKG,ZTO EXPRESS-W,2057.HK,ZTO Express (Cayman) Inc.,Industrials,Integrated Freight & Logistics,yfinance,stock,HKD
+HKG,HUA HONG SEMI,1347.HK,Hua Hong Semiconductor Limited,Technology,Semiconductors,yfinance,stock,HKD
+HKG,LENOVO GROUP,0992.HK,Lenovo Group Limited,Technology,Computer Hardware,yfinance,stock,HKD
+HKG,SINO BIOPHARM,1177.HK,Sino Biopharmaceutical Limited,Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,NIO-SW,9866.HK,NIO Inc.,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,HANSOH PHARMA,3692.HK,Hansoh Pharmaceutical Group Company Limited,Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,HKD
+HKG,ZHAOJIN MINING,1818.HK,Zhaojin Mining Industry Company Limited,Basic Materials,Gold,yfinance,stock,HKD
+HKG,HAIER SMARTHOME,6690.HK,"Haier Smart Home Co., Ltd.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,HKD
+HKG,BILIBILI-W,9626.HK,Bilibili Inc.,Communication Services,Internet Content & Information,yfinance,stock,HKD
+HKG,PICC GROUP,1339.HK,The People's Insurance Company (Group) of China Limited,Financial Services,Insurance—Property & Casualty,yfinance,stock,HKD
+HKG,NEW ORIENTAL-S,9901.HK,New Oriental Education & Technology Group Inc.,Consumer Defensive,Education & Training Services,yfinance,stock,HKD
+HKG,CITIC BANK,0998.HK,China CITIC Bank Corporation Limited,Financial Services,Banks—Regional,yfinance,stock,HKD
+HKG,NCI,1336.HK,New China Life Insurance Company Ltd.,Financial Services,Insurance—Life,yfinance,stock,HKD
+HKG,BANKCOMM,3328.HK,"Bank of Communications Co., Ltd.",Financial Services,Banks—Diversified,yfinance,stock,HKD
+NMS,KANZHUN LIMITED - American Depo,BZ,Kanzhun Limited,Communication Services,Internet Content & Information,yfinance,stock,USD
+SHH,CHINA MERCHANTS BANK CO LTD,600036.SS,"China Merchants Bank Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+HKG,ENN ENERGY,2688.HK,ENN Energy Holdings Limited,Utilities,Utilities—Regulated Gas,yfinance,stock,HKD
+SHH,FOXCONN INDUSTRIAL INTERNET CO ,601138.SS,"Foxconn Industrial Internet Co., Ltd.",Technology,Communication Equipment,yfinance,stock,CNY
+HKG,SHENZHOU INTL,2313.HK,Shenzhou International Group Holdings Limited,Consumer Cyclical,Textile Manufacturing,yfinance,stock,HKD
+SHH,ZIJIN MINING GROUP CO.LTD,601899.SS,Zijin Mining Group Company Limited,Basic Materials,Gold,yfinance,stock,CNY
+HKG,CHINA TOWER,0788.HK,China Tower Corporation Limited,Communication Services,Telecom Services,yfinance,stock,HKD
+HKG,CHALCO,2600.HK,Aluminum Corporation of China Limited,Basic Materials,Aluminum,yfinance,stock,HKD
+HKG,CHINA OVERSEAS,0688.HK,China Overseas Land & Investment Limited,Real Estate,Real Estate—Development,yfinance,stock,HKD
+HKG,JIANGXI COPPER,0358.HK,Jiangxi Copper Company Limited,Basic Materials,Copper,yfinance,stock,HKD
+HKG,3SBIO,1530.HK,3SBio Inc.,Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,CITIC,0267.HK,CITIC Limited,Industrials,Conglomerates,yfinance,stock,HKD
+SHH,PING AN INSURANCE(GROUP)CO.OF C,601318.SS,"Ping An Insurance (Group) Company of China, Ltd.",Financial Services,Insurance—Life,yfinance,stock,CNY
+HKG,GDS-SW,9698.HK,GDS Holdings Limited,Technology,Information Technology Services,yfinance,stock,HKD
+HKG,MENGNIU DAIRY,2319.HK,China Mengniu Dairy Company Limited,Consumer Defensive,Packaged Foods,yfinance,stock,HKD
+HKG,HORIZONROBOT-W,9660.HK,Horizon Robotics,Technology,Software—Application,yfinance,stock,HKD
+HKG,SUNNY OPTICAL,2382.HK,Sunny Optical Technology (Group) Company Limited,Technology,Electronic Components,yfinance,stock,HKD
+HKG,KINGDEE INT'L,0268.HK,Kingdee International Software Group Company Limited,Technology,Software—Application,yfinance,stock,HKD
+HKG,WUXI APPTEC,2359.HK,"WuXi AppTec Co., Ltd.",Healthcare,Diagnostics & Research,yfinance,stock,HKD
+HKG,LI NING,2331.HK,Li Ning Company Limited,Consumer Cyclical,Leisure,yfinance,stock,HKD
+HKG,PSBC,1658.HK,"Postal Savings Bank of China Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,HKD
+HKG,CITIC SEC,6030.HK,CITIC Securities Company Limited,Financial Services,Capital Markets,yfinance,stock,HKD
+NYQ,Vipshop Holdings Limited,VIPS,Vipshop Holdings Limited,Consumer Cyclical,Internet Retail,yfinance,stock,USD
+SHH,CHINA YANGTZE POWER CO,600900.SS,"China Yangtze Power Co., Ltd.",Utilities,Utilities—Renewable,yfinance,stock,CNY
+HKG,WEICHAI POWER,2338.HK,"Weichai Power Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,CHINAGOLDINTL,2099.HK,China Gold International Resources Corp. Ltd.,Basic Materials,Other Precious Metals & Mining,yfinance,stock,HKD
+HKG,CHINA RES BEER,0291.HK,China Resources Beer (Holdings) Company Limited,Consumer Defensive,Beverages—Brewers,yfinance,stock,HKD
+SHH,AGRICULTURAL BANK OF CHINA,601288.SS,Agricultural Bank of China Limited,Financial Services,Banks—Diversified,yfinance,stock,CNY
+HKG,MMG,1208.HK,MMG Limited,Basic Materials,Copper,yfinance,stock,HKD
+HKG,ALI HEALTH,0241.HK,Alibaba Health Information Technology Limited,Healthcare,Pharmaceutical Retailers,yfinance,stock,HKD
+SHH,CAMBRICON TECHNOLOGIES CORPORAT,688256.SS,Cambricon Technologies Corporation Limited,Technology,Semiconductors,yfinance,stock,CNY
+HKG,SD GOLD,1787.HK,"Shandong Gold Mining Co., Ltd.",Basic Materials,Gold,yfinance,stock,HKD
+HKG,FUYAO GLASS,3606.HK,"Fuyao Glass Industry Group Co., Ltd.",Consumer Cyclical,Auto Parts,yfinance,stock,HKD
+HKG,CICC,3908.HK,China International Capital Corporation Limited,Financial Services,Capital Markets,yfinance,stock,HKD
+SHH,HYGON INFORMATION TECHNOLOGY CO,688041.SS,"Hygon Information Technology Co., Ltd.",Technology,Computer Hardware,yfinance,stock,CNY
+HKG,CGS,6881.HK,"China Galaxy Securities Co., Ltd.",Financial Services,Financial Conglomerates,yfinance,stock,HKD
+HKG,CATL,3750.HK,"Contemporary Amperex Technology Co., Limited",Industrials,Electrical Equipment & Parts,yfinance,stock,HKD
+HKG,CHINA RES POWER,0836.HK,China Resources Power Holdings Company Limited,Utilities,Utilities—Independent Power Producers,yfinance,stock,HKD
+NYQ,TAL Education Group,TAL,TAL Education Group,Consumer Defensive,Education & Training Services,yfinance,stock,USD
+HKG,COSCO SHIP HOLD,1919.HK,"COSCO SHIPPING Holdings Co., Ltd.",Industrials,Marine Shipping,yfinance,stock,HKD
+HKG,YANKUANG ENERGY,1171.HK,Yankuang Energy Group Company Limited,Energy,Thermal Coal,yfinance,stock,HKD
+HKG,MIDEA GROUP,0300.HK,"Midea Group Co., Ltd.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,HKD
+HKG,ZIJIN GOLD INTL,2259.HK,Zijin Gold International Company Limited,Basic Materials,Gold,yfinance,stock,HKD
+HKG,KINGSOFT,3888.HK,Kingsoft Corporation Limited,Communication Services,Electronic Gaming & Multimedia,yfinance,stock,HKD
+HKG,GTHT,2611.HK,"Guotai Haitong Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,HKD
+HKG,GWMOTOR,2333.HK,Great Wall Motor Company Limited,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,MEITU,1357.HK,"Meitu, Inc.",Communication Services,Internet Content & Information,yfinance,stock,HKD
+HKG,CGN POWER,1816.HK,"CGN Power Co., Ltd.",Utilities,Utilities—Independent Power Producers,yfinance,stock,HKD
+SHH,INDUSTRIAL & COMMERCIAL BK OF C,601398.SS,Industrial and Commercial Bank of China Limited,Financial Services,Banks—Diversified,yfinance,stock,CNY
+HKG,AAC TECH,2018.HK,AAC Technologies Holdings Inc.,Technology,Communication Equipment,yfinance,stock,HKD
+HKG,TSINGTAO BREW,0168.HK,Tsingtao Brewery Company Limited,Consumer Defensive,Beverages—Brewers,yfinance,stock,HKD
+HKG,CHINA TAIPING,0966.HK,China Taiping Insurance Holdings Company Limited,Financial Services,Insurance—Life,yfinance,stock,HKD
+SHH,INDUSTRIAL BANK CO LTD,601166.SS,"Industrial Bank Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+HKG,GANFENGLITHIUM,1772.HK,"Ganfeng Lithium Group Co., Ltd.",Basic Materials,Chemicals,yfinance,stock,HKD
+HKG,CHINA RES MIXC,1209.HK,China Resources Mixc Lifestyle Services Limited,Real Estate,Real Estate Services,yfinance,stock,HKD
+HKG,TONGCHENGTRAVEL,0780.HK,Tongcheng Travel Holdings Limited,Consumer Cyclical,Travel Services,yfinance,stock,HKD
+HKG,KUNLUN ENERGY,0135.HK,Kunlun Energy Company Limited,Energy,Oil & Gas Refining & Marketing,yfinance,stock,HKD
+HKG,CONCH CEMENT,0914.HK,Anhui Conch Cement Company Limited,Basic Materials,Building Materials,yfinance,stock,HKD
+HKG,J&T EXPRESS-W,1519.HK,J&T Global Express Limited,Industrials,Integrated Freight & Logistics,yfinance,stock,HKD
+HKG,BYD ELECTRONIC,0285.HK,BYD Electronic (International) Company Limited,Technology,Electronic Components,yfinance,stock,HKD
+SHH,CMOC GROUP LIMITED,603993.SS,CMOC Group Limited,Basic Materials,Other Industrial Metals & Mining,yfinance,stock,CNY
+HKG,CHINA RUYI,0136.HK,China Ruyi Holdings Limited,Communication Services,Entertainment,yfinance,stock,HKD
+HKG,SINOPHARM,1099.HK,Sinopharm Group Co. Ltd.,Healthcare,Medical Distribution,yfinance,stock,HKD
+SHH,JIANGSU HENGRUI PHARMACEUTICALS,600276.SS,"Jiangsu Hengrui Pharmaceuticals Co.,Ltd",Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,CNY
+HKG,CHOW TAI FOOK,1929.HK,Chow Tai Fook Jewellery Group Limited,Consumer Cyclical,Luxury Goods,yfinance,stock,HKD
+HKG,WUXI XDC,2268.HK,WuXi XDC Cayman Inc.,Healthcare,Diagnostics & Research,yfinance,stock,HKD
+HKG,GCL TECH,3800.HK,GCL Technology Holdings Limited,Technology,Solar,yfinance,stock,HKD
+HKG,CRRC,1766.HK,CRRC Corporation Limited,Industrials,Railroads,yfinance,stock,HKD
+HKG,UBTECH ROBOTICS,9880.HK,Ubtech Robotics Corp Ltd,Industrials,Specialty Industrial Machinery,yfinance,stock,HKD
+HKG,HTSC,6886.HK,"Huatai Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,HKD
+HKG,HAIDILAO,6862.HK,Haidilao International Holding Ltd.,Consumer Cyclical,Restaurants,yfinance,stock,HKD
+HKG,MINSHENG BANK,1988.HK,"China Minsheng Banking Corp., Ltd.",Financial Services,Banks—Regional,yfinance,stock,HKD
+HKG,HUANENG POWER,0902.HK,"Huaneng Power International, Inc.",Utilities,Utilities—Independent Power Producers,yfinance,stock,HKD
+SHH,BANK OF COMMUNICATIONS CO LTD,601328.SS,"Bank of Communications Co., Ltd.",Financial Services,Banks—Diversified,yfinance,stock,CNY
+HKG,LEAPMOTOR,9863.HK,"Zhejiang Leapmotor Technology Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+SHH,SHANGHAI PUDONG DEVELOPMENT BAN,600000.SS,"Shanghai Pudong Development Bank Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,CITIC SECURITIES CO LTD,600030.SS,CITIC Securities Company Limited,Financial Services,Capital Markets,yfinance,stock,CNY
+HKG,TINGYI,0322.HK,Tingyi (Cayman Islands) Holding Corp.,Consumer Defensive,Packaged Foods,yfinance,stock,HKD
+HKG,JD LOGISTICS,2618.HK,"JD Logistics, Inc.",Industrials,Integrated Freight & Logistics,yfinance,stock,HKD
+HKG,SKB BIO-B,6990.HK,"Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,ZTE,0763.HK,ZTE Corporation,Technology,Communication Equipment,yfinance,stock,HKD
+HKG,WANT WANT CHINA,0151.HK,Want Want China Holdings Limited,Consumer Defensive,Packaged Foods,yfinance,stock,HKD
+HKG,CHINA GAS HOLD,0384.HK,China Gas Holdings Limited,Utilities,Utilities—Regulated Gas,yfinance,stock,HKD
+HKG,XTALPI,2228.HK,XtalPi Holdings Limited,Healthcare,Health Information Services,yfinance,stock,HKD
+HKG,CHINFMINING,1258.HK,China Nonferrous Mining Corporation Limited,Basic Materials,Copper,yfinance,stock,HKD
+HKG,BOSIDENG,3998.HK,Bosideng International Holdings Limited,Consumer Cyclical,Apparel Manufacturing,yfinance,stock,HKD
+HKG,SMOORE INTL,6969.HK,Smoore International Holdings Limited,Consumer Defensive,Tobacco,yfinance,stock,HKD
+SHH,CHINA PACIFIC INSURANCE (GROUP),601601.SS,"China Pacific Insurance (Group) Co., Ltd.",Financial Services,Insurance—Life,yfinance,stock,CNY
+HKG,DONGFENG GROUP,0489.HK,Dongfeng Motor Group Company Limited,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,GUANGDONG INV,0270.HK,Guangdong Investment Limited,Utilities,Utilities—Regulated Water,yfinance,stock,HKD
+HKG,CHINA COAL,1898.HK,China Coal Energy Company Limited,Energy,Thermal Coal,yfinance,stock,HKD
+HKG,CHINA RES GAS,1193.HK,China Resources Gas Group Limited,Utilities,Utilities—Regulated Gas,yfinance,stock,HKD
+HKG,SINOTRUK,3808.HK,Sinotruk (Hong Kong) Limited,Industrials,Farm & Heavy Construction Machinery,yfinance,stock,HKD
+HKG,LONGFOR GROUP,0960.HK,Longfor Group Holdings Limited,Real Estate,Real Estate—Development,yfinance,stock,HKD
+SHH,GUOTAI HAITONG SECURITIES CO LT,601211.SS,"Guotai Haitong Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+HKG,CHINA MER PORT,0144.HK,China Merchants Port Holdings Company Limited,Industrials,Marine Shipping,yfinance,stock,HKD
+HKG,MNSO,9896.HK,MINISO Group Holding Limited,Consumer Cyclical,Specialty Retail,yfinance,stock,HKD
+HKG,LAOPU GOLD,6181.HK,"Laopu Gold Co., Ltd.",Consumer Cyclical,Luxury Goods,yfinance,stock,HKD
+HKG,CNBM,3323.HK,China National Building Material Company Limited,Basic Materials,Building Materials,yfinance,stock,HKD
+SHH,CHINA CSSC HOLDINGS LIMITED,600150.SS,China CSSC Holdings Limited,Industrials,Aerospace & Defense,yfinance,stock,CNY
+SHH,CHINA SHENHUA ENERGY COMPANY LT,601088.SS,China Shenhua Energy Company Limited,Energy,Thermal Coal,yfinance,stock,CNY
+HKG,TIMES ELECTRIC,3898.HK,"Zhuzhou CRRC Times Electric Co., Ltd.",Industrials,Railroads,yfinance,stock,HKD
+HKG,GENSCRIPT BIO,1548.HK,Genscript Biotech Corporation,Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,REMEGEN,9995.HK,"RemeGen Co., Ltd.",Healthcare,Biotechnology,yfinance,stock,HKD
+HKG,BOC AVIATION,2588.HK,BOC Aviation Limited,Industrials,Rental & Leasing Services,yfinance,stock,HKD
+HKG,OOIL,0316.HK,Orient Overseas (International) Limited,Industrials,Marine Shipping,yfinance,stock,HKD
+HKG,CHINA LONGYUAN,0916.HK,China Longyuan Power Group Corporation Limited,Utilities,Utilities—Renewable,yfinance,stock,HKD
+SHH,WUXI APPTEC CO LTD,603259.SS,"WuXi AppTec Co., Ltd.",Healthcare,Diagnostics & Research,yfinance,stock,CNY
+HKG,HENGAN INT'L,1044.HK,Hengan International Group Company Limited,Consumer Defensive,Household & Personal Products,yfinance,stock,HKD
+SHH,WANHUA CHEMICAL GROUP CO LTD,600309.SS,"Wanhua Chemical Group Co., Ltd.",Basic Materials,Specialty Chemicals,yfinance,stock,CNY
+HKG,FE HORIZON,3360.HK,Far East Horizon Limited,Financial Services,Credit Services,yfinance,stock,HKD
+SHH,BEIJING-SHANGHAI HIGH SPEED RAI,601816.SS,"Beijing-Shanghai High-Speed Railway Co., Ltd.",Industrials,Railroads,yfinance,stock,CNY
+HKG,NETEASE MUSIC,9899.HK,NetEase Cloud Music Inc.,Communication Services,Internet Content & Information,yfinance,stock,HKD
+HKG,BEIJING ENT,0392.HK,Beijing Enterprises Holdings Limited,Industrials,Conglomerates,yfinance,stock,HKD
+HKG,CHINA RAILWAY,0390.HK,China Railway Group Limited,Industrials,Engineering & Construction,yfinance,stock,HKD
+HKG,CHINA LIT,0772.HK,China Literature Limited,Communication Services,Internet Content & Information,yfinance,stock,HKD
+SHH,ADVANCED MICRO-FABRICATION EQUI,688012.SS,Advanced Micro-Fabrication Equipment Inc. China,Technology,Semiconductor Equipment & Materials,yfinance,stock,CNY
+HKG,YADEA,1585.HK,Yadea Group Holdings Ltd.,Consumer Cyclical,Auto Manufacturers,yfinance,stock,HKD
+HKG,HAITIAN INT'L,1882.HK,Haitian International Holdings Limited,Industrials,Specialty Industrial Machinery,yfinance,stock,HKD
+HKG,GF SEC,1776.HK,"GF Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,HKD
+HKG,CHINA FEIHE,6186.HK,China Feihe Limited,Consumer Defensive,Packaged Foods,yfinance,stock,HKD
+SHH,SHAANXI COAL INDUSTRY,601225.SS,Shaanxi Coal Industry Company Limited,Energy,Thermal Coal,yfinance,stock,CNY
+SHH,BANK OF CHINA LTD,601988.SS,Bank of China Limited,Financial Services,Banks—Diversified,yfinance,stock,CNY
+SHH,PETROCHINA CO,601857.SS,PetroChina Company Limited,Energy,Oil & Gas Integrated,yfinance,stock,CNY
+SHH,CHINA CONSTRUCTION ENGINEERING ,601668.SS,China State Construction Engineering Corporation Limited,Industrials,Engineering & Construction,yfinance,stock,CNY
+HKG,XINYI SOLAR,0968.HK,Xinyi Solar Holdings Limited,Technology,Solar,yfinance,stock,HKD
+HKG,CHINA OILFIELD,2883.HK,China Oilfield Services Limited,Energy,Oil & Gas Equipment & Services,yfinance,stock,HKD
+SHH,SHANXI XINGHUACUN FENWINE FACTO,600809.SS,"Shanxi Xinghuacun Fen Wine Factory Co.,Ltd.",Consumer Defensive,Beverages—Wineries & Distilleries,yfinance,stock,CNY
+SHH,INNER MONGOLIA YITAI COAL,900948.SS,"Inner Mongolia Yitai Coal Co.,Ltd.",Energy,Thermal Coal,yfinance,stock,USD
+HKG,CQRC BANK,3618.HK,"Chongqing Rural Commercial Bank Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,HKD
+HKG,WEIGAO GROUP,1066.HK,Shandong Weigao Group Medical Polymer Company Limited,Healthcare,Medical Instruments & Supplies,yfinance,stock,HKD
+HKG,GIANT BIOGENE,2367.HK,"Giant Biogene Holding Co., Ltd.",Consumer Defensive,Household & Personal Products,yfinance,stock,HKD
+HKG,C&D INTL GROUP,1908.HK,C&D International Investment Group Limited,Real Estate,Real Estate—Development,yfinance,stock,HKD
+SHH,SERES GROUP CO LTD,601127.SS,"Seres Group Co.,Ltd",Consumer Cyclical,Auto Manufacturers,yfinance,stock,CNY
+SHH,CHINA CONSTRUCTION BANK,601939.SS,China Construction Bank Corporation,Financial Services,Banks—Diversified,yfinance,stock,CNY
+NMS,"Qfin Holdings, Inc.",QFIN,"Qfin Holdings, Inc.",Financial Services,Credit Services,yfinance,stock,USD
+SHH,NARI TECHNOLOGY CO LTD,600406.SS,"NARI Technology Co., Ltd.",Industrials,Specialty Industrial Machinery,yfinance,stock,CNY
+SHH,CHINA PETROLEUM & CHEMICAL CORP,600028.SS,China Petroleum & Chemical Corporation,Energy,Oil & Gas Integrated,yfinance,stock,CNY
+SHH,SANY HEAVY INDUSTRY CO,600031.SS,"Sany Heavy Industry Co.,Ltd",Industrials,Farm & Heavy Construction Machinery,yfinance,stock,CNY
+NMS,Legend Biotech Corporation,LEGN,Legend Biotech Corporation,Healthcare,Biotechnology,yfinance,stock,USD
+SHH,CHINA NTHN RARE EARTH (GP) HI-T,600111.SS,"China Northern Rare Earth (Group) High-Tech Co.,Ltd",Basic Materials,Other Industrial Metals & Mining,yfinance,stock,CNY
+HKG,CITIC FAMC,2799.HK,"China CITIC Financial Asset Management Co., Ltd.",Financial Services,Asset Management,yfinance,stock,HKD
+SHH,COSCO SHIPPING HOLDINGS,601919.SS,"COSCO SHIPPING Holdings Co., Ltd.",Industrials,Marine Shipping,yfinance,stock,CNY
+HKG,CHINA POWER,2380.HK,China Power International Development Limited,Utilities,Utilities—Regulated Electric,yfinance,stock,HKD
+SHH,ALUMINUM CORP OF CHINA(CHALCO),601600.SS,Aluminum Corporation of China Limited,Basic Materials,Aluminum,yfinance,stock,CNY
+SHH,BANK OF JIANGSU,600919.SS,"Bank of Jiangsu Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+HKG,AVICHINA,2357.HK,AviChina Industry & Technology Company Limited,Industrials,Aerospace & Defense,yfinance,stock,HKD
+SHH,CHINA NATIONAL NUCLEAR POWER CO,601985.SS,"China National Nuclear Power Co., Ltd.",Utilities,Utilities—Regulated Electric,yfinance,stock,CNY
+SHH,FOSHAN HAITIAN FLAVOURING AND F,603288.SS,Foshan Haitian Flavouring and Food Company Ltd.,Consumer Defensive,Packaged Foods,yfinance,stock,CNY
+SHH,CHINA TOURISM GROUP DUTY FREE C,601888.SS,China Tourism Group Duty Free Corporation Limited,Consumer Cyclical,Specialty Retail,yfinance,stock,CNY
+SHH,HUATAI SECURITIES CO LTD,601688.SS,"Huatai Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,INNER MONGOLIA YILI INDS. GP CO,600887.SS,"Inner Mongolia Yili Industrial Group Co., Ltd.",Consumer Defensive,Packaged Foods,yfinance,stock,CNY
+HKG,CHINA STATE CON,3311.HK,China State Construction International Holdings Limited,Industrials,Engineering & Construction,yfinance,stock,HKD
+NYQ,Autohome Inc.,ATHM,Autohome Inc.,Communication Services,Internet Content & Information,yfinance,stock,USD
+SHH,NEW CHINA LIFE INSURANCE CO LTD,601336.SS,New China Life Insurance Company Ltd.,Financial Services,Insurance—Life,yfinance,stock,CNY
+SHH,SHANDONG GOLD MINING CO LTD,600547.SS,"Shandong Gold Mining Co., Ltd.",Basic Materials,Gold,yfinance,stock,CNY
+HKG,JIANGSU EXPRESS,0177.HK,Jiangsu Expressway Company Limited,Industrials,Infrastructure Operations,yfinance,stock,HKD
+SHH,BEIJING KINGSOFT OFFICE SOFTWAR,688111.SS,"Beijing Kingsoft Office Software, Inc.",Technology,Software—Application,yfinance,stock,CNY
+SHH,CRRC CORPORATION LIMITED,601766.SS,CRRC Corporation Limited,Industrials,Railroads,yfinance,stock,CNY
+SHH,GIGADEVICE SEMICONDUCTOR INC,603986.SS,GigaDevice Semiconductor Inc.,Technology,Semiconductors,yfinance,stock,CNY
+SHH,HENGLI PETROCHEMICAL CO LTD,600346.SS,"Hengli Petrochemical Co.,Ltd.",Basic Materials,Chemicals,yfinance,stock,CNY
+SHH,SHENGYI TECHNOLOGY CO LTD,600183.SS,"Shengyi Technology Co.,Ltd.",Technology,Electronic Components,yfinance,stock,CNY
+SHH,HAIER SMART HOME CO LTD,600690.SS,"Haier Smart Home Co., Ltd.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,CNY
+HKG,CHINACOMSERVICE,0552.HK,China Communications Services Corporation Limited,Communication Services,Telecom Services,yfinance,stock,HKD
+HKG,ZHEJIANGEXPRESS,0576.HK,"Zhejiang Expressway Co., Ltd.",Industrials,Infrastructure Operations,yfinance,stock,HKD
+SHH,CHINA UNITED NETWORK COMMUNICAT,600050.SS,China United Network Communications Limited,Communication Services,Telecom Services,yfinance,stock,CNY
+HKG,FOSUN INTL,0656.HK,Fosun International Limited,Industrials,Conglomerates,yfinance,stock,HKD
+SHH,MONTAGE TECHNOLOGY CO LTD,688008.SS,"Montage Technology Co., Ltd.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,POSTAL SAVINGS BANK OF CHINA CO,601658.SS,"Postal Savings Bank of China Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,NINGXIA BAOFENG ENERGY GROUP CO,600989.SS,"Ningxia Baofeng Energy Group Co., Ltd.",Basic Materials,Chemicals,yfinance,stock,CNY
+SHH,BAOSHAN IRON & STEEL CO,600019.SS,"Baoshan Iron & Steel Co., Ltd.",Basic Materials,Steel,yfinance,stock,CNY
+SHH,CHINA EVERBRIGHT BANK CO LTD,601818.SS,China Everbright Bank Company Limited,Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,OMNIVISION INTEGRATED CIRCUITS ,603501.SS,"OmniVision Integrated Circuits Group, Inc.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,JIANGSU HENGLI HYDRAULIC CO LTD,601100.SS,"Jiangsu Hengli Hydraulic Co.,Ltd",Industrials,Specialty Industrial Machinery,yfinance,stock,CNY
+SHH,ZHEJIANG HUAYOU COBALT CO LTD,603799.SS,"Zhejiang Huayou Cobalt Co., Ltd",Basic Materials,Other Industrial Metals & Mining,yfinance,stock,CNY
+SHH,TBEA CO LTD,600089.SS,"TBEA Co., Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,BANK OF SHANGHAI CO LTD,601229.SS,"Bank of Shanghai Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,LONGI GREEN ENERGY TECHNOLOGY C,601012.SS,"LONGi Green Energy Technology Co., Ltd.",Technology,Semiconductor Equipment & Materials,yfinance,stock,CNY
+SHH,EASTROC BEVERAGE (GROUP) CO LTD,605499.SS,"Eastroc Beverage(Group) Co., Ltd.",Consumer Defensive,Beverages—Non-Alcoholic,yfinance,stock,CNY
+SHH,CHINA LIFE INSURANCE CO,601628.SS,China Life Insurance Company Limited,Financial Services,Insurance—Life,yfinance,stock,CNY
+SHH,CHINA MINSHENG BANKING CORP,600016.SS,"China Minsheng Banking Corp., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,BANK OF NANJING CO. LTD.,601009.SS,"Bank of Nanjing Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,ZHONGJIN GOLD CO,600489.SS,"Zhongjin Gold Corp.,Ltd",Basic Materials,Gold,yfinance,stock,CNY
+SHH,CHINA MERCHANTS SECURITIES CO L,600999.SS,"China Merchants Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,NINGBO TUOPU GROUP CO LTD,601689.SS,"Ningbo Tuopu Group Co.,Ltd.",Consumer Cyclical,Auto Parts,yfinance,stock,CNY
+HKG,CHINA VANKE,2202.HK,"China Vanke Co., Ltd.",Real Estate,Real Estate—Development,yfinance,stock,HKD
+SHH,SHANGHAI UNITED IMAGING HEALTHC,688271.SS,"Shanghai United Imaging Healthcare Co., Ltd.",Healthcare,Medical Devices,yfinance,stock,CNY
+SHH,INNER MONGOLIA BAOTOU STEEL UNI,600010.SS,"Inner Mongolia Baotou Steel Union Co., Ltd.",Basic Materials,Steel,yfinance,stock,CNY
+SHH,JIANGXI COPPER CO,600362.SS,Jiangxi Copper Company Limited,Basic Materials,Copper,yfinance,stock,CNY
+SHH,CHINA THREE GORGES RENEWABLES,600905.SS,"China Three Gorges Renewables (Group) Co.,Ltd.",Utilities,Utilities—Renewable,yfinance,stock,CNY
+SHH,FUYAO GLASS INDUSTRY GROUP CO. ,600660.SS,"Fuyao Glass Industry Group Co., Ltd.",Consumer Cyclical,Auto Parts,yfinance,stock,CNY
+SHH,SHANGHAI ELECTRIC HOLDING GROUP,601727.SS,"Shanghai Electric Group Co., Ltd.",Industrials,Specialty Industrial Machinery,yfinance,stock,CNY
+SHH,SAIC MOTOR CORPORATION LIMITED,600104.SS,SAIC Motor Corporation Limited,Consumer Cyclical,Auto Manufacturers,yfinance,stock,CNY
+SHH,CHINA GALAXY SECURITIES CO,601881.SS,"China Galaxy Securities Co., Ltd.",Financial Services,Financial Conglomerates,yfinance,stock,CNY
+SHH,BANK OF HANGZHOU CO LTD,600926.SS,"Bank of Hangzhou Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,CHINA RAILWAY GROUP LIMITED,601390.SS,China Railway Group Limited,Industrials,Engineering & Construction,yfinance,stock,CNY
+SHH,AIR CHINA LTD,601111.SS,Air China Limited,Industrials,Airlines,yfinance,stock,CNY
+SHH,BANK OF BEIJING CO. LTD.,601169.SS,"Bank of Beijing Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,AECC AVIATION POWER CO LTD,600893.SS,"AECC Aviation Power Co.,Ltd",Industrials,Aerospace & Defense,yfinance,stock,CNY
+SHH,PIOTECH INC,688072.SS,Piotech Inc.,Technology,Semiconductor Equipment & Materials,yfinance,stock,CNY
+SHH,CHINA SECURITIES CO.  LTD.,601066.SS,"CSC Financial Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,ANHUI JIANGHUAI AUTOMOBILE GROU,600418.SS,"Anhui Jianghuai Automobile Group Corp.,Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,CNY
+SHH,ZHANGZHOU PIENTZEHUANG PHARMACE,600436.SS,"Zhangzhou Pientzehuang Pharmaceutical., Ltd",Healthcare,Drug Manufacturers—General,yfinance,stock,CNY
+SHH,SDIC POWER HOLDINGS CO LTD,600886.SS,"SDIC Power Holdings Co., Ltd",Utilities,Utilities—Renewable,yfinance,stock,CNY
+SHH,ZHEJIANG JUHUA CO LTD.,600160.SS,"Zhejiang Juhua Co., Ltd.",Basic Materials,Chemicals,yfinance,stock,CNY
+SHH,CHINA INTL CAPITAL CORPORATION ,601995.SS,China International Capital Corporation Limited,Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,DAQIN RAILWAY CO LTD,601006.SS,"Daqin Railway Co., Ltd.",Industrials,Railroads,yfinance,stock,CNY
+SHH,CHINA EASTERN AIRLINES CORP,600115.SS,China Eastern Airlines Corporation Limited,Industrials,Airlines,yfinance,stock,CNY
+SHH,VERISILICON MICROELECTRONICS (S,688521.SS,"VeriSilicon Microelectronics (Shanghai) Co., Ltd.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,ZHEJIANG CHINA COMMODITIES CITY,600415.SS,"Zhejiang China Commodities City Group Co., Ltd.",Real Estate,Real Estate—Diversified,yfinance,stock,CNY
+SHH,360 SECURITY TECHN,601360.SS,360 Security Technology Inc.,Technology,Software—Infrastructure,yfinance,stock,CNY
+SHH,CHINA MERCHANTS ENERGY SHIPPING,601872.SS,"China Merchants Energy Shipping Co., Ltd.",Energy,Oil & Gas Midstream,yfinance,stock,CNY
+SHH,POWER CONSTRUCTION CORP OF CHIN,601669.SS,"Power Construction Corporation of China, Ltd",Industrials,Engineering & Construction,yfinance,stock,CNY
+SHH,THE PEOPLE S INSURANCE COMPANY ,601319.SS,The People's Insurance Company (Group) of China Limited,Financial Services,Insurance—Property & Casualty,yfinance,stock,CNY
+SHH,GUANGDONG HEC TECHNOLOGY HOLDIN,600673.SS,"Guangdong HEC Technology Holding Co., Ltd",Technology,Electronic Components,yfinance,stock,CNY
+SHH,TONGWEI CO,600438.SS,"Tongwei Co.,Ltd",Technology,Solar,yfinance,stock,CNY
+SHH,GD POWER DEVELOPMENT CO,600795.SS,"GD Power Development Co.,Ltd",Utilities,Utilities—Renewable,yfinance,stock,CNY
+SHH,XIAMEN TUNGSTEN,600549.SS,"Xiamen Tungsten Co.,Ltd.",Basic Materials,Other Industrial Metals & Mining,yfinance,stock,CNY
+SHH,HUAXIA BANK CO,600015.SS,"Hua Xia Bank Co., Limited",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,SHANGHAI RURAL COMMERCIAL BK CO,601825.SS,"Shanghai Rural Commercial Bank Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,CHINA SOUTHERN AIRLINES COMPANY,600029.SS,China Southern Airlines Company Limited,Industrials,Airlines,yfinance,stock,CNY
+SHH,ANHUI CONCH CEMENT,600585.SS,Anhui Conch Cement Company Limited,Basic Materials,Building Materials,yfinance,stock,CNY
+SHH,CHINA CITIC BANK CORPORATION LT,601998.SS,China CITIC Bank Corporation Limited,Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,CHINA RESOURCES MICROELECTRONIC,688396.SS,China Resources Microelectronics Limited,Technology,Semiconductors,yfinance,stock,CNY
+SHH,JCET GROUP CO LTD,600584.SS,"JCET Group Co., Ltd.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,CHINA ENERGY ENGINEERING CORP L,601868.SS,China Energy Engineering Corporation Limited,Industrials,Engineering & Construction,yfinance,stock,CNY
+SHH,ORIENT SECURITIES COMPANY LIMIT,600958.SS,Orient Securities Company Limited,Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,NINGBO DEYE TECHNOLOGY CO LTD,605117.SS,"Ningbo Deye Technology Group Co., Ltd.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,CNY
+SHH,DONGFANG ELECTRIC CORPORATION L,600875.SS,Dongfang Electric Corporation Limited,Industrials,Specialty Industrial Machinery,yfinance,stock,CNY
+SHH,HUAQIN TECHNOLOGY CO LTD,603296.SS,"Huaqin Technology Co., Ltd.",Technology,Consumer Electronics,yfinance,stock,CNY
+SHH,FUZHOU ROCKCHIP ELECTRONICS CO ,603893.SS,"Rockchip Electronics Co., Ltd.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,NEXCHIP SEMICONDUCTOR CORPORATI,688249.SS,Nexchip Semiconductor Corporation,Technology,Semiconductors,yfinance,stock,CNY
+SHH,WESTERN MINING CO. LTD.,601168.SS,"Western Mining Co.,Ltd.",Basic Materials,Other Industrial Metals & Mining,yfinance,stock,CNY
+SHH,POLY DEVELOPMENTS AND HOLDINGS ,600048.SS,"Poly Developments and Holdings Group Co., Ltd.",Real Estate,Real Estate—Development,yfinance,stock,CNY
+SHH,YANKUANG ENERGY GROUP COMPANY L,600188.SS,Yankuang Energy Group Company Limited,Energy,Thermal Coal,yfinance,stock,CNY
+SHH,CHINA JUSHI CO LTD,600176.SS,"China Jushi Co., Ltd.",Basic Materials,Building Materials,yfinance,stock,CNY
+SHH,SHENZHEN TRANSSION HOLDINGS CO ,688036.SS,"Shenzhen Transsion Holdings Co., Ltd.",Technology,Consumer Electronics,yfinance,stock,CNY
+SHH,SANAN OPTOELECTRONICS CO. LTD.,600703.SS,"Sanan Optoelectronics Co.,Ltd",Technology,Semiconductors,yfinance,stock,CNY
+SHH,SICHUAN ROAD&BRIDGE GROUP CO LT,600039.SS,"Sichuan Road & Bridge Group Co.,Ltd",Industrials,Engineering & Construction,yfinance,stock,CNY
+SHH,SHANDONG HUALU-HENGSHENG CHEMIC,600426.SS,"Shandong Hualu-Hengsheng Chemical Co., Ltd.",Basic Materials,Chemicals,yfinance,stock,CNY
+SHH,HAINAN AIRLINES HOLDING CO LTD,600221.SS,"Hainan Airlines Holding Co., Ltd.",Industrials,Airlines,yfinance,stock,CNY
+SHH,WOLONG ELECTRIC GROUP CO LTD,600580.SS,"Wolong Electric Group Co.,Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,YUTONG BUS CO LTD,600066.SS,"Yutong Bus Co.,Ltd.",Industrials,Farm & Heavy Construction Machinery,yfinance,stock,CNY
+SHH,SHENZHEN KINWONG ELECTRONIC CO ,603228.SS,"Shenzhen Kinwong Electronic Co., Ltd.",Technology,Electronic Components,yfinance,stock,CNY
+SHH,EVERBRIGHT SECURITIES COMPANY L,601788.SS,Everbright Securities Company Limited,Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,CHINA XD ELECTRIC CO LTD,601179.SS,"China XD Electric Co., Ltd",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,SHANGHAI ZHANGJIANG HI-TECH PAR,600895.SS,"Shanghai Zhangjiang Hi-Tech Park Development Co., Ltd.",Real Estate,Real Estate—Development,yfinance,stock,CNY
+SHH,SHANDONG NANSHAN ALUMINUM CO LT,600219.SS,"Shandong Nanshan Aluminium Co.,Ltd.",Basic Materials,Aluminum,yfinance,stock,CNY
+SHH,BANK OF CHENGDU CO LTD,601838.SS,"Bank of Chengdu Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,FOUNDER SECURITIES CO LTD,601901.SS,"Founder Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,SICHUAN CHUANTOU ENERGY CO LTD,600674.SS,Sichuan Chuantou Energy Co.Ltd,Utilities,Utilities—Independent Power Producers,yfinance,stock,CNY
+SHH,HUANENG POWER INTERNATIONAL INC,600011.SS,"Huaneng Power International, Inc.",Utilities,Utilities—Independent Power Producers,yfinance,stock,CNY
+SHH,HWATSING TECHNOLOGY CO LTD,688120.SS,"Hwatsing Technology Co., Ltd.",Technology,Semiconductor Equipment & Materials,yfinance,stock,CNY
+SHH,SHENGYI ELECTRONICS CO LTD,688183.SS,"Shengyi Electronics Co., Ltd.",Technology,Electronic Components,yfinance,stock,CNY
+SHH,CHINA ZHESHANG BANK CO. LTD,601916.SS,"China Zheshang Bank Co., Ltd",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,JIANGSU ZHONG TIAN TECH,600522.SS,"Jiangsu Zhongtian Technology Co., Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,INDUSTRIAL SECURITIES CO LTD,601377.SS,"Industrial Securities Co.,Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,YUNNAN YUNTIANHUA CO LTD,600096.SS,"Yunnan Yuntianhua Co., Ltd.",Basic Materials,Agricultural Inputs,yfinance,stock,CNY
+SHH,HUNDSUN TECHNOLOGIES INC,600570.SS,Hundsun Technologies Inc.,Technology,Software—Application,yfinance,stock,CNY
+SHH,HUAYU AUTOMOTIVE SYSTEMS CO LTD,600741.SS,HUAYU Automotive Systems Company Limited,Consumer Cyclical,Auto Parts,yfinance,stock,CNY
+SHH,ZHEJIANG CHINT ELECTRICS CO LTD,601877.SS,"Zhejiang Chint Electrics Co., Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,HENGTONG OPTIC-ELECTRIC CO.LTD,600487.SS,"Hengtong Optic-Electric Co., Ltd.",Technology,Communication Equipment,yfinance,stock,CNY
+SHH,CSI SOLAR CO LTD,688472.SS,"CSI Solar Co., Ltd.",Technology,Solar,yfinance,stock,CNY
+SHH,LOONGSON TECHNOLOGY CORP LTD,688047.SS,Loongson Technology Corporation Limited,Technology,Semiconductors,yfinance,stock,CNY
+SHH,WESTERN SUPERCONDUCTING TECHNOL,688122.SS,"Western Superconducting Technologies Co., Ltd.",Industrials,Metal Fabrication,yfinance,stock,CNY
+SHH,JINKO SOLAR CO LTD,688223.SS,"Jinko Solar Co., Ltd.",Technology,Solar,yfinance,stock,CNY
+SHH,NATIONAL SILICON INDUSTRY GROUP,688126.SS,"National Silicon Industry Group Co., Ltd.",Technology,Semiconductor Equipment & Materials,yfinance,stock,CNY
+SHH,YONYOU NETWORK TECHNOLOGY CO LT,600588.SS,"Yonyou Network Technology Co.,Ltd.",Technology,Software—Application,yfinance,stock,CNY
+SHH,YTO EXPRESS GROUP CO LTD,600233.SS,"YTO Express Group Co.,Ltd.",Industrials,Integrated Freight & Logistics,yfinance,stock,CNY
+SHH,JINDUICHENG MOLYBDENUM CO. LTD.,601958.SS,"Jinduicheng Molybdenum Co., Ltd.",Basic Materials,Other Industrial Metals & Mining,yfinance,stock,CNY
+SHH,SHANGHAI ELECTRIC POWER CO,600021.SS,"Shanghai Electric Power Co., Ltd.",Utilities,Utilities—Renewable,yfinance,stock,CNY
+SHH,SHANGHAI PUTAILAI NEW ENGY TECH,603659.SS,"Shanghai Putailai New Energy Technology Group Co.,Ltd.",Basic Materials,Specialty Chemicals,yfinance,stock,CNY
+SHH,GREAT WALL MOTOR COMPANY LIMITE,601633.SS,Great Wall Motor Company Limited,Consumer Cyclical,Auto Manufacturers,yfinance,stock,CNY
+SHH,SICHUAN BIOKIN PHARMACEUTICAL C,688506.SS,"Sichuan Biokin Pharmaceutical Co.,Ltd.",Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,CNY
+SHH,ZHEJIANG ZHENENG ELECTRIC POWER,600023.SS,"Zhejiang Zheneng Electric Power Co., Ltd.",Utilities,Utilities—Independent Power Producers,yfinance,stock,CNY
+SHH,SHANGHAI FOSUN PHARMACEUTICAL G,600196.SS,"Shanghai Fosun Pharmaceutical (Group) Co., Ltd.",Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,CNY
+SHH,UNITED NOVA TECH CO LTD,688469.SS,"United Nova Technology Co.,Ltd.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,METALLURGICAL CORP OF CHINA LTD,601618.SS,Metallurgical Corporation of China Ltd.,Industrials,Engineering & Construction,yfinance,stock,CNY
+SHH,COSCO SHIPPING ENGY TPT CO LTD,600026.SS,"COSCO SHIPPING Energy Transportation Co., Ltd.",Energy,Oil & Gas Midstream,yfinance,stock,CNY
+SHH,SPRING AIRLINES CO LTD,601021.SS,"Spring Airlines Co., Ltd.",Industrials,Airlines,yfinance,stock,CNY
+SHH,CHONGQING RURAL COMMERCIAL BANK,601077.SS,"Chongqing Rural Commercial Bank Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,HOSHINE SILICON INDUSTRY CO LTD,603260.SS,"Hoshine Silicon Industry Co., Ltd.",Basic Materials,Chemicals,yfinance,stock,CNY
+SHH,XINJIANG DAQO NEW ENERGY CO LTD,688303.SS,"Xinjiang Daqo New Energy Co.,Ltd.",Industrials,Specialty Industrial Machinery,yfinance,stock,CNY
+SHH,HUA HONG SEMICONDUCTOR LIMITED,688347.SS,Hua Hong Semiconductor Limited,Technology,Semiconductors,yfinance,stock,CNY
+SHH,GUANGZHOU AUTOMOBILE GROUP,601238.SS,"Guangzhou Automobile Group Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,CNY
+SHH,CHIFENG JILONG GOLD MINING CO L,600988.SS,"Chifeng Jilong Gold Mining Co.,Ltd.",Basic Materials,Gold,yfinance,stock,CNY
+SHH,SDIC CAPITAL CO LTD,600061.SS,"SDIC Capital Co.,Ltd",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,SHANGHAI BAOSIGHT SOFTWARE,600845.SS,"Shanghai Baosight Software Co.,Ltd.",Technology,Software—Application,yfinance,stock,CNY
+SHH,SICHUAN CHANGHONG,600839.SS,"Sichuan Changhong Electric Co.,Ltd.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,CNY
+SHH,CHINA NATIONAL CHEMICAL ENGINEE,601117.SS,"China National Chemical Engineering Co., Ltd",Industrials,Engineering & Construction,yfinance,stock,CNY
+SHH,HAINAN AIRPORT INFRASTRUCTURE C,600515.SS,"Hainan Airport Infrastructure Co., Ltd",Real Estate,Real Estate—Diversified,yfinance,stock,CNY
+SHH,CHONGQING QIANLI TECHNOLOGY CO ,601777.SS,"Chongqing Afari Technology Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,CNY
+SHH,ZHONGTAI SECURITIES CO. LTD.,600918.SS,"Zhongtai Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,KINGFA SCI.&TECH. CO. LTD.,600143.SS,"Kingfa Sci. & Tech. Co., Ltd.",Basic Materials,Specialty Chemicals,yfinance,stock,CNY
+SHH,ACM RESEARCH (SHANGHAI) INC,688082.SS,"ACM Research (Shanghai), Inc.",Technology,Semiconductor Equipment & Materials,yfinance,stock,CNY
+SHH,SUPCON TECHNOLOGY CO LTD,688777.SS,"Supcon Technology Co.,Ltd",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,WINGTECH TECHNOLOGY CO LTD,600745.SS,"Wingtech Technology Co.,Ltd",Technology,Communication Equipment,yfinance,stock,CNY
+SHH,ENN NATURAL GAS CO LTD,600803.SS,"ENN Natural Gas Co.,Ltd.",Utilities,Utilities—Regulated Gas,yfinance,stock,CNY
+SHH,CHINA NATIONAL SOFTWARE& SERVIC,600536.SS,China National Software & Service Company Limited,Technology,Software—Application,yfinance,stock,CNY
+SHH,HANGZHOU SILAN MICROELECTRONICS,600460.SS,"Hangzhou Silan Microelectronics Co.,Ltd",Technology,Semiconductors,yfinance,stock,CNY
+SHH,DATANG INTERNATIONAL POWER GENE,601991.SS,"Datang International Power Generation Co., Ltd.",Utilities,Utilities—Independent Power Producers,yfinance,stock,CNY
+SHH,BEIJING WANTAI BIOLOGICAL PHARM,603392.SS,"Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.",Healthcare,Biotechnology,yfinance,stock,CNY
+SHH,ECOVACS ROBOTICS CO LTD,603486.SS,"Ecovacs Robotics Co., Ltd.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",yfinance,stock,CNY
+SHH,DONGXING SECURITIES CO LTD,601198.SS,Dongxing Securities Corporation Limited,Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,SHANGHAI PHARMACEUTICALS HOLDIN,601607.SS,"Shanghai Pharmaceuticals Holding Co., Ltd",Healthcare,Medical Distribution,yfinance,stock,CNY
+SHH,SAILUN GROUP CO LTD,601058.SS,"Sailun Group Co., Ltd.",Consumer Cyclical,Auto Parts,yfinance,stock,CNY
+SHH,ZHEJIANG WEIMING ENVIRONMENT PR,603568.SS,"Zhejiang Weiming Environment Protection Co., Ltd.",Industrials,Waste Management,yfinance,stock,CNY
+SHH,INNER MONGOLIA JUNZHENG ENERGY ,601216.SS,"Inner Mongolia Junzheng Energy & Chemical Group Co.,Ltd.",Basic Materials,Chemicals,yfinance,stock,CNY
+SHH,SOOCHOW SECURITIES CO LTD,601555.SS,"Soochow Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,SHANGHAI BOCHU ELECTRONIC TECH ,688188.SS,Shanghai BOCHU Electronic Technology Corporation Limited.,Technology,Semiconductors,yfinance,stock,CNY
+SHH,HUADIAN POWER INTERNATIONAL COR,600027.SS,Huadian Power International Corporation Limited,Utilities,Utilities—Regulated Electric,yfinance,stock,CNY
+SHH,SHANGHAI ALLIST PHARMACEUTICALS,688578.SS,"Shanghai Allist Pharmaceuticals Co., Ltd.",Healthcare,Biotechnology,yfinance,stock,CNY
+SHH,BAIC BLUEPARK NEW ENERGY TECHNO,600733.SS,"BAIC BluePark New Energy Technology Co., Ltd.",Consumer Cyclical,Auto Manufacturers,yfinance,stock,CNY
+SHH,JIANGSU KING'S LUCK BREWERY JSC,603369.SS,"Jiangsu King's Luck Brewery Joint-Stock Co.,Ltd.",Consumer Defensive,Beverages—Wineries & Distilleries,yfinance,stock,CNY
+SHH,YONGHUI SUPERSTORES CO LTD,601933.SS,"Yonghui Superstores Co., Ltd.",Consumer Cyclical,Department Stores,yfinance,stock,CNY
+SHH,CAITONG SECURITIES CO. LTD,601108.SS,"Caitong Securities Co.,Ltd.",Financial Services,Asset Management,yfinance,stock,CNY
+SHH,TIANFENG SECURITIES CO LTD,601162.SS,"Tianfeng Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,ZHESHANG SECURITIES CO. LTD,601878.SS,"Zheshang Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,BESTECHNIC (SHANGHAI) CO LTD,688608.SS,"Bestechnic (Shanghai) Co., Ltd.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,NINGBO ORIENT WIRES AND CABLES ,603606.SS,"Ningbo Orient Wires & Cables Co.,Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,BEIJING TONG REN TANG CO,600085.SS,"Beijing Tongrentang Co., Ltd",Healthcare,Drug Manufacturers—Specialty & Generic,yfinance,stock,CNY
+SHH,TSINGTAO BREWERY CO,600600.SS,Tsingtao Brewery Company Limited,Consumer Defensive,Beverages—Brewers,yfinance,stock,CNY
+SHH,SHANGHAI INTERNATIONAL AIRPORT ,600009.SS,"Shanghai International Airport Co., Ltd.",Industrials,Airports & Air Services,yfinance,stock,CNY
+SHH,BEIJING ROBOROCK TECHNOLOGY CO ,688169.SS,"Beijing Roborock Technology Co., Ltd.",Industrials,Specialty Industrial Machinery,yfinance,stock,CNY
+SHH,BOC INTERNATIONAL (CHINA) CO LT,601696.SS,"BOC International (China) CO., LTD.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,CHANGZHOU XINGYU AUTOMOTIVE LIG,601799.SS,"Changzhou Xingyu Automotive Lighting Systems Co.,Ltd.",Consumer Cyclical,Auto Parts,yfinance,stock,CNY
+SHH,TRINA SOLAR CO LTD,688599.SS,"Trina Solar Co., Ltd.",Technology,Solar,yfinance,stock,CNY
+SHH,GUOLIAN MINSHENG SECURITIES CO ,601456.SS,"Guolian Minsheng Securities Co., Ltd.",Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,SHANXI LU'AN ENV.ENERGY DEV.CO.,601699.SS,"Shanxi Lu'an Environmental Energy Development Co., Ltd.",Energy,Thermal Coal,yfinance,stock,CNY
+SHH,SHENERGY COMPANY LIMITED,600642.SS,Shenergy Company Limited,Utilities,Utilities—Diversified,yfinance,stock,CNY
+SHH,SHENZHEN GOODIX TECHNOLOGY CO L,603160.SS,"Shenzhen Goodix Technology Co., Ltd.",Technology,Software—Application,yfinance,stock,CNY
+SHH,ANGEL YEAST CO. LTD.,600298.SS,"Angel Yeast Co., Ltd",Consumer Defensive,Packaged Foods,yfinance,stock,CNY
+SHH,CAPITAL SECURITIES CORPORATION ,601136.SS,Capital Securities Corporation Limited,Financial Services,Capital Markets,yfinance,stock,CNY
+SHH,APT MEDICAL INC,688617.SS,APT Medical Inc.,Healthcare,Medical Devices,yfinance,stock,CNY
+SHH,BANK OF CHANGSHA CO LTD,601577.SS,"Bank of Changsha Co., Ltd.",Financial Services,Banks—Regional,yfinance,stock,CNY
+SHH,AMLOGIC (SHANGHAI) CO LTD,688099.SS,"Amlogic (Shanghai) Co.,Ltd.",Technology,Semiconductors,yfinance,stock,CNY
+SHH,GUANGHUI ENERGY CO LTD,600256.SS,"Guanghui Energy Co., Ltd.",Energy,Oil & Gas Integrated,yfinance,stock,CNY
+SHH,GONEO GROUP CO LTD,603195.SS,"Goneo Group Co., Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,ZHEJIANG LONGSHENG GROUP CO,600352.SS,"Zhejiang Longsheng Group Co.,Ltd",Basic Materials,Specialty Chemicals,yfinance,stock,CNY
+SHH,HANGZHOU FIRST APPLIED MATERIAL,603806.SS,"Hangzhou First Applied Material Co., Ltd.",Technology,Semiconductor Equipment & Materials,yfinance,stock,CNY
+SHH,CHINA RAILWAY SIGNAL & COM CORP,688009.SS,China Railway Signal & Communication Corporation Limited,Industrials,Railroads,yfinance,stock,CNY
+SHH,NINGBO SANXING MEDICAL ELECTRIC,601567.SS,"Ningbo Sanxing Medical Electric Co.,Ltd.",Industrials,Electrical Equipment & Parts,yfinance,stock,CNY
+SHH,GALAXYCORE INC,688728.SS,GalaxyCore Inc.,Technology,Semiconductors,yfinance,stock,CNY
+SHH,GUANGZHOU BAIYUNSHAN PHARMACEUT,600332.SS,Guangzhou Baiyunshan Pharmaceutical Holdings Company Limited,Healthcare,Medical Distribution,yfinance,stock,CNY
+SHH,EVERDISPLAY OPTRONICS (SHANGHAI,688538.SS,"Everdisplay Optronics (Shanghai) Co., Ltd.",Technology,Electronic Components,yfinance,stock,CNY
+SHH,BEIJING TIANTAN BIOLOGICAL PROD,600161.SS,"Beijing Tiantan Biological Products Co., Ltd.",Healthcare,Biotechnology,yfinance,stock,CNY
+SHH,YOUNGOR FASHION CO LTD,600177.SS,"Youngor Fashion Co., Ltd.",Consumer Cyclical,Apparel Manufacturing,yfinance,stock,CNY
+SHH,HUAIBEI MINING HOLDINGS CO LTD,600985.SS,"Huaibei Mining Holdings Co.,Ltd.",Basic Materials,Specialty Chemicals,yfinance,stock,CNY
+SHH,FLAT GLASS GROUP CO LTD,601865.SS,"Flat Glass Group Co., Ltd.",Technology,Solar,yfinance,stock,CNY
+SHH,WINTIME ENERGY GROUP CO LTD,600157.SS,"Wintime Energy Group Co.,Ltd.",Energy,Thermal Coal,yfinance,stock,CNY
+SHH,SINOLINK SECURITIES CO. LTD.,600109.SS,"Sinolink Securities Co., Ltd.",Financial Services,Asset Management,yfinance,stock,CNY
+SHH,ZHUZHOU CRRC TIMES ELECTRIC CO ,688187.SS,"Zhuzhou CRRC Times Electric Co., Ltd.",Industrials,Railroads,yfinance,stock,CNY
+NMS,NVIDIA Corporation,NVDA,NVIDIA Corporation,Technology,Semiconductors,alpaca,stock,USD
+NMS,Apple Inc.,AAPL,Apple Inc.,Technology,Consumer Electronics,alpaca,stock,USD
+NMS,Microsoft Corporation,MSFT,Microsoft Corporation,Technology,Software—Infrastructure,alpaca,stock,USD
+NMS,"Amazon.com, Inc.",AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,alpaca,stock,USD
+NMS,Alphabet Inc.,GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,alpaca,stock,USD
+NMS,Broadcom Inc.,AVGO,Broadcom Inc.,Technology,Semiconductors,alpaca,stock,USD
+NMS,Alphabet Inc.,GOOG,Alphabet Inc.,Communication Services,Internet Content & Information,alpaca,stock,USD
+NMS,"Meta Platforms, Inc.",META,"Meta Platforms, Inc.",Communication Services,Internet Content & Information,alpaca,stock,USD
+NMS,"Tesla, Inc.",TSLA,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers,alpaca,stock,USD
+NGM,Direxion Daily BRKB Bull 2X Sha,BRKU,,,,alpaca,stock,USD
+NYQ,JP Morgan Chase & Co.,JPM,JPMorgan Chase & Co.,Financial Services,Banks—Diversified,alpaca,stock,USD
+NYQ,Eli Lilly and Company,LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NYQ,Visa Inc.,V,Visa Inc.,Financial Services,Credit Services,alpaca,stock,USD
+NYQ,Exxon Mobil Corporation,XOM,Exxon Mobil Corporation,Energy,Oil & Gas Integrated,alpaca,stock,USD
+NYQ,Johnson & Johnson,JNJ,Johnson & Johnson,Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NMS,Walmart Inc.,WMT,Walmart Inc.,Consumer Defensive,Discount Stores,alpaca,stock,USD
+NYQ,Mastercard Incorporated,MA,Mastercard Incorporated,Financial Services,Credit Services,alpaca,stock,USD
+NMS,Costco Wholesale Corporation,COST,Costco Wholesale Corporation,Consumer Defensive,Discount Stores,alpaca,stock,USD
+NMS,Palantir Technologies Inc.,PLTR,Palantir Technologies Inc.,Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,AbbVie Inc.,ABBV,AbbVie Inc.,Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NMS,"Micron Technology, Inc.",MU,"Micron Technology, Inc.",Technology,Semiconductors,alpaca,stock,USD
+NYQ,"Home Depot, Inc. (The)",HD,"The Home Depot, Inc.",Consumer Cyclical,Home Improvement Retail,alpaca,stock,USD
+NMS,"Netflix, Inc.",NFLX,"Netflix, Inc.",Communication Services,Entertainment,alpaca,stock,USD
+NMS,"Advanced Micro Devices, Inc.",AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors,alpaca,stock,USD
+NYQ,Bank of America Corporation,BAC,Bank of America Corporation,Financial Services,Banks—Diversified,alpaca,stock,USD
+NYQ,Procter & Gamble Company (The),PG,The Procter & Gamble Company,Consumer Defensive,Household & Personal Products,alpaca,stock,USD
+NYQ,GE Aerospace,GE,GE Aerospace,Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,Oracle Corporation,ORCL,Oracle Corporation,Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,Chevron Corporation,CVX,Chevron Corporation,Energy,Oil & Gas Integrated,alpaca,stock,USD
+NYQ,UnitedHealth Group Incorporated,UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans,alpaca,stock,USD
+NYQ,"Caterpillar, Inc.",CAT,Caterpillar Inc.,Industrials,Farm & Heavy Construction Machinery,alpaca,stock,USD
+NMS,"Cisco Systems, Inc.",CSCO,"Cisco Systems, Inc.",Technology,Communication Equipment,alpaca,stock,USD
+NYQ,"Goldman Sachs Group, Inc. (The)",GS,"The Goldman Sachs Group, Inc.",Financial Services,Capital Markets,alpaca,stock,USD
+NYQ,Wells Fargo & Company,WFC,Wells Fargo & Company,Financial Services,Banks—Diversified,alpaca,stock,USD
+NYQ,International Business Machines,IBM,International Business Machines Corporation,Technology,Information Technology Services,alpaca,stock,USD
+NYQ,"Merck & Company, Inc.",MRK,"Merck & Co., Inc.",Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NMS,Lam Research Corporation,LRCX,Lam Research Corporation,Technology,Semiconductor Equipment & Materials,alpaca,stock,USD
+NYQ,Coca-Cola Company (The),KO,The Coca-Cola Company,Consumer Defensive,Beverages—Non-Alcoholic,alpaca,stock,USD
+NYQ,Philip Morris International Inc,PM,Philip Morris International Inc.,Consumer Defensive,Tobacco,alpaca,stock,USD
+NYQ,RTX Corporation,RTX,RTX Corporation,Industrials,Aerospace & Defense,alpaca,stock,USD
+NMS,"Applied Materials, Inc.",AMAT,"Applied Materials, Inc.",Technology,Semiconductor Equipment & Materials,alpaca,stock,USD
+NYQ,Thermo Fisher Scientific Inc,TMO,Thermo Fisher Scientific Inc.,Healthcare,Diagnostics & Research,alpaca,stock,USD
+NYQ,Morgan Stanley,MS,Morgan Stanley,Financial Services,Capital Markets,alpaca,stock,USD
+NYQ,"Salesforce, Inc.",CRM,"Salesforce, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,McDonald's Corporation,MCD,McDonald's Corporation,Consumer Cyclical,Restaurants,alpaca,stock,USD
+NMS,Intel Corporation,INTC,Intel Corporation,Technology,Semiconductors,alpaca,stock,USD
+NYQ,Abbott Laboratories,ABT,Abbott Laboratories,Healthcare,Medical Devices,alpaca,stock,USD
+NYQ,"Citigroup, Inc.",C,Citigroup Inc.,Financial Services,Banks—Diversified,alpaca,stock,USD
+NMS,Linde plc,LIN,Linde plc,Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NMS,KLA Corporation,KLAC,KLA Corporation,Technology,Semiconductor Equipment & Materials,alpaca,stock,USD
+NYQ,Walt Disney Company (The),DIS,The Walt Disney Company,Communication Services,Entertainment,alpaca,stock,USD
+NMS,"Pepsico, Inc.",PEP,"PepsiCo, Inc.",Consumer Defensive,Beverages—Non-Alcoholic,alpaca,stock,USD
+NYQ,Boeing Company (The),BA,The Boeing Company,Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,American Express Company,AXP,American Express Company,Financial Services,Credit Services,alpaca,stock,USD
+NMS,"Intuitive Surgical, Inc.",ISRG,"Intuitive Surgical, Inc.",Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NYQ,Amphenol Corporation,APH,Amphenol Corporation,Technology,Electronic Components,alpaca,stock,USD
+NYQ,Accenture plc,ACN,Accenture plc,Technology,Information Technology Services,alpaca,stock,USD
+NMS,Amgen Inc.,AMGN,Amgen Inc.,Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NYQ,"Uber Technologies, Inc.",UBER,"Uber Technologies, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,GE Vernova Inc.,GEV,GE Vernova Inc.,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,"TJX Companies, Inc. (The)",TJX,"The TJX Companies, Inc.",Consumer Cyclical,Apparel Retail,alpaca,stock,USD
+NMS,QUALCOMM Incorporated,QCOM,QUALCOMM Incorporated,Technology,Semiconductors,alpaca,stock,USD
+NMS,Texas Instruments Incorporated,TXN,Texas Instruments Incorporated,Technology,Semiconductors,alpaca,stock,USD
+NYQ,Charles Schwab Corporation (The,SCHW,The Charles Schwab Corporation,Financial Services,Capital Markets,alpaca,stock,USD
+NYQ,"NextEra Energy, Inc.",NEE,"NextEra Energy, Inc.",Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,S&P Global Inc.,SPGI,S&P Global Inc.,Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NYQ,AT&T Inc.,T,AT&T Inc.,Communication Services,Telecom Services,alpaca,stock,USD
+NMS,Booking Holdings Inc. Common St,BKNG,Booking Holdings Inc.,Consumer Cyclical,Travel Services,alpaca,stock,USD
+NYQ,"BlackRock, Inc.",BLK,"BlackRock, Inc.",Financial Services,Asset Management,alpaca,stock,USD
+NYQ,Verizon Communications Inc.,VZ,Verizon Communications Inc.,Communication Services,Telecom Services,alpaca,stock,USD
+NMS,Applovin Corporation,APP,AppLovin Corporation,Communication Services,Advertising Agencies,alpaca,stock,USD
+NYQ,"Lowe's Companies, Inc.",LOW,"Lowe's Companies, Inc.",Consumer Cyclical,Home Improvement Retail,alpaca,stock,USD
+NMS,Intuit Inc.,INTU,Intuit Inc.,Technology,Software—Application,alpaca,stock,USD
+NYQ,Danaher Corporation,DHR,Danaher Corporation,Healthcare,Diagnostics & Research,alpaca,stock,USD
+NYQ,Capital One Financial Corporati,COF,Capital One Financial Corporation,Financial Services,Credit Services,alpaca,stock,USD
+NMS,"Gilead Sciences, Inc.",GILD,"Gilead Sciences, Inc.",Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NMS,"Analog Devices, Inc.",ADI,"Analog Devices, Inc.",Technology,Semiconductors,alpaca,stock,USD
+NYQ,"Pfizer, Inc.",PFE,Pfizer Inc.,Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NYQ,Union Pacific Corporation,UNP,Union Pacific Corporation,Industrials,Railroads,alpaca,stock,USD
+NMS,Honeywell International Inc.,HON,Honeywell International Inc.,Industrials,Conglomerates,alpaca,stock,USD
+NYQ,"ServiceNow, Inc.",NOW,"ServiceNow, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,"Arista Networks, Inc.",ANET,"Arista Networks, Inc.",Technology,Computer Hardware,alpaca,stock,USD
+NYQ,Boston Scientific Corporation,BSX,Boston Scientific Corporation,Healthcare,Medical Devices,alpaca,stock,USD
+NYQ,"Eaton Corporation, PLC",ETN,Eaton Corporation plc,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Deere & Company,DE,Deere & Company,Industrials,Farm & Heavy Construction Machinery,alpaca,stock,USD
+NYQ,Welltower Inc.,WELL,Welltower Inc.,Real Estate,REIT—Healthcare Facilities,alpaca,stock,USD
+NMS,"Palo Alto Networks, Inc.",PANW,"Palo Alto Networks, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NMS,Adobe Inc.,ADBE,Adobe Inc.,Technology,Software—Application,alpaca,stock,USD
+NYQ,Medtronic plc.,MDT,Medtronic plc,Healthcare,Medical Devices,alpaca,stock,USD
+NYQ,Stryker Corporation,SYK,Stryker Corporation,Healthcare,Medical Devices,alpaca,stock,USD
+NYQ,Newmont Corporation,NEM,Newmont Corporation,Basic Materials,Gold,alpaca,stock,USD
+NYQ,"Prologis, Inc.",PLD,"Prologis, Inc.",Real Estate,REIT—Industrial,alpaca,stock,USD
+NYQ,ConocoPhillips,COP,ConocoPhillips,Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,Progressive Corporation (The),PGR,The Progressive Corporation,Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NYQ,Parker-Hannifin Corporation,PH,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Blackstone Inc.,BX,Blackstone Inc.,Financial Services,Asset Management,alpaca,stock,USD
+NYQ,Lockheed Martin Corporation,LMT,Lockheed Martin Corporation,Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,Bristol-Myers Squibb Company,BMY,Bristol-Myers Squibb Company,Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NMS,"CrowdStrike Holdings, Inc.",CRWD,"CrowdStrike Holdings, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NMS,Vertex Pharmaceuticals Incorpor,VRTX,Vertex Pharmaceuticals Incorporated,Healthcare,Biotechnology,alpaca,stock,USD
+NYQ,Chubb Limited,CB,Chubb Limited,Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NMS,Constellation Energy Corporatio,CEG,Constellation Energy Corporation,Utilities,Utilities—Independent Power Producers,alpaca,stock,USD
+NMS,Starbucks Corporation,SBUX,Starbucks Corporation,Consumer Cyclical,Restaurants,alpaca,stock,USD
+NMS,"Automatic Data Processing, Inc.",ADP,"Automatic Data Processing, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,McKesson Corporation,MCK,McKesson Corporation,Healthcare,Medical Distribution,alpaca,stock,USD
+NYQ,"Altria Group, Inc.",MO,"Altria Group, Inc.",Consumer Defensive,Tobacco,alpaca,stock,USD
+NYQ,CVS Health Corporation,CVS,CVS Health Corporation,Healthcare,Healthcare Plans,alpaca,stock,USD
+NMS,Comcast Corporation,CMCSA,Comcast Corporation,Communication Services,Telecom Services,alpaca,stock,USD
+NYQ,Intercontinental Exchange Inc.,ICE,"Intercontinental Exchange, Inc.",Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NMS,CME Group Inc.,CME,CME Group Inc.,Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NYQ,Southern Company (The),SO,The Southern Company,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,"Synopsys, Inc.",SNPS,"Synopsys, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,General Dynamics Corporation,GD,General Dynamics Corporation,Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,Duke Energy Corporation (Holdin,DUK,Duke Energy Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,"T-Mobile US, Inc.",TMUS,"T-Mobile US, Inc.",Communication Services,Telecom Services,alpaca,stock,USD
+NYQ,3M Company,MMM,3M Company,Industrials,Conglomerates,alpaca,stock,USD
+NYQ,Howmet Aerospace Inc.,HWM,Howmet Aerospace Inc.,Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,KKR & Co. Inc.,KKR,KKR & Co. Inc.,Financial Services,Asset Management,alpaca,stock,USD
+NYQ,,MRSH,"Marsh & McLennan Companies, Inc.",Financial Services,Insurance Brokers,alpaca,stock,USD
+NYQ,Northrop Grumman Corporation,NOC,Northrop Grumman Corporation,Industrials,Aerospace & Defense,alpaca,stock,USD
+NMS,"Cadence Design Systems, Inc.",CDNS,"Cadence Design Systems, Inc.",Technology,Software—Application,alpaca,stock,USD
+NMS,"Robinhood Markets, Inc.",HOOD,"Robinhood Markets, Inc.",Financial Services,Capital Markets,alpaca,stock,USD
+NYQ,The Bank of New York Mellon Cor,BK,The Bank of New York Mellon Corporation,Financial Services,Banks—Diversified,alpaca,stock,USD
+NYQ,"Freeport-McMoRan, Inc.",FCX,Freeport-McMoRan Inc.,Basic Materials,Copper,alpaca,stock,USD
+NYQ,Trane Technologies plc,TT,Trane Technologies plc,Industrials,Building Products & Equipment,alpaca,stock,USD
+NYQ,American Tower Corporation (REI,AMT,American Tower Corporation,Real Estate,REIT—Specialty,alpaca,stock,USD
+NYQ,"Elevance Health, Inc.",ELV,"Elevance Health, Inc.",Healthcare,Healthcare Plans,alpaca,stock,USD
+NYQ,"PNC Financial Services Group, I",PNC,"The PNC Financial Services Group, Inc.",Financial Services,Banks—Regional,alpaca,stock,USD
+NYQ,U.S. Bancorp,USB,U.S. Bancorp,Financial Services,Banks—Regional,alpaca,stock,USD
+NYQ,Emerson Electric Company,EMR,Emerson Electric Co.,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Moody's Corporation,MCO,Moody's Corporation,Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NYQ,CRH PLC,CRH,CRH plc,Basic Materials,Building Materials,alpaca,stock,USD
+NYQ,Sherwin-Williams Company (The),SHW,The Sherwin-Williams Company,Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NYQ,"Waste Management, Inc.",WM,"Waste Management, Inc.",Industrials,Waste Management,alpaca,stock,USD
+NYQ,Transdigm Group Incorporated,TDG,TransDigm Group Incorporated,Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,"United Parcel Service, Inc.",UPS,"United Parcel Service, Inc.",Industrials,Integrated Freight & Logistics,alpaca,stock,USD
+NYQ,Cummins Inc.,CMI,Cummins Inc.,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NMS,"O'Reilly Automotive, Inc.",ORLY,"O'Reilly Automotive, Inc.",Consumer Cyclical,Auto Parts,alpaca,stock,USD
+NMS,"Equinix, Inc.",EQIX,"Equinix, Inc.",Real Estate,REIT—Specialty,alpaca,stock,USD
+NMS,"DoorDash, Inc.",DASH,"DoorDash, Inc.",Consumer Cyclical,Internet Retail,alpaca,stock,USD
+NYQ,"HCA Healthcare, Inc.",HCA,"HCA Healthcare, Inc.",Healthcare,Medical Care Facilities,alpaca,stock,USD
+NYQ,"Nike, Inc.",NKE,"NIKE, Inc.",Consumer Cyclical,Footwear & Accessories,alpaca,stock,USD
+NMS,Western Digital Corporation,WDC,Western Digital Corporation,Technology,Computer Hardware,alpaca,stock,USD
+NYQ,General Motors Company,GM,General Motors Company,Consumer Cyclical,Auto Manufacturers,alpaca,stock,USD
+NMS,"Regeneron Pharmaceuticals, Inc.",REGN,"Regeneron Pharmaceuticals, Inc.",Healthcare,Biotechnology,alpaca,stock,USD
+NYQ,The Cigna Group,CI,The Cigna Group,Healthcare,Healthcare Plans,alpaca,stock,USD
+NYQ,Aon plc,AON,Aon plc,Financial Services,Insurance Brokers,alpaca,stock,USD
+NMS,"Mondelez International, Inc.",MDLZ,"Mondelez International, Inc.",Consumer Defensive,Confectioners,alpaca,stock,USD
+NYQ,"Williams Companies, Inc. (The)",WMB,"The Williams Companies, Inc.",Energy,Oil & Gas Midstream,alpaca,stock,USD
+NYQ,Corning Incorporated,GLW,Corning Incorporated,Technology,Electronic Components,alpaca,stock,USD
+NMS,Marriott International,MAR,"Marriott International, Inc.",Consumer Cyclical,Lodging,alpaca,stock,USD
+NYQ,TE Connectivity plc,TEL,TE Connectivity plc,Technology,Electronic Components,alpaca,stock,USD
+NYQ,Ecolab Inc.,ECL,Ecolab Inc.,Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NMS,"Warner Bros. Discovery, Inc. - ",WBD,"Warner Bros. Discovery, Inc.",Communication Services,Entertainment,alpaca,stock,USD
+NYQ,Royal Caribbean Cruises Ltd.,RCL,Royal Caribbean Cruises Ltd.,Consumer Cyclical,Travel Services,alpaca,stock,USD
+NYQ,Hilton Worldwide Holdings Inc.,HLT,Hilton Worldwide Holdings Inc.,Consumer Cyclical,Lodging,alpaca,stock,USD
+NMS,Seagate Technology Holdings PLC,STX,Seagate Technology Holdings plc,Technology,Computer Hardware,alpaca,stock,USD
+NYQ,SLB Limited,SLB,SLB N.V.,Energy,Oil & Gas Equipment & Services,alpaca,stock,USD
+NYQ,Illinois Tool Works Inc.,ITW,Illinois Tool Works Inc.,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Johnson Controls International ,JCI,Johnson Controls International plc,Industrials,Building Products & Equipment,alpaca,stock,USD
+NYQ,"Cencora, Inc.",COR,"Cencora, Inc.",Healthcare,Medical Distribution,alpaca,stock,USD
+NYQ,Colgate-Palmolive Company,CL,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products,alpaca,stock,USD
+NYQ,FedEx Corporation,FDX,FedEx Corporation,Industrials,Integrated Freight & Logistics,alpaca,stock,USD
+NMS,CSX Corporation,CSX,CSX Corporation,Industrials,Railroads,alpaca,stock,USD
+NYQ,"Apollo Global Management, Inc. ",APO,"Apollo Global Management, Inc.",Financial Services,Asset Management,alpaca,stock,USD
+NMS,Cintas Corporation,CTAS,Cintas Corporation,Industrials,Specialty Business Services,alpaca,stock,USD
+NYQ,"Quanta Services, Inc.",PWR,"Quanta Services, Inc.",Industrials,Engineering & Construction,alpaca,stock,USD
+NYQ,Arthur J. Gallagher & Co.,AJG,Arthur J. Gallagher & Co.,Financial Services,Insurance Brokers,alpaca,stock,USD
+NYQ,"Motorola Solutions, Inc.",MSI,"Motorola Solutions, Inc.",Technology,Communication Equipment,alpaca,stock,USD
+NYQ,Norfolk Southern Corporation,NSC,Norfolk Southern Corporation,Industrials,Railroads,alpaca,stock,USD
+NYQ,Carvana Co.,CVNA,Carvana Co.,Consumer Cyclical,Auto & Truck Dealerships,alpaca,stock,USD
+NYQ,Truist Financial Corporation,TFC,Truist Financial Corporation,Financial Services,Banks—Regional,alpaca,stock,USD
+NMS,PACCAR Inc.,PCAR,PACCAR Inc,Industrials,Farm & Heavy Construction Machinery,alpaca,stock,USD
+NMS,American Electric Power Company,AEP,"American Electric Power Company, Inc.",Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,"L3Harris Technologies, Inc.",LHX,"L3Harris Technologies, Inc.",Industrials,Aerospace & Defense,alpaca,stock,USD
+NMS,"Ross Stores, Inc.",ROST,"Ross Stores, Inc.",Consumer Cyclical,Apparel Retail,alpaca,stock,USD
+NYQ,"The Travelers Companies, Inc.",TRV,"The Travelers Companies, Inc.",Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NMS,NXP Semiconductors N.V.,NXPI,NXP Semiconductors N.V.,Technology,Semiconductors,alpaca,stock,USD
+NYQ,DBA Sempra,SRE,Sempra,Utilities,Utilities—Diversified,alpaca,stock,USD
+NYQ,"Becton, Dickinson and Company",BDX,"Becton, Dickinson and Company",Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NYQ,"Simon Property Group, Inc.",SPG,"Simon Property Group, Inc.",Real Estate,REIT—Retail,alpaca,stock,USD
+NYQ,"Air Products and Chemicals, Inc",APD,"Air Products and Chemicals, Inc.",Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NYQ,"United Rentals, Inc.",URI,"United Rentals, Inc.",Industrials,Rental & Leasing Services,alpaca,stock,USD
+NYQ,"EOG Resources, Inc.",EOG,"EOG Resources, Inc.",Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,"AutoZone, Inc.",AZO,"AutoZone, Inc.",Consumer Cyclical,Auto Parts,alpaca,stock,USD
+NYQ,Vistra Corp.,VST,Vistra Corp.,Utilities,Utilities—Independent Power Producers,alpaca,stock,USD
+NMS,Sandisk Corporation,SNDK,Sandisk Corporation,Technology,Computer Hardware,alpaca,stock,USD
+NMS,"IDEXX Laboratories, Inc.",IDXX,"IDEXX Laboratories, Inc.",Healthcare,Diagnostics & Research,alpaca,stock,USD
+NYQ,Phillips 66,PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,alpaca,stock,USD
+NMS,"Airbnb, Inc.",ABNB,"Airbnb, Inc.",Consumer Cyclical,Travel Services,alpaca,stock,USD
+NYQ,Valero Energy Corporation,VLO,Valero Energy Corporation,Energy,Oil & Gas Refining & Marketing,alpaca,stock,USD
+NMS,"Autodesk, Inc.",ADSK,"Autodesk, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,Realty Income Corporation,O,Realty Income Corporation,Real Estate,REIT—Retail,alpaca,stock,USD
+NMS,Monster Beverage Corporation,MNST,Monster Beverage Corporation,Consumer Defensive,Beverages—Non-Alcoholic,alpaca,stock,USD
+NYQ,Zoetis Inc.,ZTS,Zoetis Inc.,Healthcare,Drug Manufacturers—Specialty & Generic,alpaca,stock,USD
+NMS,"Coinbase Global, Inc. - 3",COIN,"Coinbase Global, Inc.",Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NYQ,Ford Motor Company,F,Ford Motor Company,Consumer Cyclical,Auto Manufacturers,alpaca,stock,USD
+NYQ,"Kinder Morgan, Inc.",KMI,"Kinder Morgan, Inc.",Energy,Oil & Gas Midstream,alpaca,stock,USD
+NYQ,Marathon Petroleum Corporation,MPC,Marathon Petroleum Corporation,Energy,Oil & Gas Refining & Marketing,alpaca,stock,USD
+NYQ,"Chipotle Mexican Grill, Inc.",CMG,"Chipotle Mexican Grill, Inc.",Consumer Cyclical,Restaurants,alpaca,stock,USD
+NMS,"PayPal Holdings, Inc.",PYPL,"PayPal Holdings, Inc.",Financial Services,Credit Services,alpaca,stock,USD
+NYQ,"Digital Realty Trust, Inc.",DLR,"Digital Realty Trust, Inc.",Real Estate,REIT—Specialty,alpaca,stock,USD
+NYQ,AFLAC Incorporated,AFL,Aflac Incorporated,Financial Services,Insurance—Life,alpaca,stock,USD
+NYQ,"Dominion Energy, Inc.",D,"Dominion Energy, Inc.",Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,Baker Hughes Company,BKR,Baker Hughes Company,Energy,Oil & Gas Equipment & Services,alpaca,stock,USD
+NYQ,Allstate Corporation (The),ALL,The Allstate Corporation,Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NYQ,"Cardinal Health, Inc.",CAH,"Cardinal Health, Inc.",Healthcare,Medical Distribution,alpaca,stock,USD
+NYQ,Target Corporation,TGT,Target Corporation,Consumer Defensive,Discount Stores,alpaca,stock,USD
+NMS,"Axon Enterprise, Inc.",AXON,"Axon Enterprise, Inc.",Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,CBRE Group Inc,CBRE,"CBRE Group, Inc.",Real Estate,Real Estate Services,alpaca,stock,USD
+NMS,Fastenal Company,FAST,Fastenal Company,Industrials,Industrial Distribution,alpaca,stock,USD
+NYQ,"AMETEK, Inc.",AME,"AMETEK, Inc.",Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Edwards Lifesciences Corporatio,EW,Edwards Lifesciences Corporation,Healthcare,Medical Devices,alpaca,stock,USD
+NMS,"Monolithic Power Systems, Inc.",MPWR,"Monolithic Power Systems, Inc.",Technology,Semiconductors,alpaca,stock,USD
+NMS,"Fortinet, Inc.",FTNT,"Fortinet, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,"Corteva, Inc.",CTVA,"Corteva, Inc.",Basic Materials,Agricultural Inputs,alpaca,stock,USD
+NYQ,"Ameriprise Financial, Inc.",AMP,"Ameriprise Financial, Inc.",Financial Services,Asset Management,alpaca,stock,USD
+NYQ,"Rockwell Automation, Inc.",ROK,"Rockwell Automation, Inc.",Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,"W.W. Grainger, Inc.",GWW,"W.W. Grainger, Inc.",Industrials,Industrial Distribution,alpaca,stock,USD
+NYQ,Public Storage,PSA,Public Storage,Real Estate,REIT—Industrial,alpaca,stock,USD
+NYQ,"Delta Air Lines, Inc.",DAL,"Delta Air Lines, Inc.",Industrials,Airlines,alpaca,stock,USD
+NYQ,"ONEOK, Inc.",OKE,"ONEOK, Inc.",Energy,Oil & Gas Midstream,alpaca,stock,USD
+NMS,Electronic Arts Inc.,EA,Electronic Arts Inc.,Communication Services,Electronic Gaming & Multimedia,alpaca,stock,USD
+NMS,"Nasdaq, Inc.",NDAQ,"Nasdaq, Inc.",Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NYQ,MSCI Inc.,MSCI,MSCI Inc.,Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NYQ,"Yum! Brands, Inc.",YUM,"Yum! Brands, Inc.",Consumer Cyclical,Restaurants,alpaca,stock,USD
+NMS,Exelon Corporation,EXC,Exelon Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,"Roper Technologies, Inc.",ROP,"Roper Technologies, Inc.",Technology,Software—Application,alpaca,stock,USD
+NMS,Xcel Energy Inc.,XEL,Xcel Energy Inc.,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,"D.R. Horton, Inc.",DHI,"D.R. Horton, Inc.",Consumer Cyclical,Residential Construction,alpaca,stock,USD
+NYQ,Carrier Global Corporation,CARR,Carrier Global Corporation,Industrials,Building Products & Equipment,alpaca,stock,USD
+NMS,eBay Inc.,EBAY,eBay Inc.,Consumer Cyclical,Internet Retail,alpaca,stock,USD
+NYQ,"MetLife, Inc.",MET,"MetLife, Inc.",Financial Services,Insurance—Life,alpaca,stock,USD
+NYQ,Entergy Corporation,ETR,Entergy Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,"Take-Two Interactive Software, ",TTWO,"Take-Two Interactive Software, Inc.",Communication Services,Electronic Gaming & Multimedia,alpaca,stock,USD
+NYQ,"Republic Services, Inc.",RSG,"Republic Services, Inc.",Industrials,Waste Management,alpaca,stock,USD
+NMS,"Workday, Inc.",WDAY,"Workday, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,"IQVIA Holdings, Inc.",IQV,IQVIA Holdings Inc.,Healthcare,Diagnostics & Research,alpaca,stock,USD
+NYQ,"Agilent Technologies, Inc.",A,"Agilent Technologies, Inc.",Healthcare,Diagnostics & Research,alpaca,stock,USD
+NMS,Cognizant Technology Solutions ,CTSH,Cognizant Technology Solutions Corporation,Technology,Information Technology Services,alpaca,stock,USD
+NYQ,"Prudential Financial, Inc.",PRU,"Prudential Financial, Inc.",Financial Services,Insurance—Life,alpaca,stock,USD
+NMS,Microchip Technology Incorporat,MCHP,Microchip Technology Incorporated,Technology,Semiconductors,alpaca,stock,USD
+NYQ,Nucor Corporation,NUE,Nucor Corporation,Basic Materials,Steel,alpaca,stock,USD
+NYQ,"American International Group, I",AIG,"American International Group, Inc.",Financial Services,Insurance—Diversified,alpaca,stock,USD
+NYQ,Vulcan Materials Company (Holdi,VMC,Vulcan Materials Company,Basic Materials,Building Materials,alpaca,stock,USD
+NYQ,Public Service Enterprise Group,PEG,Public Service Enterprise Group Incorporated,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,Crown Castle Inc.,CCI,Crown Castle Inc.,Real Estate,REIT—Specialty,alpaca,stock,USD
+NMS,"Datadog, Inc.",DDOG,"Datadog, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,Westinghouse Air Brake Technolo,WAB,Westinghouse Air Brake Technologies Corporation,Industrials,Railroads,alpaca,stock,USD
+NYQ,"Targa Resources, Inc.",TRGP,Targa Resources Corp.,Energy,Oil & Gas Midstream,alpaca,stock,USD
+NYQ,"Martin Marietta Materials, Inc.",MLM,"Martin Marietta Materials, Inc.",Basic Materials,Building Materials,alpaca,stock,USD
+NYQ,"Comfort Systems USA, Inc.",FIX,"Comfort Systems USA, Inc.",Industrials,Engineering & Construction,alpaca,stock,USD
+NYQ,Kroger Company (The),KR,The Kroger Co.,Consumer Defensive,Grocery Stores,alpaca,stock,USD
+NYQ,State Street Corporation,STT,State Street Corporation,Financial Services,Asset Management,alpaca,stock,USD
+NYQ,ResMed Inc.,RMD,ResMed Inc.,Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NYQ,Sysco Corporation,SYY,Sysco Corporation,Consumer Defensive,Food Distribution,alpaca,stock,USD
+NMS,Keurig Dr Pepper Inc.,KDP,Keurig Dr Pepper Inc.,Consumer Defensive,Beverages—Non-Alcoholic,alpaca,stock,USD
+NMS,GE HealthCare Technologies Inc.,GEHC,GE HealthCare Technologies Inc.,Healthcare,Medical Devices,alpaca,stock,USD
+NMS,"United Airlines Holdings, Inc.",UAL,"United Airlines Holdings, Inc.",Industrials,Airlines,alpaca,stock,USD
+NYQ,Fair Isaac Corporation,FICO,Fair Isaac Corporation,Technology,Software—Application,alpaca,stock,USD
+NYQ,"Consolidated Edison, Inc.",ED,"Consolidated Edison, Inc.",Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,Keysight Technologies Inc.,KEYS,"Keysight Technologies, Inc.",Technology,Scientific & Technical Instruments,alpaca,stock,USD
+NMS,"Copart, Inc.",CPRT,"Copart, Inc.",Industrials,Specialty Business Services,alpaca,stock,USD
+NYQ,"The Hartford Insurance Group, I",HIG,"The Hartford Insurance Group, Inc.",Financial Services,Insurance—Diversified,alpaca,stock,USD
+NYQ,"Ventas, Inc.",VTR,"Ventas, Inc.",Real Estate,REIT—Healthcare Facilities,alpaca,stock,USD
+NYQ,Dell Technologies Inc.,DELL,Dell Technologies Inc.,Technology,Computer Hardware,alpaca,stock,USD
+NMS,"Fiserv, Inc.",FISV,"Fiserv, Inc.",Technology,Information Technology Services,alpaca,stock,USD
+NMS,"Paychex, Inc.",PAYX,"Paychex, Inc.",Technology,Software—Application,alpaca,stock,USD
+NMS,"Teradyne, Inc.",TER,"Teradyne, Inc.",Technology,Semiconductor Equipment & Materials,alpaca,stock,USD
+NYQ,"Block, Inc.",XYZ,"Block, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,Xylem Inc.,XYL,Xylem Inc.,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Otis Worldwide Corporation,OTIS,Otis Worldwide Corporation,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,"WEC Energy Group, Inc.",WEC,"WEC Energy Group, Inc.",Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,Ares Management Corporation,ARES,Ares Management Corporation,Financial Services,Asset Management,alpaca,stock,USD
+NYQ,Garmin Ltd.,GRMN,Garmin Ltd.,Technology,Scientific & Technical Instruments,alpaca,stock,USD
+NYQ,Pacific Gas & Electric Co.,PCG,PG&E Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,"Expedia Group, Inc.",EXPE,"Expedia Group, Inc.",Consumer Cyclical,Travel Services,alpaca,stock,USD
+NYQ,Humana Inc.,HUM,Humana Inc.,Healthcare,Healthcare Plans,alpaca,stock,USD
+NYQ,Dollar General Corporation,DG,Dollar General Corporation,Consumer Defensive,Discount Stores,alpaca,stock,USD
+NMS,Kimberly-Clark Corporation,KMB,Kimberly-Clark Corporation,Consumer Defensive,Household & Personal Products,alpaca,stock,USD
+NYQ,Kenvue Inc.,KVUE,Kenvue Inc.,Consumer Defensive,Household & Personal Products,alpaca,stock,USD
+NYQ,Fidelity National Information S,FIS,"Fidelity National Information Services, Inc.",Technology,Information Technology Services,alpaca,stock,USD
+NMS,Arch Capital Group Ltd.,ACGL,Arch Capital Group Ltd.,Financial Services,Insurance—Diversified,alpaca,stock,USD
+NMS,"Interactive Brokers Group, Inc.",IBKR,"Interactive Brokers Group, Inc.",Financial Services,Capital Markets,alpaca,stock,USD
+NMS,"Old Dominion Freight Line, Inc.",ODFL,"Old Dominion Freight Line, Inc.",Industrials,Trucking,alpaca,stock,USD
+NYQ,M&T Bank Corporation,MTB,M&T Bank Corporation,Financial Services,Banks—Regional,alpaca,stock,USD
+NMS,Fifth Third Bancorp,FITB,Fifth Third Bancorp,Financial Services,Banks—Regional,alpaca,stock,USD
+NYQ,Archer-Daniels-Midland Company,ADM,Archer-Daniels-Midland Company,Consumer Defensive,Farm Products,alpaca,stock,USD
+NYQ,Carnival Corporation,CCL,Carnival Corporation & plc,Consumer Cyclical,Travel Services,alpaca,stock,USD
+NMS,Willis Towers Watson Public Lim,WTW,Willis Towers Watson Public Limited Company,Financial Services,Insurance Brokers,alpaca,stock,USD
+NYQ,Ingersoll Rand Inc.,IR,Ingersoll Rand Inc.,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Extra Space Storage Inc,EXR,Extra Space Storage Inc.,Real Estate,REIT—Industrial,alpaca,stock,USD
+NYQ,EQT Corporation,EQT,EQT Corporation,Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,Occidental Petroleum Corporatio,OXY,Occidental Petroleum Corporation,Energy,Oil & Gas E&P,alpaca,stock,USD
+NMS,"Verisk Analytics, Inc.",VRSK,"Verisk Analytics, Inc.",Industrials,Consulting Services,alpaca,stock,USD
+NYQ,"Mettler-Toledo International, I",MTD,Mettler-Toledo International Inc.,Healthcare,Diagnostics & Research,alpaca,stock,USD
+NYQ,"EMCOR Group, Inc.",EME,"EMCOR Group, Inc.",Industrials,Engineering & Construction,alpaca,stock,USD
+NYQ,"NRG Energy, Inc.",NRG,"NRG Energy, Inc.",Utilities,Utilities—Independent Power Producers,alpaca,stock,USD
+NYQ,VICI Properties Inc.,VICI,VICI Properties Inc.,Real Estate,REIT—Diversified,alpaca,stock,USD
+NYQ,"Raymond James Financial, Inc.",RJF,"Raymond James Financial, Inc.",Financial Services,Asset Management,alpaca,stock,USD
+NMS,"Ulta Beauty, Inc.",ULTA,"Ulta Beauty, Inc.",Consumer Cyclical,Specialty Retail,alpaca,stock,USD
+NYQ,The Hershey Company,HSY,The Hershey Company,Consumer Defensive,Confectioners,alpaca,stock,USD
+NYQ,Hewlett Packard Enterprise Comp,HPE,Hewlett Packard Enterprise Company,Technology,Communication Equipment,alpaca,stock,USD
+NYQ,"Estee Lauder Companies, Inc. (T",EL,The Estée Lauder Companies Inc.,Consumer Defensive,Household & Personal Products,alpaca,stock,USD
+BTS,"Cboe Global Markets, Inc.",CBOE,"Cboe Global Markets, Inc.",Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NMS,Huntington Bancshares Incorpora,HBAN,Huntington Bancshares Incorporated,Financial Services,Banks—Regional,alpaca,stock,USD
+NYQ,Dover Corporation,DOV,Dover Corporation,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NMS,"Diamondback Energy, Inc.",FANG,"Diamondback Energy, Inc.",Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,Synchrony Financial,SYF,Synchrony Financial,Financial Services,Credit Services,alpaca,stock,USD
+NYQ,DTE Energy Company,DTE,DTE Energy Company,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,Ameren Corporation,AEE,Ameren Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,Northern Trust Corporation,NTRS,Northern Trust Corporation,Financial Services,Asset Management,alpaca,stock,USD
+NYQ,Halliburton Company,HAL,Halliburton Company,Energy,Oil & Gas Equipment & Services,alpaca,stock,USD
+NYQ,Iron Mountain Incorporated (Del,IRM,Iron Mountain Incorporated,Real Estate,REIT—Specialty,alpaca,stock,USD
+NYQ,Atmos Energy Corporation,ATO,Atmos Energy Corporation,Utilities,Utilities—Regulated Gas,alpaca,stock,USD
+NYQ,"Tapestry, Inc.",TPR,"Tapestry, Inc.",Consumer Cyclical,Luxury Goods,alpaca,stock,USD
+NYQ,Jabil Inc.,JBL,Jabil Inc.,Technology,Electronic Components,alpaca,stock,USD
+NMS,"DexCom, Inc.",DXCM,"DexCom, Inc.",Healthcare,Medical Devices,alpaca,stock,USD
+NMS,"CoStar Group, Inc.",CSGP,"CoStar Group, Inc.",Real Estate,Real Estate Services,alpaca,stock,USD
+NYQ,"Equifax, Inc.",EFX,Equifax Inc.,Industrials,Consulting Services,alpaca,stock,USD
+NMS,Tractor Supply Company,TSCO,Tractor Supply Company,Consumer Cyclical,Specialty Retail,alpaca,stock,USD
+NMS,"Dollar Tree, Inc.",DLTR,"Dollar Tree, Inc.",Consumer Defensive,Discount Stores,alpaca,stock,USD
+NYQ,Teledyne Technologies Incorpora,TDY,Teledyne Technologies Incorporated,Technology,Scientific & Technical Instruments,alpaca,stock,USD
+NYQ,PPL Corporation,PPL,PPL Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,Lennar Corporation,LEN,Lennar Corporation,Consumer Cyclical,Residential Construction,alpaca,stock,USD
+NYQ,STERIS plc (Ireland),STE,STERIS plc,Healthcare,Medical Devices,alpaca,stock,USD
+NYQ,Eversource Energy (D/B/A),ES,Eversource Energy,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,"First Solar, Inc.",FSLR,"First Solar, Inc.",Technology,Solar,alpaca,stock,USD
+NYQ,"Citizens Financial Group, Inc.",CFG,"Citizens Financial Group, Inc.",Financial Services,Banks—Regional,alpaca,stock,USD
+NYQ,"American Water Works Company, I",AWK,"American Water Works Company, Inc.",Utilities,Utilities—Regulated Water,alpaca,stock,USD
+NYQ,"PulteGroup, Inc.",PHM,"PulteGroup, Inc.",Consumer Cyclical,Residential Construction,alpaca,stock,USD
+NYQ,Omnicom Group Inc.,OMC,Omnicom Group Inc.,Communication Services,Advertising Agencies,alpaca,stock,USD
+NYQ,Hubbell Inc,HUBB,Hubbell Incorporated,Industrials,Electrical Equipment & Parts,alpaca,stock,USD
+NYQ,"CenterPoint Energy, Inc (Holdin",CNP,"CenterPoint Energy, Inc.",Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,"Broadridge Financial Solutions,",BR,"Broadridge Financial Solutions, Inc.",Technology,Information Technology Services,alpaca,stock,USD
+NYQ,Veralto Corp,VLTO,Veralto Corporation,Industrials,Pollution & Treatment Controls,alpaca,stock,USD
+NYQ,"Williams-Sonoma, Inc.",WSM,"Williams-Sonoma, Inc.",Consumer Cyclical,Specialty Retail,alpaca,stock,USD
+NYQ,"AvalonBay Communities, Inc.",AVB,"AvalonBay Communities, Inc.",Real Estate,REIT—Residential,alpaca,stock,USD
+NMS,Cincinnati Financial Corporatio,CINF,Cincinnati Financial Corporation,Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NYQ,Regions Financial Corporation,RF,Regions Financial Corporation,Financial Services,Banks—Regional,alpaca,stock,USD
+NYQ,"Darden Restaurants, Inc.",DRI,"Darden Restaurants, Inc.",Consumer Cyclical,Restaurants,alpaca,stock,USD
+NYQ,"Leidos Holdings, Inc.",LDOS,"Leidos Holdings, Inc.",Technology,Information Technology Services,alpaca,stock,USD
+NMS,Biogen Inc.,BIIB,Biogen Inc.,Healthcare,Drug Manufacturers—General,alpaca,stock,USD
+NYQ,"PPG Industries, Inc.",PPG,"PPG Industries, Inc.",Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NYQ,"General Mills, Inc.",GIS,"General Mills, Inc.",Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NMS,ON Semiconductor Corporation,ON,ON Semiconductor Corporation,Technology,Semiconductors,alpaca,stock,USD
+NYQ,FirstEnergy Corp.,FE,FirstEnergy Corp.,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,"Steel Dynamics, Inc.",STLD,"Steel Dynamics, Inc.",Basic Materials,Steel,alpaca,stock,USD
+NMS,Expand Energy Corporation,EXE,Expand Energy Corporation,Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,Edison International,EIX,Edison International,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,Waters Corporation,WAT,Waters Corporation,Healthcare,Diagnostics & Research,alpaca,stock,USD
+NMS,"T. Rowe Price Group, Inc.",TROW,"T. Rowe Price Group, Inc.",Financial Services,Asset Management,alpaca,stock,USD
+NYQ,"Brown & Brown, Inc.",BRO,"Brown & Brown, Inc.",Financial Services,Insurance Brokers,alpaca,stock,USD
+NYQ,"Corpay, Inc.",CPAY,"Corpay, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,International Paper Company,IP,International Paper Company,Consumer Cyclical,Packaging & Containers,alpaca,stock,USD
+NYQ,"Live Nation Entertainment, Inc.",LYV,"Live Nation Entertainment, Inc.",Communication Services,Entertainment,alpaca,stock,USD
+NYQ,Devon Energy Corporation,DVN,Devon Energy Corporation,Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,Smurfit WestRock plc,SW,Smurfit Westrock Plc,Consumer Cyclical,Packaging & Containers,alpaca,stock,USD
+NYQ,"Constellation Brands, Inc.",STZ,"Constellation Brands, Inc.",Consumer Defensive,Beverages—Brewers,alpaca,stock,USD
+NYQ,Southwest Airlines Company,LUV,Southwest Airlines Co.,Industrials,Airlines,alpaca,stock,USD
+NYQ,Labcorp Holdings Inc.,LH,Labcorp Holdings Inc.,Healthcare,Diagnostics & Research,alpaca,stock,USD
+NMS,lululemon athletica inc.,LULU,lululemon athletica inc.,Consumer Cyclical,Apparel Retail,alpaca,stock,USD
+NYQ,Centene Corporation,CNC,Centene Corporation,Healthcare,Healthcare Plans,alpaca,stock,USD
+NYQ,Expeditors International of Was,EXPD,"Expeditors International of Washington, Inc.",Industrials,Integrated Freight & Logistics,alpaca,stock,USD
+NYQ,"Church & Dwight Company, Inc.",CHD,"Church & Dwight Co., Inc.",Consumer Defensive,Household & Personal Products,alpaca,stock,USD
+NMS,"NetApp, Inc.",NTAP,"NetApp, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,CMS Energy Corporation,CMS,CMS Energy Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,"NVR, Inc.",NVR,"NVR, Inc.",Consumer Cyclical,Residential Construction,alpaca,stock,USD
+NYQ,Equity Residential,EQR,Equity Residential,Real Estate,REIT—Residential,alpaca,stock,USD
+NYQ,Quest Diagnostics Incorporated,DGX,Quest Diagnostics Incorporated,Healthcare,Diagnostics & Research,alpaca,stock,USD
+NMS,"VeriSign, Inc.",VRSN,"VeriSign, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,NiSource Inc,NI,NiSource Inc.,Utilities,Utilities—Regulated Gas,alpaca,stock,USD
+NMS,"C.H. Robinson Worldwide, Inc.",CHRW,"C.H. Robinson Worldwide, Inc.",Industrials,Integrated Freight & Logistics,alpaca,stock,USD
+NMS,The Kraft Heinz Company,KHC,The Kraft Heinz Company,Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NYQ,W.R. Berkley Corporation,WRB,W. R. Berkley Corporation,Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NYQ,Amcor plc,AMCR,Amcor plc,Consumer Cyclical,Packaging & Containers,alpaca,stock,USD
+NYQ,Albemarle Corporation,ALB,Albemarle Corporation,Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NMS,SBA Communications Corporation,SBAC,SBA Communications Corporation,Real Estate,REIT—Specialty,alpaca,stock,USD
+NMS,Insulet Corporation,PODD,Insulet Corporation,Healthcare,Medical Devices,alpaca,stock,USD
+NYQ,"West Pharmaceutical Services, I",WST,"West Pharmaceutical Services, Inc.",Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NMS,PTC Inc.,PTC,PTC Inc.,Technology,Software—Application,alpaca,stock,USD
+NYQ,Dow Inc.,DOW,Dow Inc.,Basic Materials,Chemicals,alpaca,stock,USD
+NYQ,Packaging Corporation of Americ,PKG,Packaging Corporation of America,Consumer Cyclical,Packaging & Containers,alpaca,stock,USD
+NYQ,KeyCorp,KEY,KeyCorp,Financial Services,Banks—Regional,alpaca,stock,USD
+NYQ,Coterra Energy Inc.,CTRA,Coterra Energy Inc.,Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,"Qnity Electronics, Inc.",Q,"Qnity Electronics, Inc.",Technology,Semiconductor Equipment & Materials,alpaca,stock,USD
+NYQ,Weyerhaeuser Company,WY,Weyerhaeuser Company,Real Estate,REIT—Specialty,alpaca,stock,USD
+NYQ,HP Inc.,HPQ,HP Inc.,Technology,Computer Hardware,alpaca,stock,USD
+NYQ,"Tyler Technologies, Inc.",TYL,"Tyler Technologies, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,Texas Pacific Land Corporation,TPL,Texas Pacific Land Corporation,Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,Genuine Parts Company,GPC,Genuine Parts Company,Consumer Cyclical,Auto Parts,alpaca,stock,USD
+NYQ,Snap-On Incorporated,SNA,Snap-on Incorporated,Industrials,Tools & Accessories,alpaca,stock,USD
+NMS,Trimble Inc.,TRMB,Trimble Inc.,Technology,Scientific & Technical Instruments,alpaca,stock,USD
+NYQ,Las Vegas Sands Corp.,LVS,Las Vegas Sands Corp.,Consumer Cyclical,Resorts & Casinos,alpaca,stock,USD
+NYQ,"Rollins, Inc.",ROL,"Rollins, Inc.",Consumer Cyclical,Personal Services,alpaca,stock,USD
+NMS,Principal Financial Group Inc,PFG,"Principal Financial Group, Inc.",Financial Services,Asset Management,alpaca,stock,USD
+NYQ,"DuPont de Nemours, Inc.",DD,"DuPont de Nemours, Inc.",Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NYQ,International Flavors & Fragran,IFF,International Flavors & Fragrances Inc.,Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NYQ,Aptiv PLC,APTV,Aptiv PLC,Consumer Cyclical,Auto Parts,alpaca,stock,USD
+NYQ,Global Payments Inc.,GPN,Global Payments Inc.,Industrials,Specialty Business Services,alpaca,stock,USD
+NYQ,Fortive Corporation,FTV,Fortive Corporation,Technology,Scientific & Technical Instruments,alpaca,stock,USD
+NYQ,"Zimmer Biomet Holdings, Inc.",ZBH,"Zimmer Biomet Holdings, Inc.",Healthcare,Medical Devices,alpaca,stock,USD
+NYQ,Loews Corporation,L,Loews Corporation,Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NYQ,Pentair plc.,PNR,Pentair plc,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NMS,"Evergy, Inc.",EVRG,"Evergy, Inc.",Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,"McCormick & Company, Incorporat",MKC,"McCormick & Company, Incorporated",Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NMS,Incyte Corporation,INCY,Incyte Corporation,Healthcare,Biotechnology,alpaca,stock,USD
+NMS,Alliant Energy Corporation,LNT,Alliant Energy Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NMS,CDW Corporation,CDW,CDW Corporation,Technology,Information Technology Services,alpaca,stock,USD
+NMS,"Charter Communications, Inc.",CHTR,"Charter Communications, Inc.",Communication Services,Telecom Services,alpaca,stock,USD
+NYQ,"Tyson Foods, Inc.",TSN,"Tyson Foods, Inc.",Consumer Defensive,Farm Products,alpaca,stock,USD
+NYQ,Jacobs Solutions Inc.,J,Jacobs Solutions Inc.,Industrials,Engineering & Construction,alpaca,stock,USD
+NYQ,"Lennox International, Inc.",LII,Lennox International Inc.,Industrials,Building Products & Equipment,alpaca,stock,USD
+NMS,"Hologic, Inc.",HOLX,"Hologic, Inc.",Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NYQ,"Gartner, Inc.",IT,"Gartner, Inc.",Technology,Information Technology Services,alpaca,stock,USD
+NYQ,Textron Inc.,TXT,Textron Inc.,Industrials,Aerospace & Defense,alpaca,stock,USD
+NYQ,"Huntington Ingalls Industries, ",HII,"Huntington Ingalls Industries, Inc.",Industrials,Aerospace & Defense,alpaca,stock,USD
+NMS,"The Cooper Companies, Inc.",COO,"The Cooper Companies, Inc.",Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NYQ,"Essex Property Trust, Inc.",ESS,"Essex Property Trust, Inc.",Real Estate,REIT—Residential,alpaca,stock,USD
+NGM,"The Trade Desk, Inc.",TTD,"The Trade Desk, Inc.",Communication Services,Advertising Agencies,alpaca,stock,USD
+NYQ,Mid-America Apartment Communiti,MAA,"Mid-America Apartment Communities, Inc.",Real Estate,REIT—Residential,alpaca,stock,USD
+NMS,"F5, Inc.",FFIV,"F5, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NMS,"J.B. Hunt Transport Services, I",JBHT,"J.B. Hunt Transport Services, Inc.",Industrials,Integrated Freight & Logistics,alpaca,stock,USD
+NYQ,Invitation Homes Inc.,INVH,Invitation Homes Inc.,Real Estate,REIT—Residential,alpaca,stock,USD
+NMS,Fox Corporation,FOXA,Fox Corporation,Communication Services,Entertainment,alpaca,stock,USD
+NYQ,Deckers Outdoor Corporation,DECK,Deckers Outdoor Corporation,Consumer Cyclical,Footwear & Accessories,alpaca,stock,USD
+NYQ,Ball Corporation,BALL,Ball Corporation,Consumer Cyclical,Packaging & Containers,alpaca,stock,USD
+NMS,Viatris Inc.,VTRS,Viatris Inc.,Healthcare,Drug Manufacturers—Specialty & Generic,alpaca,stock,USD
+NYQ,Masco Corporation,MAS,Masco Corporation,Industrials,Building Products & Equipment,alpaca,stock,USD
+NMS,Gen Digital Inc.,GEN,Gen Digital Inc.,Technology,Software—Infrastructure,alpaca,stock,USD
+NMS,"Super Micro Computer, Inc.",SMCI,"Super Micro Computer, Inc.",Technology,Computer Hardware,alpaca,stock,USD
+NYQ,Bunge Limited,BG,Bunge Global SA,Consumer Defensive,Farm Products,alpaca,stock,USD
+NYQ,IDEX Corporation,IEX,IDEX Corporation,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Avery Dennison Corporation,AVY,Avery Dennison Corporation,Consumer Cyclical,Packaging & Containers,alpaca,stock,USD
+NMS,Nordson Corporation,NDSN,Nordson Corporation,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,GoDaddy Inc.,GDDY,GoDaddy Inc.,Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,Ralph Lauren Corporation,RL,Ralph Lauren Corporation,Consumer Cyclical,Apparel Manufacturing,alpaca,stock,USD
+NYQ,"Builders FirstSource, Inc.",BLDR,"Builders FirstSource, Inc.",Industrials,Building Products & Equipment,alpaca,stock,USD
+NYQ,Kimco Realty Corporation (HC),KIM,Kimco Realty Corporation,Real Estate,REIT—Retail,alpaca,stock,USD
+NYQ,Allegion plc,ALLE,Allegion plc,Industrials,Security & Protection Services,alpaca,stock,USD
+NYQ,"TKO Group Holdings, Inc.",TKO,"TKO Group Holdings, Inc.",Communication Services,Entertainment,alpaca,stock,USD
+NMS,"Jack Henry & Associates, Inc.",JKHY,"Jack Henry & Associates, Inc.",Technology,Information Technology Services,alpaca,stock,USD
+NMS,"Moderna, Inc.",MRNA,"Moderna, Inc.",Healthcare,Biotechnology,alpaca,stock,USD
+NYQ,Clorox Company (The),CLX,The Clorox Company,Consumer Defensive,Household & Personal Products,alpaca,stock,USD
+NYQ,"CF Industries Holdings, Inc.",CF,"CF Industries Holdings, Inc.",Basic Materials,Agricultural Inputs,alpaca,stock,USD
+NYQ,"Everest Group, Ltd.",EG,"Everest Group, Ltd.",Financial Services,Insurance—Reinsurance,alpaca,stock,USD
+NYQ,"Best Buy Co., Inc.",BBY,"Best Buy Co., Inc.",Consumer Cyclical,Specialty Retail,alpaca,stock,USD
+NMS,"Akamai Technologies, Inc.",AKAM,"Akamai Technologies, Inc.",Technology,Software—Infrastructure,alpaca,stock,USD
+NYQ,Invesco Ltd,IVZ,Invesco Ltd.,Financial Services,Asset Management,alpaca,stock,USD
+NMS,Zebra Technologies Corporation,ZBRA,Zebra Technologies Corporation,Technology,Communication Equipment,alpaca,stock,USD
+NYQ,LyondellBasell Industries NV,LYB,LyondellBasell Industries N.V.,Basic Materials,Specialty Chemicals,alpaca,stock,USD
+NYQ,"Revvity, Inc.",RVTY,"Revvity, Inc.",Healthcare,Diagnostics & Research,alpaca,stock,USD
+NYQ,"Stanley Black & Decker, Inc.",SWK,"Stanley Black & Decker, Inc.",Industrials,Tools & Accessories,alpaca,stock,USD
+NMS,Domino's Pizza Inc,DPZ,"Domino's Pizza, Inc.",Consumer Cyclical,Restaurants,alpaca,stock,USD
+NYQ,"Healthpeak Properties, Inc.",DOC,"Healthpeak Properties, Inc.",Real Estate,REIT—Healthcare Facilities,alpaca,stock,USD
+NYQ,"EPAM Systems, Inc.",EPAM,"EPAM Systems, Inc.",Technology,Information Technology Services,alpaca,stock,USD
+NYQ,"Assurant, Inc.",AIZ,"Assurant, Inc.",Financial Services,Insurance—Property & Casualty,alpaca,stock,USD
+NYQ,Solventum Corporation,SOLV,Solventum Corporation,Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NMS,"Host Hotels & Resorts, Inc.",HST,"Host Hotels & Resorts, Inc.",Real Estate,REIT—Hotel & Motel,alpaca,stock,USD
+NMS,"Hasbro, Inc.",HAS,"Hasbro, Inc.",Consumer Cyclical,Leisure,alpaca,stock,USD
+NYQ,Camden Property Trust,CPT,Camden Property Trust,Real Estate,REIT—Residential,alpaca,stock,USD
+NMS,Regency Centers Corporation,REG,Regency Centers Corporation,Real Estate,REIT—Retail,alpaca,stock,USD
+NMS,"Align Technology, Inc.",ALGN,"Align Technology, Inc.",Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NYQ,"Universal Health Services, Inc.",UHS,"Universal Health Services, Inc.",Healthcare,Medical Care Facilities,alpaca,stock,USD
+NYQ,The J.M. Smucker Company,SJM,The J. M. Smucker Company,Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NYQ,"UDR, Inc.",UDR,"UDR, Inc.",Real Estate,REIT—Residential,alpaca,stock,USD
+NYQ,Globe Life Inc.,GL,Globe Life Inc.,Financial Services,Insurance—Life,alpaca,stock,USD
+NYQ,Pinnacle West Capital Corporati,PNW,Pinnacle West Capital Corporation,Utilities,Utilities—Regulated Electric,alpaca,stock,USD
+NYQ,"Dayforce, Inc.",DAY,"Dayforce, Inc.",Technology,Software—Application,alpaca,stock,USD
+NYQ,Charles River Laboratories Inte,CRL,"Charles River Laboratories International, Inc.",Healthcare,Diagnostics & Research,alpaca,stock,USD
+NMS,Bio-Techne Corp,TECH,Bio-Techne Corporation,Healthcare,Biotechnology,alpaca,stock,USD
+NYQ,FactSet Research Systems Inc.,FDS,FactSet Research Systems Inc.,Financial Services,Financial Data & Stock Exchanges,alpaca,stock,USD
+NYQ,Baxter International Inc.,BAX,Baxter International Inc.,Healthcare,Medical Instruments & Supplies,alpaca,stock,USD
+NYQ,Norwegian Cruise Line Holdings ,NCLH,Norwegian Cruise Line Holdings Ltd.,Consumer Cyclical,Travel Services,alpaca,stock,USD
+NYQ,The AES Corporation,AES,The AES Corporation,Utilities,Utilities—Diversified,alpaca,stock,USD
+NMS,News Corporation,NWSA,News Corporation,Communication Services,Entertainment,alpaca,stock,USD
+NYQ,Molina Healthcare Inc,MOH,"Molina Healthcare, Inc.",Healthcare,Healthcare Plans,alpaca,stock,USD
+NMS,"Wynn Resorts, Limited",WYNN,"Wynn Resorts, Limited",Consumer Cyclical,Resorts & Casinos,alpaca,stock,USD
+NYQ,"BXP, Inc.",BXP,"BXP, Inc.",Real Estate,REIT—Office,alpaca,stock,USD
+NMS,Fox Corporation,FOX,Fox Corporation,Communication Services,Entertainment,alpaca,stock,USD
+NYQ,Generac Holdlings Inc.,GNRC,Generac Holdings Inc.,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NMS,APA Corporation,APA,APA Corporation,Energy,Oil & Gas E&P,alpaca,stock,USD
+NYQ,Alexandria Real Estate Equities,ARE,"Alexandria Real Estate Equities, Inc.",Real Estate,REIT—Office,alpaca,stock,USD
+NMS,Pool Corporation,POOL,Pool Corporation,Industrials,Industrial Distribution,alpaca,stock,USD
+NYQ,Mosaic Company (The),MOS,The Mosaic Company,Basic Materials,Agricultural Inputs,alpaca,stock,USD
+NMS,"Skyworks Solutions, Inc.",SWKS,"Skyworks Solutions, Inc.",Technology,Semiconductors,alpaca,stock,USD
+NYQ,Molson Coors Beverage Company,TAP,Molson Coors Beverage Company,Consumer Defensive,Beverages—Brewers,alpaca,stock,USD
+NYQ,"ConAgra Brands, Inc.",CAG,"Conagra Brands, Inc.",Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NYQ,A.O. Smith Corporation,AOS,A. O. Smith Corporation,Industrials,Specialty Industrial Machinery,alpaca,stock,USD
+NYQ,Federal Realty Investment Trust,FRT,Federal Realty Investment Trust,Real Estate,REIT—Retail,alpaca,stock,USD
+NYQ,"Franklin Resources, Inc.",BEN,"Franklin Resources, Inc.",Financial Services,Asset Management,alpaca,stock,USD
+NMS,"Henry Schein, Inc.",HSIC,"Henry Schein, Inc.",Healthcare,Medical Distribution,alpaca,stock,USD
+NYQ,"Paycom Software, Inc.",PAYC,"Paycom Software, Inc.",Technology,Software—Application,alpaca,stock,USD
+NMS,"Match Group, Inc.",MTCH,"Match Group, Inc.",Communication Services,Internet Content & Information,alpaca,stock,USD
+NYQ,MGM Resorts International,MGM,MGM Resorts International,Consumer Cyclical,Resorts & Casinos,alpaca,stock,USD
+NYQ,Hormel Foods Corporation,HRL,Hormel Foods Corporation,Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NMS,Erie Indemnity Company,ERIE,Erie Indemnity Company,Financial Services,Insurance Brokers,alpaca,stock,USD
+NYQ,"Lamb Weston Holdings, Inc.",LW,"Lamb Weston Holdings, Inc.",Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NMS,The Campbell's Company,CPB,The Campbell's Company,Consumer Defensive,Packaged Foods,alpaca,stock,USD
+NAS,BlackRock Liquidity Funds FedFu,BFBXX,BlackRock Liquidity Funds - FedFund,,,alpaca,stock,USD
+NMS,News Corporation,NWS,News Corporation,Communication Services,Entertainment,alpaca,stock,USD
+NYQ,DaVita Inc.,DVA,DaVita Inc.,Healthcare,Medical Care Facilities,alpaca,stock,USD
+NMS,Paramount Skydance Corporation,PSKY,Paramount Skydance Corporation,Communication Services,Entertainment,alpaca,stock,USD
+NGM,"Invesco QQQ Trust, Series 1",QQQ,Invesco QQQ Trust,,,yfinance,ETF,USD
+PCX,iShares MSCI Germany Index Fund,EWG,iShares MSCI Germany ETF,,,yfinance,ETF,USD
+PCX,SPDR S&P 500,SPY,SPDR S&P 500 ETF,,,yfinance,ETF,USD
+PCX,SPDR Gold Shares,GLD,SPDR Gold Shares,,,yfinance,ETF,USD
+PCX,United States Oil Fund,USO,"United States Oil Fund, LP",,,yfinance,ETF,USD
+PCX,abrdn Physical Silver Shares ET,SIVR,abrdn Physical Silver Shares ETF,,,yfinance,ETF,USD
+PCX,iShares MSCI Japan Index Fund,EWJ,iShares MSCI Japan ETF,,,yfinance,ETF,USD
+NGM,iShares MSCI China ETF,MCHI,iShares MSCI China ETF,,,yfinance,ETF,USD
