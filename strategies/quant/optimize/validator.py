@@ -1,7 +1,7 @@
 from collections.abc import Callable
 import pandas as pd
 from strategies.quant.optimize.backtester import Backtester #simuliert strategie
-from strategies.quant.optimize.analyser import analyser #gibt sharpe ratio
+from strategies.quant.optimize.analyser import analyse #gibt sharpe ratio
 from strategies.quant.optimize.optimizer import run_optimizer # versucht alle parameter für eine strategie und gibt die beste
 #load data -> optimize -> simulate -> analyze
 class Validator:

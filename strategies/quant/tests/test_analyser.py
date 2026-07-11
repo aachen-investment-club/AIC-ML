@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 from strategies.quant.optimize import analyser as analyser_module
 from strategies.quant.optimize.analyser import analyse
-from test_data_generator import sample_ticker_data, sample_trade_logs
+from strategies.quant.tests.test_data_generator import *
+
 
 
 # Define all analysis functions to test with: (analysis_key, function_name, required_arguments)

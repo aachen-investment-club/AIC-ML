@@ -2,8 +2,8 @@ import pytest
 import pandas as pd
 import copy
 from strategies.quant.optimize.backtester import Backtester
-from test_data_generator import sample_ticker_data, sample_metadata, dummy_execute_func, sample_configs
 
+from strategies.quant.tests.test_data_generator import *
 
 # Define all backtester implementations to test with: (backtester_key, class_name, required_methods)
 BACKTESTER_TO_TEST = [

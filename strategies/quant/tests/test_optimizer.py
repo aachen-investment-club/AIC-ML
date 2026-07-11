@@ -4,7 +4,8 @@ import numpy as np
 from unittest.mock import patch
 from strategies.quant.optimize import optimizer as optimizer_module
 from strategies.quant.optimize.optimizer import run_optimizer
-from test_data_generator import sample_ticker_data, sample_metadata
+
+from strategies.quant.tests.test_data_generator import *
 
 
 # Define all optimizer functions to test with: (optimizer_key, function_name, required_arguments)

@@ -1,8 +1,8 @@
 import pytest
 import pandas as pd
 from strategies.quant.optimize.validator import Validator
-from test_data_generator import sample_ticker_data, sample_metadata, dummy_execute_func
 
+from strategies.quant.tests.test_data_generator import *
 
 # Define all validator pipelines to test with: (pipeline_key, function_name, required_arguments)
 VALIDATOR_TO_TEST = [
@@ -49,8 +49,8 @@ class TestValidator:
         for arg in required_args:
             assert arg in sig.parameters
 
-    @pytest.mark.parametrize("pipeline_key,func_name,required_args", VALIDATOR_TO_TEST)
-    def test_validator_output_correctness(self, pipeline_key, func_name, required_args, tmp_path, sample_ticker_data, sample_metadata):
+        @pytest.mark.parametrize("pipeline_key,func_name,required_args", VALIDATOR_TO_TEST)
+    def test_validator_output_correctness(self, pipeline_key, func_name, required_args, tmp_path, sample_ticker_data, sample_metadata, dummy_execute_func):
         """
         Test 4: Verify the correctness of the output (type, value range)
         """
@@ -63,6 +63,7 @@ class TestValidator:
         sample_ticker_data.to_csv(data_path, index=False)
         sample_metadata.to_csv(meta_path, index=False)
         
+        # KORREKTUR: dummy_execute_func wird jetzt sauber als Fixture injiziert
         out = func(
             input_data_path=str(data_path),
             input_metadata_path=str(meta_path),
