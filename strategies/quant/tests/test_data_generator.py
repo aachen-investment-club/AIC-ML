@@ -90,3 +90,87 @@ def sample_signal_matrix(signal_generation_params):
             signals.append(0)
     signal_matrix["signal"] = signals
     return signal_matrix
+
+
+@pytest.fixture
+def sample_ticker_data():
+    
+    dates = pd.date_range(start="2026-01-01", periods=50, freq="D")
+    np.random.seed(42)
+    prices = 100.0 + np.cumsum(np.random.randn(50) * 1.5)
+    
+    return pd.DataFrame({
+        "date": dates.strftime("%Y-%m-%d"),
+        "close": prices
+    })
+
+@pytest.fixture
+def sample_trade_logs():
+    
+    return pd.DataFrame({
+        "date": ["2026-01-05", "2026-01-15", "2026-01-25"],
+        "time": ["09:30:00", "14:15:00", "11:00:00"],
+        "shares": [10.0, 5.0, 8.0],
+        "type": ["PURCHASE", "SALE", "PURCHASE"]
+    })
+
+@pytest.fixture
+def sample_metadata():
+    
+    return pd.DataFrame({
+        "ticker": ["AAPL"],
+        "asset_class": ["EQUITY"]
+    })
+
+@pytest.fixture
+def sample_configs():
+    
+    return {
+        "active_strategy": "TREND_FOLLOWING",
+        "alpha_parameters": {
+            "rsi_length": 14,
+            "ma_fast": 5
+        },
+        "context_parameters": {
+            "entry_barrier": 0.8
+        }
+    }
+
+@pytest.fixture
+def dummy_execute_func():
+    
+    def _execute(input_data, input_metadata, configs):
+        # Gibt ein gültiges Dictionary mit Trade-Logs zurück
+        return {
+            "trade_df": pd.DataFrame({
+                "date": ["2026-01-05", "2026-01-15"],
+                "time": ["09:30:00", "14:15:00"],
+                "shares": [10.0, 5.0],
+                "type": ["PURCHASE", "SALE"]
+            })
+        }
+    return _execute
+
+@pytest.fixture
+def sample_ticker_data():
+    """
+    Erzeugt künstliche Kursdaten für die analyse-Funktion.
+    """
+    dates = pd.date_range(start="2026-01-01", periods=10, freq="D")
+    return pd.DataFrame({
+        "date": dates.strftime("%Y-%m-%d"),
+        "close": [100.0, 102.0, 101.0, 105.0, 104.0, 107.0, 110.0, 108.0, 112.0, 115.0]
+    })
+
+
+@pytest.fixture
+def sample_trade_logs():
+    """
+    Erzeugt künstliche Trade-Einträge für den Portfolio-Analyser.
+    """
+    return pd.DataFrame({
+        "date": ["2026-01-02", "2026-01-05"],
+        "time": ["10:00:00", "14:30:00"],
+        "shares": [10.0, 5.0],
+        "type": ["PURCHASE", "SALE"]
+    })
