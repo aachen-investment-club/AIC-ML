@@ -15,7 +15,7 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if base_dir not in sys.path:
     sys.path.append(base_dir)
 
-portfolio_repo_path = os.path.join(base_dir, "portfolio_management")
+portfolio_repo_path = os.path.join(base_dir, "portfolio-management")
 
 if portfolio_repo_path not in sys.path:
     sys.path.append(portfolio_repo_path)
