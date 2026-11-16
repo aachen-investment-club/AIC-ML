@@ -1,0 +1,15 @@
+# packages for the lambda image, pinned to the versions tested locally
+tensorflow==2.21.0
+scikit-learn==1.9.1
+joblib==1.6.0
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+yfinance==1.8.0
+boto3==1.43.126
+pydantic==2.14.3
+SQLAlchemy==2.1.8
+alpaca-py==0.45.0
+awswrangler==3.18.0
+requests==2.34.2
+click==8.5.1
