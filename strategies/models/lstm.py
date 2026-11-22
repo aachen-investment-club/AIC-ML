@@ -70,8 +70,8 @@ class LSTMStrategy(Strategy):
         
         raw_data = Market.get_historical_data(
             tickers=[ticker], 
-            start=start_date.strftime('%Y-%m-%d'), 
-            end=end_date.strftime('%Y-%m-%d')
+            start=start_date, 
+            end=end_date
         )
 
         raw_data["date"] = pd.to_datetime(raw_data["date"])
