@@ -1,7 +1,10 @@
 import os
 import json
-from typing import Optional, Tuple
+import boto3
+from typing import Optional, Tuple, List
 from .util import get_hash_folder_name 
+
+MODEL_S3_PREFIX = "models"
 
 class ModelArtifactManager:
     """
@@ -96,6 +99,29 @@ class ModelArtifactManager:
                     f.write(f"{str(line).rstrip()}\n")
                     
             print(f"[{self.strategy_name}] Saved {filename} to: {path}")
+
+    def get_s3_latest_prefix(self) -> str:
+        """s3 prefix that mirrors latest/"""
+        return f"{MODEL_S3_PREFIX}/{self.strategy_name}/latest/"
+
+    def upload_latest(self, bucket: str, s3_client=None) -> List[str]:
+        """uploads every file in latest/ to s3://<bucket>/models/<strategy_name>/latest/"""
+        s3_client = s3_client or boto3.client("s3")
+        latest_dir = os.path.join(self.base_dir, "latest")
+        prefix = self.get_s3_latest_prefix()
+
+        uploaded_keys = []
+        for root, _, files in os.walk(latest_dir):
+            for name in sorted(files):
+                local_path = os.path.join(root, name)
+                # S3 keys always use "/", also on Windows
+                relative_path = os.path.relpath(local_path, latest_dir).replace(os.sep, "/")
+                key = prefix + relative_path
+
+                s3_client.upload_file(local_path, bucket, key)
+                uploaded_keys.append(key)
+
+        return uploaded_keys
 
 
 

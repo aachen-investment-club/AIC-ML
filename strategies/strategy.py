@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 import boto3
+from boto3.exceptions import S3UploadFailedError
+from botocore.exceptions import BotoCoreError, ClientError
 import json
 import os
 import shutil
@@ -119,7 +121,26 @@ class Strategy(ABC):
         
         cls._load_model_from_disk(load_path)
         print(f"[{cls.strategy_name}] Model successfully loaded from: {load_path}")
-    
+
+    @classmethod
+    def get_model_bucket(cls) -> str:
+        """bucket for model artifacts; MODEL_ARTIFACT_BUCKET overrides it"""
+        return os.getenv("MODEL_ARTIFACT_BUCKET") or cls.s3_bucket_name
+
+    @classmethod
+    def upload_latest_artifacts(cls) -> None:
+        """uploads latest/ to S3; a failed upload only prints a warning"""
+        bucket = cls.get_model_bucket()
+        manager = cls.get_manager()
+        target = f"s3://{bucket}/{manager.get_s3_latest_prefix()}"
+
+        try:
+            uploaded_keys = manager.upload_latest(bucket)
+        except (BotoCoreError, ClientError, S3UploadFailedError) as e:
+            print(f"[{cls.strategy_name}] WARNING: upload to {target} failed ({e})")
+            return
+
+        print(f"[{cls.strategy_name}] Uploaded {len(uploaded_keys)} files to {target}")
 
 
 
@@ -137,7 +158,10 @@ class Strategy(ABC):
         cls.save_model()
         if train_results is not None:
             cls.get_manager().save_results(train_results, "train_results.json")
-            
+
+        # 4. Upload latest/ to S3
+        cls.upload_latest_artifacts()
+        
         print(f"[{cls.strategy_name}] Training complete.")
 
 
@@ -154,6 +178,10 @@ class Strategy(ABC):
         # 3. Teardown: Save test metrics automatically
         if test_results is not None:
             cls.get_manager().save_results(test_results, "test_results.json", version_folder=model_version)
+
+        # 4. Upload latest/ to S3 (only when testing the latest model)
+        if model_version is None:
+            cls.upload_latest_artifacts()
 
 
     @classmethod
